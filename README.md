@@ -7,17 +7,14 @@ NoodlとはIoT、API、ビジュアルデザインを同一プラットフォー
 
 日本ではローカルパートナーの株式会社tensorXによって展開され、
 開発元はスウェーデンのデザインファームTOPP（本社：Malmo,Sweden）が開発しています。
-Ver1.3が公開されているほか、Ver2.0βが昨年末より
-
-link:[https://tensorx.co.jp/noodl-jp/]
-link:[https://qiita.com/noodl-tokyo/items/e8d9e945c60433019026]
+[Ver1.3](https://tensorx.co.jp/noodl-jp/)が公開されているほか、[Ver2.0β](https://qiita.com/noodl-tokyo/items/e8d9e945c60433019026)が昨年末より公開されています。
 
 ## Noodlの特徴
 
 1. UI/UXのビジュアルデザイン
 2. コーディング不要
 3. API、リアルデータ連携可
-4.IoT（マイコン接続）も可能
+4. IoT（マイコン接続）も可能
 5. ウェブアプリケーションまたはハイブリッドアプリとしてデプロイ可能
 
 ## Noodl 2 Library Demo
