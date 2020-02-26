@@ -104,8 +104,8 @@
                     {
                         "fromId": "bf1cf329-a1f4-8c3d-9c01-b84bebcf8dd4",
                         "fromProperty": "result",
-                        "toId": "e70cf723-7151-4b91-4e7f-ae1f2a4157d9",
-                        "toProperty": "mounted"
+                        "toId": "64836bf5-ebfc-e0be-d893-b081da45ff2a",
+                        "toProperty": "Mounted"
                     }
                 ],
                 "roots": [
@@ -140,8 +140,8 @@
                                     {
                                         "id": "674e128f-e963-0b6a-ff96-3441577db063",
                                         "type": "/02_Header",
-                                        "x": 134.85390002383664,
-                                        "y": 249.59477199475617,
+                                        "x": 130.23814266988026,
+                                        "y": 244.45622280729862,
                                         "parameters": {},
                                         "ports": [],
                                         "dynamicports": [],
@@ -150,8 +150,8 @@
                                     {
                                         "id": "b88d9a23-b11c-7037-c885-489ea20cddf1",
                                         "type": "Mui Bottom Navigation",
-                                        "x": 20,
-                                        "y": 143,
+                                        "x": 142.5468289470974,
+                                        "y": 244.17661013868047,
                                         "parameters": {
                                             "showLabels": true,
                                             "mounted": true,
@@ -241,8 +241,8 @@
                                     {
                                         "id": "8c8fa2a7-7264-c368-9df1-52d4940f27dc",
                                         "type": "/13_Scroll",
-                                        "x": 134.85390002383664,
-                                        "y": 925.5947719947562,
+                                        "x": 20,
+                                        "y": 307,
                                         "parameters": {
                                             "Mounted": true
                                         },
@@ -251,115 +251,14 @@
                                         "children": []
                                     },
                                     {
-                                        "id": "e70cf723-7151-4b91-4e7f-ae1f2a4157d9",
-                                        "type": "Group",
-                                        "x": 134.85390002383664,
-                                        "y": 1007.5947719947562,
-                                        "parameters": {
-                                            "pointerEventsEnabled": true,
-                                            "scrollBehavior": "noodl",
-                                            "clip": true,
-                                            "scrollDirection": "y",
-                                            "scrollSnapEnabled": false,
-                                            "scrollSnapToEveryItem": true,
-                                            "showScrollbar": false
-                                        },
+                                        "id": "64836bf5-ebfc-e0be-d893-b081da45ff2a",
+                                        "type": "/14_Tips",
+                                        "x": 134.79104343314972,
+                                        "y": 1009.4552877361984,
+                                        "parameters": {},
                                         "ports": [],
                                         "dynamicports": [],
-                                        "children": [
-                                            {
-                                                "id": "f65d4215-60ed-9653-7400-441f70348041",
-                                                "type": "/20_Buttom",
-                                                "x": 154.85390002383664,
-                                                "y": 1089.5947719947562,
-                                                "parameters": {
-                                                    "Mounted": true
-                                                },
-                                                "ports": [],
-                                                "dynamicports": [],
-                                                "children": []
-                                            },
-                                            {
-                                                "id": "9cc30db4-b0bf-dca9-285b-34126b739412",
-                                                "type": "/21_counter",
-                                                "x": 154.85390002383664,
-                                                "y": 1135.5947719947562,
-                                                "parameters": {
-                                                    "Mounted": true
-                                                },
-                                                "ports": [],
-                                                "dynamicports": [],
-                                                "children": []
-                                            },
-                                            {
-                                                "id": "02daec8c-6f49-afbd-1e88-501cda114d12",
-                                                "type": "/22_Timer",
-                                                "x": 154.85390002383664,
-                                                "y": 1181.5947719947562,
-                                                "parameters": {
-                                                    "Mounted": true
-                                                },
-                                                "ports": [],
-                                                "dynamicports": [],
-                                                "children": []
-                                            },
-                                            {
-                                                "id": "6af9be77-4414-c0ed-9444-aa2aded73930",
-                                                "type": "/23_Video",
-                                                "x": 154.85390002383664,
-                                                "y": 1227.5947719947562,
-                                                "parameters": {
-                                                    "Mounted": true
-                                                },
-                                                "ports": [],
-                                                "dynamicports": [],
-                                                "children": []
-                                            },
-                                            {
-                                                "id": "8725097f-b05a-8e43-3eef-0af36a257435",
-                                                "type": "/24_Icon",
-                                                "x": 154.85390002383664,
-                                                "y": 1273.5947719947562,
-                                                "parameters": {
-                                                    "Mounted": true
-                                                },
-                                                "ports": [],
-                                                "dynamicports": [],
-                                                "children": []
-                                            },
-                                            {
-                                                "id": "bf9b1422-b03e-e580-b5fa-02976628c6d0",
-                                                "type": "/25_Tab",
-                                                "x": 154.85390002383664,
-                                                "y": 1319.5947719947562,
-                                                "parameters": {
-                                                    "Mounted": true
-                                                },
-                                                "ports": [],
-                                                "dynamicports": [],
-                                                "children": []
-                                            },
-                                            {
-                                                "id": "6d912fa6-7d7b-d0b3-5939-87fa1e4ff1b0",
-                                                "type": "/26_Navigation",
-                                                "x": 154.85390002383664,
-                                                "y": 1365.5947719947562,
-                                                "parameters": {},
-                                                "ports": [],
-                                                "dynamicports": [],
-                                                "children": []
-                                            },
-                                            {
-                                                "id": "9ade1538-6b78-0fa6-4e9e-3f519dc80341",
-                                                "type": "/27_Animation",
-                                                "x": 154.85390002383664,
-                                                "y": 1411.5947719947562,
-                                                "parameters": {},
-                                                "ports": [],
-                                                "dynamicports": [],
-                                                "children": []
-                                            }
-                                        ]
+                                        "children": []
                                     }
                                 ]
                             }
@@ -560,8 +459,8 @@
                             {
                                 "id": "1b5d15f5-9534-cef4-1861-8a8cfa2a61a4",
                                 "type": "Mui Toolbar",
-                                "x": 195,
-                                "y": 193,
+                                "x": 20,
+                                "y": 46,
                                 "parameters": {},
                                 "ports": [],
                                 "dynamicports": [],
@@ -569,8 +468,8 @@
                                     {
                                         "id": "4d667c57-2181-d7aa-bbe7-b6875581b103",
                                         "type": "Mui Icon Button",
-                                        "x": 20,
-                                        "y": 46,
+                                        "x": 229,
+                                        "y": 232,
                                         "parameters": {
                                             "icon": "menu"
                                         },
@@ -581,8 +480,8 @@
                                     {
                                         "id": "29244c42-0acb-9462-7955-44cbf82dfb59",
                                         "type": "Mui Typography",
-                                        "x": 215,
-                                        "y": 321,
+                                        "x": 228,
+                                        "y": 288,
                                         "parameters": {
                                             "variant": "title"
                                         },
@@ -666,7 +565,7 @@
                                 "value": 20,
                                 "unit": "px"
                             },
-                            "clip": false,
+                            "clip": true,
                             "showScrollbar": false,
                             "paddingTop": {
                                 "value": 20,
@@ -946,8 +845,8 @@
                                         "id": "d73f6e8f-1608-1ab0-16f6-a30e45b45c20",
                                         "type": "/15_ItemList",
                                         "label": "15_ItemList",
-                                        "x": 20,
-                                        "y": 102,
+                                        "x": 291.4518626115854,
+                                        "y": 612,
                                         "parameters": {},
                                         "ports": [],
                                         "dynamicports": [],
@@ -957,8 +856,8 @@
                                         "id": "3d4d9402-709c-16db-73b5-4bfc89d0cba1",
                                         "type": "/15_ItemList",
                                         "label": "15_ItemList",
-                                        "x": 286.1253477630678,
-                                        "y": 648.8709031578179,
+                                        "x": 291.4518626115854,
+                                        "y": 658,
                                         "parameters": {
                                             "icon": "mouse",
                                             "text": "Mouse\n"
@@ -971,8 +870,8 @@
                                         "id": "c0e51f21-26b1-99ed-8c55-3f7b348faf4c",
                                         "type": "/15_ItemList",
                                         "label": "15_ItemList",
-                                        "x": 297.88876856695754,
-                                        "y": 700.3003273600059,
+                                        "x": 291.4518626115854,
+                                        "y": 704,
                                         "parameters": {
                                             "icon": "dashboard",
                                             "text": "Card\n"
@@ -985,8 +884,8 @@
                                         "id": "e0e4a211-54af-c3b2-ed95-1e5b68f0d061",
                                         "type": "/15_ItemList",
                                         "label": "15_ItemList",
-                                        "x": 291.9207104207933,
-                                        "y": 750.5384984002004,
+                                        "x": 291.4518626115854,
+                                        "y": 750,
                                         "parameters": {
                                             "icon": "build",
                                             "text": "Tips"
@@ -5061,410 +4960,6 @@
             }
         },
         {
-            "name": "/03_Drawer2",
-            "graph": {
-                "connections": [
-                    {
-                        "fromId": "d33efdb3-6f18-1d94-87f4-5230a204d879",
-                        "fromProperty": "Open",
-                        "toId": "72937509-20a4-2fa9-fc59-e3d3c249a213",
-                        "toProperty": "on"
-                    },
-                    {
-                        "fromId": "72937509-20a4-2fa9-fc59-e3d3c249a213",
-                        "fromProperty": "state",
-                        "toId": "f8ee906f-ea2c-6f24-b2d5-afee5c8e35c6",
-                        "toProperty": "open"
-                    },
-                    {
-                        "fromId": "f8ee906f-ea2c-6f24-b2d5-afee5c8e35c6",
-                        "fromProperty": "onClose",
-                        "toId": "72937509-20a4-2fa9-fc59-e3d3c249a213",
-                        "toProperty": "off"
-                    },
-                    {
-                        "fromId": "72056675-efcc-f544-5fc4-a405018c66a4",
-                        "fromProperty": "onClick",
-                        "toId": "961e1e97-9063-bf95-40c8-0875d44ba904",
-                        "toProperty": "increase"
-                    },
-                    {
-                        "fromId": "961e1e97-9063-bf95-40c8-0875d44ba904",
-                        "fromProperty": "currentCount",
-                        "toId": "af514855-dc88-e1ad-b18a-162e10e3d65a",
-                        "toProperty": "badgeContent"
-                    },
-                    {
-                        "fromId": "e033c8e2-f9c6-3806-6b87-97a5d6660c01",
-                        "fromProperty": "onClick",
-                        "toId": "65508ff0-0cc5-4694-9fc5-85beee04eb88",
-                        "toProperty": "flip"
-                    },
-                    {
-                        "fromId": "65508ff0-0cc5-4694-9fc5-85beee04eb88",
-                        "fromProperty": "state",
-                        "toId": "af514855-dc88-e1ad-b18a-162e10e3d65a",
-                        "toProperty": "invisible"
-                    },
-                    {
-                        "fromId": "8f48e762-f8c5-ef01-eb2b-f18282fa46a3",
-                        "fromProperty": "this",
-                        "toId": "6183226c-0baa-1385-7c46-322a278446de",
-                        "toProperty": "Tab Index"
-                    },
-                    {
-                        "fromId": "8f48e762-f8c5-ef01-eb2b-f18282fa46a3",
-                        "fromProperty": "childIndex",
-                        "toId": "ef918c54-10ee-1eef-542b-67df4dc9a787",
-                        "toProperty": "text"
-                    }
-                ],
-                "roots": [
-                    {
-                        "id": "f8ee906f-ea2c-6f24-b2d5-afee5c8e35c6",
-                        "type": "Mui Drawer",
-                        "x": 788.4518626115854,
-                        "y": 140.13100193332872,
-                        "parameters": {
-                            "variant": "temporary",
-                            "mounted": true
-                        },
-                        "ports": [],
-                        "dynamicports": [],
-                        "children": [
-                            {
-                                "id": "ef918c54-10ee-1eef-542b-67df4dc9a787",
-                                "type": "Text",
-                                "x": 271.4518626115854,
-                                "y": 382,
-                                "parameters": {
-                                    "color": "#FFFFFF",
-                                    "fontSize": {
-                                        "value": 20,
-                                        "unit": "px"
-                                    },
-                                    "textAlign": "center",
-                                    "text": "メニュー"
-                                },
-                                "ports": [],
-                                "dynamicports": [],
-                                "children": []
-                            },
-                            {
-                                "id": "d8d5cc3a-57f4-f42d-0a37-cbc588c6a746",
-                                "type": "Mui Divider",
-                                "x": 271.4518626115854,
-                                "y": 464,
-                                "parameters": {
-                                    "light": false,
-                                    "variant": "middle"
-                                },
-                                "ports": [],
-                                "dynamicports": [],
-                                "children": []
-                            },
-                            {
-                                "id": "8f48e762-f8c5-ef01-eb2b-f18282fa46a3",
-                                "type": "Mui List",
-                                "x": 20,
-                                "y": 230,
-                                "parameters": {
-                                    "dense": false,
-                                    "disablePadding": false
-                                },
-                                "ports": [],
-                                "dynamicports": [],
-                                "children": [
-                                    {
-                                        "id": "bbc4ae47-880b-fc3a-ba53-f0d9deaa4bb9",
-                                        "type": "/30_MenuItem",
-                                        "x": 20,
-                                        "y": 102,
-                                        "parameters": {},
-                                        "ports": [],
-                                        "dynamicports": [],
-                                        "children": []
-                                    },
-                                    {
-                                        "id": "d444e974-9fed-3b4d-683e-b29505287c3b",
-                                        "type": "/30_MenuItem",
-                                        "x": 20,
-                                        "y": 148,
-                                        "parameters": {
-                                            "icon": "mouse",
-                                            "text": "Mouse"
-                                        },
-                                        "ports": [],
-                                        "dynamicports": [],
-                                        "children": []
-                                    },
-                                    {
-                                        "id": "8ce53920-37ec-c7ad-38e6-b1cbf57bb98a",
-                                        "type": "/30_MenuItem",
-                                        "x": 20,
-                                        "y": 194,
-                                        "parameters": {
-                                            "icon": "dashboard",
-                                            "text": "Card"
-                                        },
-                                        "ports": [],
-                                        "dynamicports": [],
-                                        "children": []
-                                    },
-                                    {
-                                        "id": "f2a8fe22-b0c4-3a71-93c8-b1504437ed5e",
-                                        "type": "/30_MenuItem",
-                                        "x": 827.3276574268633,
-                                        "y": 604.9540525834607,
-                                        "parameters": {
-                                            "icon": "build",
-                                            "text": "Tips"
-                                        },
-                                        "ports": [],
-                                        "dynamicports": [],
-                                        "children": []
-                                    },
-                                    {
-                                        "id": "af514855-dc88-e1ad-b18a-162e10e3d65a",
-                                        "type": "Mui Badge",
-                                        "x": 20,
-                                        "y": 286,
-                                        "parameters": {
-                                            "badgeContent": 0,
-                                            "color": "secondary"
-                                        },
-                                        "ports": [],
-                                        "dynamicports": [],
-                                        "children": [
-                                            {
-                                                "id": "72056675-efcc-f544-5fc4-a405018c66a4",
-                                                "type": "Mui Button",
-                                                "x": 20,
-                                                "y": 102,
-                                                "parameters": {
-                                                    "variant": "contained"
-                                                },
-                                                "ports": [],
-                                                "dynamicports": [],
-                                                "children": []
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "e033c8e2-f9c6-3806-6b87-97a5d6660c01",
-                                "type": "Mui Button",
-                                "x": 803.9079018319371,
-                                "y": 174.1715327788707,
-                                "parameters": {
-                                    "label": "ON/OFF",
-                                    "variant": "contained"
-                                },
-                                "ports": [],
-                                "dynamicports": [],
-                                "children": []
-                            },
-                            {
-                                "id": "cf17510c-5427-4674-da0e-667bd65f901a",
-                                "type": "Text",
-                                "x": 806.7834111788243,
-                                "y": 919.7238772734225,
-                                "parameters": {},
-                                "ports": [],
-                                "dynamicports": [],
-                                "children": []
-                            }
-                        ]
-                    },
-                    {
-                        "id": "d33efdb3-6f18-1d94-87f4-5230a204d879",
-                        "type": "Component Inputs",
-                        "x": 389,
-                        "y": 134.13100193332872,
-                        "parameters": {},
-                        "ports": [
-                            {
-                                "name": "Open",
-                                "plug": "output",
-                                "type": {
-                                    "name": "*"
-                                },
-                                "index": 1
-                            }
-                        ],
-                        "dynamicports": [],
-                        "children": []
-                    },
-                    {
-                        "id": "72937509-20a4-2fa9-fc59-e3d3c249a213",
-                        "type": "Switch",
-                        "label": "Switch",
-                        "x": 584.7379961333427,
-                        "y": 134,
-                        "parameters": {
-                            "onFromStart": false
-                        },
-                        "ports": [],
-                        "dynamicports": [],
-                        "children": []
-                    },
-                    {
-                        "id": "961e1e97-9063-bf95-40c8-0875d44ba904",
-                        "type": "Counter",
-                        "x": 1110.1571967778254,
-                        "y": 673.0350222722336,
-                        "parameters": {},
-                        "ports": [],
-                        "dynamicports": [],
-                        "children": []
-                    },
-                    {
-                        "id": "65508ff0-0cc5-4694-9fc5-85beee04eb88",
-                        "type": "Switch",
-                        "x": 1096.3099247159562,
-                        "y": 803.8148139676648,
-                        "parameters": {
-                            "onFromStart": false
-                        },
-                        "ports": [],
-                        "dynamicports": [],
-                        "children": []
-                    },
-                    {
-                        "id": "6183226c-0baa-1385-7c46-322a278446de",
-                        "type": "Component Outputs",
-                        "x": 511.6766303204466,
-                        "y": 324.9988971267258,
-                        "parameters": {},
-                        "ports": [
-                            {
-                                "name": "Tab Index",
-                                "plug": "input",
-                                "type": {
-                                    "name": "*"
-                                },
-                                "index": 1
-                            }
-                        ],
-                        "dynamicports": [],
-                        "children": []
-                    }
-                ]
-            }
-        },
-        {
-            "name": "/30_MenuItem",
-            "graph": {
-                "connections": [
-                    {
-                        "fromId": "a378298e-ed35-fe8d-4ff0-54624db5c7c1",
-                        "fromProperty": "icon",
-                        "toId": "dacc6310-a1ee-ddbc-9047-aae232d9557a",
-                        "toProperty": "icon"
-                    },
-                    {
-                        "fromId": "a378298e-ed35-fe8d-4ff0-54624db5c7c1",
-                        "fromProperty": "text",
-                        "toId": "1a1ec90c-975e-ec12-ebc1-f5451590ad4d",
-                        "toProperty": "text"
-                    }
-                ],
-                "roots": [
-                    {
-                        "id": "573d5cdd-4f83-18c9-4f9a-609369cd6c92",
-                        "type": "Mui List Item",
-                        "x": 348,
-                        "y": 143,
-                        "parameters": {
-                            "alignItems": "center",
-                            "button": true,
-                            "dense": false,
-                            "disableGutters": false,
-                            "selected": false
-                        },
-                        "ports": [],
-                        "dynamicports": [],
-                        "children": [
-                            {
-                                "id": "d557707f-bcf2-3516-09c6-2c213717fe51",
-                                "type": "Mui List Item Icon",
-                                "x": 20,
-                                "y": 46,
-                                "parameters": {},
-                                "ports": [],
-                                "dynamicports": [],
-                                "children": [
-                                    {
-                                        "id": "dacc6310-a1ee-ddbc-9047-aae232d9557a",
-                                        "type": "Mui Icon",
-                                        "x": 20,
-                                        "y": 46,
-                                        "parameters": {
-                                            "icon": "home"
-                                        },
-                                        "ports": [],
-                                        "dynamicports": [],
-                                        "children": []
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "2581571d-c3c3-7026-eaf9-b1cfcfd130ab",
-                                "type": "Mui List Item Text",
-                                "x": 20,
-                                "y": 174,
-                                "parameters": {},
-                                "ports": [],
-                                "dynamicports": [],
-                                "children": [
-                                    {
-                                        "id": "1a1ec90c-975e-ec12-ebc1-f5451590ad4d",
-                                        "type": "Text",
-                                        "x": 20,
-                                        "y": 46,
-                                        "parameters": {
-                                            "text": "Home"
-                                        },
-                                        "ports": [],
-                                        "dynamicports": [],
-                                        "children": []
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "a378298e-ed35-fe8d-4ff0-54624db5c7c1",
-                        "type": "Component Inputs",
-                        "x": 158,
-                        "y": 294,
-                        "parameters": {},
-                        "ports": [
-                            {
-                                "name": "icon",
-                                "plug": "output",
-                                "type": {
-                                    "name": "*"
-                                },
-                                "index": 1
-                            },
-                            {
-                                "name": "text",
-                                "plug": "output",
-                                "type": {
-                                    "name": "*"
-                                },
-                                "index": 2
-                            }
-                        ],
-                        "dynamicports": [],
-                        "children": []
-                    }
-                ]
-            }
-        },
-        {
             "name": "/14_Tips",
             "graph": {
                 "connections": [
@@ -5576,16 +5071,6 @@
                                 "children": []
                             },
                             {
-                                "id": "f7db4393-8017-2f75-9a4a-b4e84e53a2f2",
-                                "type": "/26_Navigation2",
-                                "x": 20,
-                                "y": 404,
-                                "parameters": {},
-                                "ports": [],
-                                "dynamicports": [],
-                                "children": []
-                            },
-                            {
                                 "id": "aa79cc55-d709-9395-314d-9817f7a553c1",
                                 "type": "/27_Animation",
                                 "x": 154.85390002383664,
@@ -5613,515 +5098,6 @@
                                 "index": 1
                             }
                         ],
-                        "dynamicports": [],
-                        "children": []
-                    }
-                ]
-            }
-        },
-        {
-            "name": "/26_Navigation2",
-            "graph": {
-                "connections": [
-                    {
-                        "fromId": "25aaf47d-698d-aa90-41bd-498a85c0ddbe",
-                        "fromProperty": "this",
-                        "toId": "3a0d601a-6479-03d2-ed6e-a9127cd4b3fd",
-                        "toProperty": "icon"
-                    },
-                    {
-                        "fromId": "cacfe716-a1ac-2fff-c13d-9371aac416e7",
-                        "fromProperty": "this",
-                        "toId": "8271af3f-89a7-0c86-afff-c6c396ffd285",
-                        "toProperty": "icon"
-                    },
-                    {
-                        "fromId": "e5811d3c-fb24-c69d-10e9-fcfb810cc983",
-                        "fromProperty": "onChange",
-                        "toId": "8a09947f-e6b8-502f-a94f-20f551ad843d",
-                        "toProperty": "index"
-                    },
-                    {
-                        "fromId": "6f41fdaf-4cc9-e661-7ccf-98a77b24253b",
-                        "fromProperty": "this",
-                        "toId": "e7e77dee-5e80-9e19-85a9-bf67d5d1f000",
-                        "toProperty": "icon"
-                    },
-                    {
-                        "fromId": "9e54f6e5-fa62-c669-a7ee-f92dc16cc98b",
-                        "fromProperty": "this",
-                        "toId": "c1f52c4f-dbee-a023-6ac0-962191b6703f",
-                        "toProperty": "icon"
-                    },
-                    {
-                        "fromId": "8a09947f-e6b8-502f-a94f-20f551ad843d",
-                        "fromProperty": "currentValue",
-                        "toId": "c09c69af-eb35-cc2c-2fbe-e8fc4d5ccb67",
-                        "toProperty": "title"
-                    },
-                    {
-                        "fromId": "e5811d3c-fb24-c69d-10e9-fcfb810cc983",
-                        "fromProperty": "onChange",
-                        "toId": "c09c69af-eb35-cc2c-2fbe-e8fc4d5ccb67",
-                        "toProperty": "tabIndex"
-                    },
-                    {
-                        "fromId": "cca8b80b-14c3-f84d-cde9-52f8232c2a88",
-                        "fromProperty": "value",
-                        "toId": "e5811d3c-fb24-c69d-10e9-fcfb810cc983",
-                        "toProperty": "value"
-                    },
-                    {
-                        "fromId": "e5811d3c-fb24-c69d-10e9-fcfb810cc983",
-                        "fromProperty": "onChange",
-                        "toId": "addb4ab4-ee54-2b88-2e9b-be1bc6f27bcf",
-                        "toProperty": "value"
-                    },
-                    {
-                        "fromId": "addb4ab4-ee54-2b88-2e9b-be1bc6f27bcf",
-                        "fromProperty": "savedValue",
-                        "toId": "e5811d3c-fb24-c69d-10e9-fcfb810cc983",
-                        "toProperty": "value"
-                    }
-                ],
-                "roots": [
-                    {
-                        "id": "25aaf47d-698d-aa90-41bd-498a85c0ddbe",
-                        "type": "Mui Icon",
-                        "x": 907.8205820357243,
-                        "y": 372.78516469331197,
-                        "parameters": {
-                            "icon": "mouse"
-                        },
-                        "ports": [],
-                        "dynamicports": [],
-                        "children": []
-                    },
-                    {
-                        "id": "cacfe716-a1ac-2fff-c13d-9371aac416e7",
-                        "type": "Mui Icon",
-                        "x": 909.8166311790293,
-                        "y": 450.3563333195704,
-                        "parameters": {
-                            "icon": "dashboard"
-                        },
-                        "ports": [],
-                        "dynamicports": [],
-                        "children": []
-                    },
-                    {
-                        "id": "8a09947f-e6b8-502f-a94f-20f551ad843d",
-                        "type": "String Selector",
-                        "x": 401.56662749826734,
-                        "y": 297.91624311012976,
-                        "parameters": {
-                            "input 0": "麺書タイトル",
-                            "input 1": "画像移動",
-                            "input 2": "カード",
-                            "input 3": "テクニック集"
-                        },
-                        "ports": [],
-                        "dynamicports": [],
-                        "children": []
-                    },
-                    {
-                        "id": "addb4ab4-ee54-2b88-2e9b-be1bc6f27bcf",
-                        "type": "Number",
-                        "x": 901.855773615043,
-                        "y": 168.72949675110914,
-                        "parameters": {},
-                        "ports": [],
-                        "dynamicports": [],
-                        "children": []
-                    },
-                    {
-                        "id": "6f41fdaf-4cc9-e661-7ccf-98a77b24253b",
-                        "type": "Mui Icon",
-                        "x": 907.4968468505054,
-                        "y": 287.6125278058163,
-                        "parameters": {
-                            "icon": "home",
-                            "style": "{\n}"
-                        },
-                        "ports": [],
-                        "dynamicports": [],
-                        "children": []
-                    },
-                    {
-                        "id": "9e54f6e5-fa62-c669-a7ee-f92dc16cc98b",
-                        "type": "Mui Icon",
-                        "x": 910.7922809791855,
-                        "y": 534.4055563160744,
-                        "parameters": {
-                            "icon": "build"
-                        },
-                        "ports": [],
-                        "dynamicports": [],
-                        "children": []
-                    },
-                    {
-                        "id": "c09c69af-eb35-cc2c-2fbe-e8fc4d5ccb67",
-                        "type": "Component Outputs",
-                        "x": 395.6674073584324,
-                        "y": 174.17421965920477,
-                        "parameters": {},
-                        "ports": [
-                            {
-                                "name": "title",
-                                "plug": "input",
-                                "type": {
-                                    "name": "*"
-                                },
-                                "index": 1
-                            },
-                            {
-                                "name": "tabIndex",
-                                "plug": "input",
-                                "type": {
-                                    "name": "*"
-                                },
-                                "index": 2
-                            }
-                        ],
-                        "dynamicports": [],
-                        "children": []
-                    },
-                    {
-                        "id": "e5811d3c-fb24-c69d-10e9-fcfb810cc983",
-                        "type": "Mui Bottom Navigation",
-                        "x": 644.2520919587579,
-                        "y": 189.7927109465033,
-                        "parameters": {
-                            "showLabels": true,
-                            "mounted": true,
-                            "value": ""
-                        },
-                        "ports": [],
-                        "dynamicports": [],
-                        "children": [
-                            {
-                                "id": "e7e77dee-5e80-9e19-85a9-bf67d5d1f000",
-                                "type": "Mui Bottom Navigation Action",
-                                "x": 20,
-                                "y": 102,
-                                "parameters": {
-                                    "label": "Home",
-                                    "showLabel": false
-                                },
-                                "ports": [],
-                                "dynamicports": [],
-                                "children": []
-                            },
-                            {
-                                "id": "3a0d601a-6479-03d2-ed6e-a9127cd4b3fd",
-                                "type": "Mui Bottom Navigation Action",
-                                "x": 154.85390002383664,
-                                "y": 515.5947719947562,
-                                "parameters": {
-                                    "label": "Mouse",
-                                    "showLabel": false
-                                },
-                                "ports": [],
-                                "dynamicports": [],
-                                "children": []
-                            },
-                            {
-                                "id": "8271af3f-89a7-0c86-afff-c6c396ffd285",
-                                "type": "Mui Bottom Navigation Action",
-                                "x": 20,
-                                "y": 266,
-                                "parameters": {
-                                    "label": "Card",
-                                    "showLabel": false
-                                },
-                                "ports": [],
-                                "dynamicports": [],
-                                "children": []
-                            },
-                            {
-                                "id": "c1f52c4f-dbee-a023-6ac0-962191b6703f",
-                                "type": "Mui Bottom Navigation Action",
-                                "x": 663.3824036984406,
-                                "y": 668.9141236114149,
-                                "parameters": {
-                                    "label": "Other",
-                                    "showLabel": false
-                                },
-                                "ports": [],
-                                "dynamicports": [],
-                                "children": []
-                            }
-                        ]
-                    },
-                    {
-                        "id": "cca8b80b-14c3-f84d-cde9-52f8232c2a88",
-                        "type": "Component Inputs",
-                        "x": 382.6467607672746,
-                        "y": 64.22209288942801,
-                        "parameters": {},
-                        "ports": [
-                            {
-                                "name": "value",
-                                "plug": "output",
-                                "type": {
-                                    "name": "*"
-                                },
-                                "index": 1
-                            }
-                        ],
-                        "dynamicports": [],
-                        "children": []
-                    }
-                ]
-            }
-        },
-        {
-            "name": "/01_Main2",
-            "graph": {
-                "connections": [
-                    {
-                        "fromId": "61411374-429b-13bd-982d-eaf6d0cae9ef",
-                        "fromProperty": "result",
-                        "toId": "172a49b5-26c1-837a-22f8-570270b54d53",
-                        "toProperty": "Mounted"
-                    },
-                    {
-                        "fromId": "4aa68e26-0fb2-c26f-71de-8fd1d562733d",
-                        "fromProperty": "result",
-                        "toId": "2b2718d5-4d4a-5eb5-e7a2-ba20c17bbbc4",
-                        "toProperty": "Mounted"
-                    },
-                    {
-                        "fromId": "649c06c2-9253-d6bc-01de-02a8b8555edb",
-                        "fromProperty": "result",
-                        "toId": "3c4bfebb-5678-8eb0-f67e-ddd5f7e18581",
-                        "toProperty": "Mounted"
-                    },
-                    {
-                        "fromId": "326c3822-f8bd-8f8c-0304-de13c5a6043b",
-                        "fromProperty": "result",
-                        "toId": "58acf54f-d56a-4fb8-e3ca-b3ec95551749",
-                        "toProperty": "Mounted"
-                    },
-                    {
-                        "fromId": "fee7a172-fa75-2055-d21e-fa99cfe856fe",
-                        "fromProperty": "tabIndex",
-                        "toId": "61411374-429b-13bd-982d-eaf6d0cae9ef",
-                        "toProperty": "tab"
-                    },
-                    {
-                        "fromId": "fee7a172-fa75-2055-d21e-fa99cfe856fe",
-                        "fromProperty": "title",
-                        "toId": "1be2cfee-3f1f-a451-c8c6-09e7f828f776",
-                        "toProperty": "Title"
-                    },
-                    {
-                        "fromId": "fee7a172-fa75-2055-d21e-fa99cfe856fe",
-                        "fromProperty": "title",
-                        "toId": "3c150034-f95b-6bae-55a4-5d23f0726270",
-                        "toProperty": "Title"
-                    },
-                    {
-                        "fromId": "fee7a172-fa75-2055-d21e-fa99cfe856fe",
-                        "fromProperty": "tabIndex",
-                        "toId": "4aa68e26-0fb2-c26f-71de-8fd1d562733d",
-                        "toProperty": "tab"
-                    },
-                    {
-                        "fromId": "fee7a172-fa75-2055-d21e-fa99cfe856fe",
-                        "fromProperty": "tabIndex",
-                        "toId": "649c06c2-9253-d6bc-01de-02a8b8555edb",
-                        "toProperty": "tab"
-                    },
-                    {
-                        "fromId": "fee7a172-fa75-2055-d21e-fa99cfe856fe",
-                        "fromProperty": "tabIndex",
-                        "toId": "326c3822-f8bd-8f8c-0304-de13c5a6043b",
-                        "toProperty": "tab"
-                    }
-                ],
-                "roots": [
-                    {
-                        "id": "69341051-9e80-9e65-271a-1dda475e1839",
-                        "type": "Mui Theme",
-                        "x": 544.8007107615402,
-                        "y": 130.16742220399317,
-                        "parameters": {
-                            "type": "dark",
-                            "primary": "#FFFFFF",
-                            "secondary": "#E8423A",
-                            "error": "#F0BF56",
-                            "mounted": true
-                        },
-                        "ports": [],
-                        "dynamicports": [],
-                        "children": [
-                            {
-                                "id": "545f645c-e983-5c98-260d-eb411cbfc024",
-                                "type": "Group",
-                                "label": "Root",
-                                "x": 20,
-                                "y": 46,
-                                "parameters": {
-                                    "backgroundColor": "#303030",
-                                    "style": "{\n    maxWidth: '500px'\n}"
-                                },
-                                "ports": [],
-                                "dynamicports": [],
-                                "children": [
-                                    {
-                                        "id": "3c150034-f95b-6bae-55a4-5d23f0726270",
-                                        "type": "/02_Header",
-                                        "x": 134.85390002383664,
-                                        "y": 249.59477199475617,
-                                        "parameters": {},
-                                        "ports": [],
-                                        "dynamicports": [],
-                                        "children": []
-                                    },
-                                    {
-                                        "id": "fee7a172-fa75-2055-d21e-fa99cfe856fe",
-                                        "type": "/26_Navigation2",
-                                        "x": 20,
-                                        "y": 143,
-                                        "parameters": {},
-                                        "ports": [],
-                                        "dynamicports": [],
-                                        "children": []
-                                    },
-                                    {
-                                        "id": "172a49b5-26c1-837a-22f8-570270b54d53",
-                                        "type": "/10_Text",
-                                        "x": 20,
-                                        "y": 225,
-                                        "parameters": {
-                                            "Mounted": true
-                                        },
-                                        "ports": [],
-                                        "dynamicports": [],
-                                        "children": []
-                                    },
-                                    {
-                                        "id": "2b2718d5-4d4a-5eb5-e7a2-ba20c17bbbc4",
-                                        "type": "/11_Drag",
-                                        "x": 20,
-                                        "y": 307,
-                                        "parameters": {
-                                            "Mounted": false
-                                        },
-                                        "ports": [],
-                                        "dynamicports": [],
-                                        "children": []
-                                    },
-                                    {
-                                        "id": "3c4bfebb-5678-8eb0-f67e-ddd5f7e18581",
-                                        "type": "/13_Scroll",
-                                        "x": 20,
-                                        "y": 389,
-                                        "parameters": {
-                                            "Mounted": true
-                                        },
-                                        "ports": [],
-                                        "dynamicports": [],
-                                        "children": []
-                                    },
-                                    {
-                                        "id": "58acf54f-d56a-4fb8-e3ca-b3ec95551749",
-                                        "type": "/14_Tips",
-                                        "x": 20,
-                                        "y": 471,
-                                        "parameters": {},
-                                        "ports": [],
-                                        "dynamicports": [],
-                                        "children": []
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "61411374-429b-13bd-982d-eaf6d0cae9ef",
-                        "type": "Expression",
-                        "x": 915.7004195695107,
-                        "y": 338.42261402140383,
-                        "parameters": {
-                            "expression": "tab === 0"
-                        },
-                        "ports": [],
-                        "dynamicports": [
-                            {
-                                "name": "tab",
-                                "type": "number",
-                                "plug": "input",
-                                "index": 2
-                            }
-                        ],
-                        "children": []
-                    },
-                    {
-                        "id": "4aa68e26-0fb2-c26f-71de-8fd1d562733d",
-                        "type": "Expression",
-                        "x": 916.57344807621,
-                        "y": 451.4695318996049,
-                        "parameters": {
-                            "expression": "tab ===1"
-                        },
-                        "ports": [],
-                        "dynamicports": [
-                            {
-                                "name": "tab",
-                                "type": "number",
-                                "plug": "input",
-                                "index": 2
-                            }
-                        ],
-                        "children": []
-                    },
-                    {
-                        "id": "649c06c2-9253-d6bc-01de-02a8b8555edb",
-                        "type": "Expression",
-                        "x": 915.9865598312191,
-                        "y": 572.2303095160975,
-                        "parameters": {
-                            "expression": "tab === 2"
-                        },
-                        "ports": [],
-                        "dynamicports": [
-                            {
-                                "name": "tab",
-                                "type": "number",
-                                "plug": "input",
-                                "index": 2
-                            }
-                        ],
-                        "children": []
-                    },
-                    {
-                        "id": "326c3822-f8bd-8f8c-0304-de13c5a6043b",
-                        "type": "Expression",
-                        "x": 916.693804076209,
-                        "y": 684.1117723488916,
-                        "parameters": {
-                            "expression": "tab === 3"
-                        },
-                        "ports": [],
-                        "dynamicports": [
-                            {
-                                "name": "tab",
-                                "type": "number",
-                                "plug": "input",
-                                "index": 2
-                            }
-                        ],
-                        "children": []
-                    },
-                    {
-                        "id": "1be2cfee-3f1f-a451-c8c6-09e7f828f776",
-                        "type": "/02_Header",
-                        "x": 301.11382801306485,
-                        "y": 306.6606025852645,
-                        "parameters": {},
-                        "ports": [],
                         "dynamicports": [],
                         "children": []
                     }
@@ -6442,7 +5418,7 @@
         "Node.rootComponent": "/Node Main",
         "Device 2.rootComponent": "/Device 2"
     },
-    "rootNodeId": "003c332e-2550-24f6-781e-815890b494ed",
+    "rootNodeId": "59e6b165-42ff-4ad7-31b7-b636aafa9255",
     "version": "1",
     "metadata": {
         "deviceSettings": {
