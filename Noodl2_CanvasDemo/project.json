@@ -1,0 +1,1813 @@
+{
+    "name": "Canvas",
+    "components": [
+        {
+            "name": "/01_ChartJS",
+            "graph": {
+                "connections": [
+                    {
+                        "fromId": "88f24e32-5ef6-8865-ca55-c038407ac77d",
+                        "fromProperty": "onElementCreated",
+                        "toId": "e463575d-7133-738e-99e5-1337d5d0bce5",
+                        "toProperty": "DOM"
+                    },
+                    {
+                        "fromId": "c13f86f2-88d8-c048-b674-258da3e6c663",
+                        "fromProperty": "loaded",
+                        "toId": "e463575d-7133-738e-99e5-1337d5d0bce5",
+                        "toProperty": "scriptLoaded"
+                    },
+                    {
+                        "fromId": "58d37cf3-6a6a-d094-afc0-d112fa61ba7f",
+                        "fromProperty": "onElementCreated",
+                        "toId": "d1735ed7-2604-7442-c571-ef4bedd6dafc",
+                        "toProperty": "DOM"
+                    },
+                    {
+                        "fromId": "4d8bf568-32cb-a3e4-0bef-071ddf639d18",
+                        "fromProperty": "loaded",
+                        "toId": "d1735ed7-2604-7442-c571-ef4bedd6dafc",
+                        "toProperty": "scriptLoaded"
+                    },
+                    {
+                        "fromId": "7f2145ed-0195-2b4d-9438-ba558ee81bfa",
+                        "fromProperty": "onElementCreated",
+                        "toId": "36835944-c876-c663-5116-56baad0d3d98",
+                        "toProperty": "DOM"
+                    },
+                    {
+                        "fromId": "cbad2cf4-0ffc-bbeb-6a2f-78916e8ed147",
+                        "fromProperty": "loaded",
+                        "toId": "36835944-c876-c663-5116-56baad0d3d98",
+                        "toProperty": "scriptLoaded"
+                    },
+                    {
+                        "fromId": "e457fbb3-9bc2-6bcd-2939-78252192efb6",
+                        "fromProperty": "onElementCreated",
+                        "toId": "9cd07727-1e04-8a58-2585-1638ee9f48ae",
+                        "toProperty": "DOM"
+                    },
+                    {
+                        "fromId": "22443f38-207f-d9c4-5a62-7879fcf5eb2d",
+                        "fromProperty": "loaded",
+                        "toId": "9cd07727-1e04-8a58-2585-1638ee9f48ae",
+                        "toProperty": "scriptLoaded"
+                    },
+                    {
+                        "fromId": "2e5e37fa-4a2b-b97b-e6d2-6129f71cbff3",
+                        "fromProperty": "onElementCreated",
+                        "toId": "77a69b6b-fb5f-24fc-3521-0ba6f7c1520f",
+                        "toProperty": "DOM"
+                    },
+                    {
+                        "fromId": "e5cb14c5-5003-0d7a-aeec-6f33957fea2f",
+                        "fromProperty": "loaded",
+                        "toId": "77a69b6b-fb5f-24fc-3521-0ba6f7c1520f",
+                        "toProperty": "scriptLoaded"
+                    },
+                    {
+                        "fromId": "2337b467-5d5d-f9f5-5806-f173d8e5c084",
+                        "fromProperty": "applicationLoaded",
+                        "toId": "77a69b6b-fb5f-24fc-3521-0ba6f7c1520f",
+                        "toProperty": "mySignal"
+                    },
+                    {
+                        "fromId": "79d7b336-a691-4ceb-6849-50cfc43d2c15",
+                        "fromProperty": "applicationLoaded",
+                        "toId": "9cd07727-1e04-8a58-2585-1638ee9f48ae",
+                        "toProperty": "mySignal"
+                    },
+                    {
+                        "fromId": "26e1db1b-bc7f-c7dd-e364-6d67901fe537",
+                        "fromProperty": "applicationLoaded",
+                        "toId": "36835944-c876-c663-5116-56baad0d3d98",
+                        "toProperty": "mySignal"
+                    },
+                    {
+                        "fromId": "c5da16b0-e92d-2d94-29b7-1153150b7a35",
+                        "fromProperty": "applicationLoaded",
+                        "toId": "d1735ed7-2604-7442-c571-ef4bedd6dafc",
+                        "toProperty": "mySignal"
+                    },
+                    {
+                        "fromId": "59b50b71-254d-a558-1173-17752aec6795",
+                        "fromProperty": "applicationLoaded",
+                        "toId": "e463575d-7133-738e-99e5-1337d5d0bce5",
+                        "toProperty": "mySignal"
+                    },
+                    {
+                        "fromId": "77ec6120-6e21-33db-9e5c-6fe76a9a514c",
+                        "fromProperty": "onClick",
+                        "toId": "e463575d-7133-738e-99e5-1337d5d0bce5",
+                        "toProperty": "mySignal"
+                    },
+                    {
+                        "fromId": "d2d00b26-08ca-52e5-d2ee-d2c665ad9f5c",
+                        "fromProperty": "onClick",
+                        "toId": "d1735ed7-2604-7442-c571-ef4bedd6dafc",
+                        "toProperty": "mySignal"
+                    },
+                    {
+                        "fromId": "daab9b80-f0c6-13e3-4144-7ebef5cd4d37",
+                        "fromProperty": "onClick",
+                        "toId": "36835944-c876-c663-5116-56baad0d3d98",
+                        "toProperty": "mySignal"
+                    },
+                    {
+                        "fromId": "ffcd9ef6-cad2-0c72-6595-db7c61323428",
+                        "fromProperty": "onClick",
+                        "toId": "9cd07727-1e04-8a58-2585-1638ee9f48ae",
+                        "toProperty": "mySignal"
+                    },
+                    {
+                        "fromId": "6fbe5176-fae3-110e-baca-2b2689a5ea4f",
+                        "fromProperty": "onClick",
+                        "toId": "77a69b6b-fb5f-24fc-3521-0ba6f7c1520f",
+                        "toProperty": "mySignal"
+                    }
+                ],
+                "roots": [
+                    {
+                        "id": "e463575d-7133-738e-99e5-1337d5d0bce5",
+                        "type": "Javascript2",
+                        "label": "ChartJS",
+                        "x": 567.1923166397336,
+                        "y": 118.0345382722563,
+                        "parameters": {
+                            "code": "define({\n\t// The input ports of the Javascript node, name of input and type\n\tinputs:{\n\t    // ExampleInput:'number',\n\t    // Available types are 'number', 'string', 'boolean', 'color' and 'signal',\n\t    mySignal:'signal',\n\t    DOM:'domelement',\n\t    scriptLoaded: \"string\",\n\t},\n\t\n\t// The output ports of the Javascript node, name of output and type\n\toutputs:{\n\t    // ExampleOutput:'string',\n\t},\n\t\n\t// All signal inputs need their own function with the corresponding name that\n\t// will be run when a signal is received on the input.\n\tmySignal:function(inputs,outputs) {\n\t\t// ...\n\t\t        if (!inputs.scriptLoaded) {\n                return;\n        }\n        var canvas = inputs.DOM;\n        var context = canvas.getContext(\"2d\");\n        var chart = new Chart(context, {\n        // 作成したいチャートのタイプ\n        type: 'line',\n\n        // データセットのデータ\n        data: {\n            labels: [\"Jan.\", \"Feb.\", \"Mar.\", \"Apr.\", \"May.\", \"Jun.\", \"Jul.\"],\n            datasets: [{\n                label: \"first data set\",\n                backgroundColor: 'rgb(255, 99, 132)',\n                borderColor: 'rgb(255, 99, 132)',\n                data: [0, 10, 5, 2, 20, 30, 45],\n            }]\n        },\n\n        // 設定オプション\n        options: {}\n    });\n\n\t},\n\t\n\t// This function will be called when any of the inputs have changed\n\tchange:function(inputs,outputs) {\n\t\t// ...\n\t}\n})"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "mySignal",
+                                "plug": "input",
+                                "type": {
+                                    "name": "signal"
+                                },
+                                "group": "Inputs",
+                                "index": 2
+                            },
+                            {
+                                "name": "DOM",
+                                "plug": "input",
+                                "type": {
+                                    "name": "domelement"
+                                },
+                                "group": "Inputs",
+                                "index": 3
+                            },
+                            {
+                                "name": "scriptLoaded",
+                                "plug": "input",
+                                "type": {
+                                    "name": "string"
+                                },
+                                "group": "Inputs",
+                                "index": 4
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "c13f86f2-88d8-c048-b674-258da3e6c663",
+                        "type": "Script Downloader",
+                        "x": 211.03527886177991,
+                        "y": 153.91206246710507,
+                        "parameters": {
+                            "input 0": "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "d1735ed7-2604-7442-c571-ef4bedd6dafc",
+                        "type": "Javascript2",
+                        "label": "ChartJS_Line",
+                        "x": 571.9602069059869,
+                        "y": 285.5970554473889,
+                        "parameters": {
+                            "code": "define({\n\t// The input ports of the Javascript node, name of input and type\n\tinputs:{\n\t    // ExampleInput:'number',\n\t    // Available types are 'number', 'string', 'boolean', 'color' and 'signal',\n\t    mySignal:'signal',\n\t    DOM:'domelement',\n\t    scriptLoaded: \"string\",\n\t},\n\t\n\t// The output ports of the Javascript node, name of output and type\n\toutputs:{\n\t    // ExampleOutput:'string',\n\t},\n\t\n\t// All signal inputs need their own function with the corresponding name that\n\t// will be run when a signal is received on the input.\n\tmySignal:function(inputs,outputs) {\n\t\t// ...\n\t\t        if (!inputs.scriptLoaded) {\n                return;\n        }\n        var canvas = inputs.DOM;\n        var context = canvas.getContext(\"2d\");\n  var myLineChart = new Chart(context, {\n    type: 'line',\n    data: {\n      labels: ['8月1日', '8月2日', '8月3日', '8月4日', '8月5日', '8月6日', '8月7日'],\n      datasets: [\n        {\n          label: '最高気温(度）',\n          data: [35, 34, 37, 35, 34, 35, 34, 25],\n          borderColor: \"rgba(255,0,0,1)\",\n          backgroundColor: \"rgba(0,0,0,0)\"\n        },\n        {\n          label: '最低気温(度）',\n          data: [25, 27, 27, 25, 26, 27, 25, 21],\n          borderColor: \"rgba(0,0,255,1)\",\n          backgroundColor: \"rgba(0,0,0,0)\"\n        }\n      ],\n    },\n    options: {\n      title: {\n        display: true,\n        text: '気温（8月1日~8月7日）'\n      },\n      scales: {\n        yAxes: [{\n          ticks: {\n            suggestedMax: 40,\n            suggestedMin: 0,\n            stepSize: 10,\n            callback: function(value, index, values){\n              return  value +  '度'\n            }\n          }\n        }]\n      },\n    }\n  });\n\n\t},\n\t\n\t// This function will be called when any of the inputs have changed\n\tchange:function(inputs,outputs) {\n\t\t// ...\n\t}\n})"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "mySignal",
+                                "plug": "input",
+                                "type": {
+                                    "name": "signal"
+                                },
+                                "group": "Inputs",
+                                "index": 2
+                            },
+                            {
+                                "name": "DOM",
+                                "plug": "input",
+                                "type": {
+                                    "name": "domelement"
+                                },
+                                "group": "Inputs",
+                                "index": 3
+                            },
+                            {
+                                "name": "scriptLoaded",
+                                "plug": "input",
+                                "type": {
+                                    "name": "string"
+                                },
+                                "group": "Inputs",
+                                "index": 4
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "4d8bf568-32cb-a3e4-0bef-071ddf639d18",
+                        "type": "Script Downloader",
+                        "x": 186.5487653817976,
+                        "y": 316.85546326125325,
+                        "parameters": {
+                            "input 0": "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "36835944-c876-c663-5116-56baad0d3d98",
+                        "type": "Javascript2",
+                        "label": "ChartJS_Bar",
+                        "x": 571.3407106573039,
+                        "y": 453.4385822383339,
+                        "parameters": {
+                            "code": "define({\n\t// The input ports of the Javascript node, name of input and type\n\tinputs:{\n\t    // ExampleInput:'number',\n\t    // Available types are 'number', 'string', 'boolean', 'color' and 'signal',\n\t    mySignal:'signal',\n\t    DOM:'domelement',\n\t    scriptLoaded: \"string\",\n\t},\n\t\n\t// The output ports of the Javascript node, name of output and type\n\toutputs:{\n\t    // ExampleOutput:'string',\n\t},\n\t\n\t// All signal inputs need their own function with the corresponding name that\n\t// will be run when a signal is received on the input.\n\tmySignal:function(inputs,outputs) {\n\t\t// ...\n\t\t        if (!inputs.scriptLoaded) {\n                return;\n        }\n        var canvas = inputs.DOM;\n        var context = canvas.getContext(\"2d\");\n  var myBarChart = new Chart(context, {\n    type: 'bar',\n    data: {\n      labels: ['8月1日', '8月2日', '8月3日', '8月4日', '8月5日', '8月6日', '8月7日'],\n      datasets: [\n        {\n          label: 'A店 来客数',\n          data: [62, 65, 93, 85, 51, 66, 47],\n          backgroundColor: \"rgba(219,39,91,0.5)\"\n        },{\n          label: 'B店 来客数',\n          data: [55, 45, 73, 75, 41, 45, 58],\n          backgroundColor: \"rgba(130,201,169,0.5)\"\n        },{\n          label: 'C店 来客数',\n          data: [33, 45, 62, 55, 31, 45, 38],\n          backgroundColor: \"rgba(255,183,76,0.5)\"\n        }\n      ]\n    },\n    options: {\n      title: {\n        display: true,\n        text: '支店別 来客数'\n      },\n      scales: {\n        yAxes: [{\n          ticks: {\n            suggestedMax: 100,\n            suggestedMin: 0,\n            stepSize: 10,\n            callback: function(value, index, values){\n              return  value +  '人'\n            }\n          }\n        }]\n      },\n    }\n  });\n\t},\n\t\n\t// This function will be called when any of the inputs have changed\n\tchange:function(inputs,outputs) {\n\t\t// ...\n\t}\n})"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "mySignal",
+                                "plug": "input",
+                                "type": {
+                                    "name": "signal"
+                                },
+                                "group": "Inputs",
+                                "index": 2
+                            },
+                            {
+                                "name": "DOM",
+                                "plug": "input",
+                                "type": {
+                                    "name": "domelement"
+                                },
+                                "group": "Inputs",
+                                "index": 3
+                            },
+                            {
+                                "name": "scriptLoaded",
+                                "plug": "input",
+                                "type": {
+                                    "name": "string"
+                                },
+                                "group": "Inputs",
+                                "index": 4
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "cbad2cf4-0ffc-bbeb-6a2f-78916e8ed147",
+                        "type": "Script Downloader",
+                        "x": 181.31015275213014,
+                        "y": 483.1572845918705,
+                        "parameters": {
+                            "input 0": "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "9cd07727-1e04-8a58-2585-1638ee9f48ae",
+                        "type": "Javascript2",
+                        "label": "ChartJS_Pi",
+                        "x": 568.4858869193645,
+                        "y": 613.9093806177145,
+                        "parameters": {
+                            "code": "define({\n\t// The input ports of the Javascript node, name of input and type\n\tinputs:{\n\t    // ExampleInput:'number',\n\t    // Available types are 'number', 'string', 'boolean', 'color' and 'signal',\n\t    mySignal:'signal',\n\t    DOM:'domelement',\n\t    scriptLoaded: \"string\",\n\t},\n\t\n\t// The output ports of the Javascript node, name of output and type\n\toutputs:{\n\t    // ExampleOutput:'string',\n\t},\n\t\n\t// All signal inputs need their own function with the corresponding name that\n\t// will be run when a signal is received on the input.\n\tmySignal:function(inputs,outputs) {\n\t\t// ...\n\t\t        if (!inputs.scriptLoaded) {\n                return;\n        }\n        var canvas = inputs.DOM;\n        var context = canvas.getContext(\"2d\");\n  var myPieChart = new Chart(context, {\n    type: 'pie',\n    data: {\n      labels: [\"A型\", \"O型\", \"B型\", \"AB型\"],\n      datasets: [{\n          backgroundColor: [\n              \"#BB5179\",\n              \"#FAFF67\",\n              \"#58A27C\",\n              \"#3C00FF\"\n          ],\n          data: [38, 31, 21, 10]\n      }]\n    },\n    options: {\n      title: {\n        display: true,\n        text: '血液型 割合'\n      }\n    }\n  });\n\t},\n\t\n\t// This function will be called when any of the inputs have changed\n\tchange:function(inputs,outputs) {\n\t\t// ...\n\t}\n})"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "mySignal",
+                                "plug": "input",
+                                "type": {
+                                    "name": "signal"
+                                },
+                                "group": "Inputs",
+                                "index": 2
+                            },
+                            {
+                                "name": "DOM",
+                                "plug": "input",
+                                "type": {
+                                    "name": "domelement"
+                                },
+                                "group": "Inputs",
+                                "index": 3
+                            },
+                            {
+                                "name": "scriptLoaded",
+                                "plug": "input",
+                                "type": {
+                                    "name": "string"
+                                },
+                                "group": "Inputs",
+                                "index": 4
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "22443f38-207f-d9c4-5a62-7879fcf5eb2d",
+                        "type": "Script Downloader",
+                        "x": 178.4553290141907,
+                        "y": 651.3266102728915,
+                        "parameters": {
+                            "input 0": "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "77a69b6b-fb5f-24fc-3521-0ba6f7c1520f",
+                        "type": "Javascript2",
+                        "label": "ChartJS_Radar",
+                        "x": 567.4431831589153,
+                        "y": 775.4455516498406,
+                        "parameters": {
+                            "code": "define({\n\t// The input ports of the Javascript node, name of input and type\n\tinputs:{\n\t    // ExampleInput:'number',\n\t    // Available types are 'number', 'string', 'boolean', 'color' and 'signal',\n\t    mySignal:'signal',\n\t    DOM:'domelement',\n\t    scriptLoaded: \"string\",\n\t},\n\t\n\t// The output ports of the Javascript node, name of output and type\n\toutputs:{\n\t    // ExampleOutput:'string',\n\t},\n\t\n\t// All signal inputs need their own function with the corresponding name that\n\t// will be run when a signal is received on the input.\n\tmySignal:function(inputs,outputs) {\n\t\t// ...\n\t\t        if (!inputs.scriptLoaded) {\n                return;\n        }\n        var canvas = inputs.DOM;\n        var context = canvas.getContext(\"2d\");\n    var myRadarChart = new Chart(context, {\n        type: 'radar', \n        data: { \n            labels: [\"英語\", \"数学\", \"国語\", \"理科\", \"社会\"],\n            datasets: [{\n                label: 'Aさん',\n                data: [92, 72, 86, 74, 86],\n                backgroundColor: 'RGBA(225,95,150, 0.5)',\n                borderColor: 'RGBA(225,95,150, 1)',\n                borderWidth: 1,\n                pointBackgroundColor: 'RGB(46,106,177)'\n            }, {\n                label: 'Bさん',\n                data: [73, 95, 80, 87, 79],\n                backgroundColor: 'RGBA(115,255,25, 0.5)',\n                borderColor: 'RGBA(115,255,25, 1)',\n                borderWidth: 1,\n                pointBackgroundColor: 'RGB(46,106,177)'\n            }]\n        },\n        options: {\n            title: {\n                display: true,\n                text: '試験成績'\n            },\n            scale:{\n                ticks:{\n                    suggestedMin: 0,\n                    suggestedMax: 100,\n                    stepSize: 10,\n                    callback: function(value, index, values){\n                        return  value +  '点'\n                    }\n                }\n            }\n        }\n    });\n\t},\n\t\n\t// This function will be called when any of the inputs have changed\n\tchange:function(inputs,outputs) {\n\t\t// ...\n\t}\n})"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "mySignal",
+                                "plug": "input",
+                                "type": {
+                                    "name": "signal"
+                                },
+                                "group": "Inputs",
+                                "index": 2
+                            },
+                            {
+                                "name": "DOM",
+                                "plug": "input",
+                                "type": {
+                                    "name": "domelement"
+                                },
+                                "group": "Inputs",
+                                "index": 3
+                            },
+                            {
+                                "name": "scriptLoaded",
+                                "plug": "input",
+                                "type": {
+                                    "name": "string"
+                                },
+                                "group": "Inputs",
+                                "index": 4
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "e5cb14c5-5003-0d7a-aeec-6f33957fea2f",
+                        "type": "Script Downloader",
+                        "x": 166.6346870314442,
+                        "y": 808.2436649240328,
+                        "parameters": {
+                            "input 0": "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "c8f7cb19-0ac2-a38d-46aa-dd5954bc6e70",
+                        "type": "Group",
+                        "x": 808.0643404664308,
+                        "y": 70.69397041792217,
+                        "parameters": {
+                            "scrollBehavior": "noodl"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": [
+                            {
+                                "id": "77ec6120-6e21-33db-9e5c-6fe76a9a514c",
+                                "type": "Group",
+                                "label": "Group",
+                                "x": 821.1448681926934,
+                                "y": 604.0704938703806,
+                                "parameters": {
+                                    "backgroundColor": "#FFFFFF"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": [
+                                    {
+                                        "id": "88f24e32-5ef6-8865-ca55-c038407ac77d",
+                                        "type": "Canvas",
+                                        "x": 322.15574094708955,
+                                        "y": 1361.260232228739,
+                                        "parameters": {
+                                            "width": {
+                                                "value": 300,
+                                                "unit": "px"
+                                            },
+                                            "height": {
+                                                "value": 300,
+                                                "unit": "px"
+                                            },
+                                            "style": "{\n}"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "d2d00b26-08ca-52e5-d2ee-d2c665ad9f5c",
+                                "type": "Group",
+                                "label": "Group",
+                                "x": 843.1535032881707,
+                                "y": 760.9957941094597,
+                                "parameters": {
+                                    "backgroundColor": "#FFFFFF"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": [
+                                    {
+                                        "id": "58d37cf3-6a6a-d094-afc0-d112fa61ba7f",
+                                        "type": "Canvas",
+                                        "x": 331.56755256573183,
+                                        "y": 1583.6890145473603,
+                                        "parameters": {
+                                            "width": {
+                                                "value": 300,
+                                                "unit": "px"
+                                            },
+                                            "height": {
+                                                "value": 300,
+                                                "unit": "px"
+                                            },
+                                            "style": "{\n}"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "daab9b80-f0c6-13e3-4144-7ebef5cd4d37",
+                                "type": "Group",
+                                "label": "Group",
+                                "x": 815.8643147534565,
+                                "y": 933.6809215079561,
+                                "parameters": {
+                                    "backgroundColor": "#FFFFFF"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": [
+                                    {
+                                        "id": "7f2145ed-0195-2b4d-9438-ba558ee81bfa",
+                                        "type": "Canvas",
+                                        "x": 344.58819915688974,
+                                        "y": 1789.125882985628,
+                                        "parameters": {
+                                            "width": {
+                                                "value": 300,
+                                                "unit": "px"
+                                            },
+                                            "height": {
+                                                "value": 300,
+                                                "unit": "px"
+                                            },
+                                            "style": "{\n}"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "ffcd9ef6-cad2-0c72-6595-db7c61323428",
+                                "type": "Group",
+                                "label": "Group",
+                                "x": 839.6860506053152,
+                                "y": 1100.2352077754435,
+                                "parameters": {
+                                    "backgroundColor": "#FFFFFF"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": [
+                                    {
+                                        "id": "e457fbb3-9bc2-6bcd-2939-78252192efb6",
+                                        "type": "Canvas",
+                                        "x": 370.92929970411535,
+                                        "y": 2008.5868278558225,
+                                        "parameters": {
+                                            "width": {
+                                                "value": 300,
+                                                "unit": "px"
+                                            },
+                                            "height": {
+                                                "value": 300,
+                                                "unit": "px"
+                                            },
+                                            "style": "{\n}"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "6fbe5176-fae3-110e-baca-2b2689a5ea4f",
+                                "type": "Group",
+                                "label": "Group",
+                                "x": 20,
+                                "y": 1276,
+                                "parameters": {
+                                    "backgroundColor": "#FFFFFF"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": [
+                                    {
+                                        "id": "2e5e37fa-4a2b-b97b-e6d2-6129f71cbff3",
+                                        "type": "Canvas",
+                                        "x": 848.0643404664308,
+                                        "y": 1428.6939704179222,
+                                        "parameters": {
+                                            "width": {
+                                                "value": 300,
+                                                "unit": "px"
+                                            },
+                                            "height": {
+                                                "value": 300,
+                                                "unit": "px"
+                                            },
+                                            "style": "{\n}"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "59b50b71-254d-a558-1173-17752aec6795",
+                        "type": "Application Events",
+                        "x": 386.789394608096,
+                        "y": 127.88535054437804,
+                        "parameters": {},
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "c5da16b0-e92d-2d94-29b7-1153150b7a35",
+                        "type": "Application Events",
+                        "x": 360.650301256861,
+                        "y": 292.89344399907645,
+                        "parameters": {},
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "26e1db1b-bc7f-c7dd-e364-6d67901fe537",
+                        "type": "Application Events",
+                        "x": 373.1851512425992,
+                        "y": 446.22157943244747,
+                        "parameters": {},
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "79d7b336-a691-4ceb-6849-50cfc43d2c15",
+                        "type": "Application Events",
+                        "x": 368.06476619961995,
+                        "y": 621.7300521726881,
+                        "parameters": {},
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "2337b467-5d5d-f9f5-5806-f173d8e5c084",
+                        "type": "Application Events",
+                        "x": 374.50114697768777,
+                        "y": 779.5588367249115,
+                        "parameters": {},
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    }
+                ]
+            }
+        },
+        {
+            "name": "/02_PixiJS",
+            "graph": {
+                "connections": [
+                    {
+                        "fromId": "8843b734-1bd2-b848-bb95-0593e832e4f1",
+                        "fromProperty": "loaded",
+                        "toId": "fe71d165-b59d-a11f-e0e3-5edd56445f2f",
+                        "toProperty": "scriptLoaded"
+                    },
+                    {
+                        "fromId": "ad59a93c-7063-b262-eeb7-ee800c50133b",
+                        "fromProperty": "applicationLoaded",
+                        "toId": "fe71d165-b59d-a11f-e0e3-5edd56445f2f",
+                        "toProperty": "mySignal"
+                    },
+                    {
+                        "fromId": "388e7548-203f-1b55-b602-68b149951398",
+                        "fromProperty": "onElementCreated",
+                        "toId": "fe71d165-b59d-a11f-e0e3-5edd56445f2f",
+                        "toProperty": "DOM"
+                    },
+                    {
+                        "fromId": "ce6f02d5-0c9b-f0e7-c2b9-cd9f2f823e92",
+                        "fromProperty": "loaded",
+                        "toId": "2482920a-79d1-9c57-a24b-64b36e5f227f",
+                        "toProperty": "scriptLoaded"
+                    },
+                    {
+                        "fromId": "5a499c35-080a-ef80-a1cd-412be508e711",
+                        "fromProperty": "applicationLoaded",
+                        "toId": "2482920a-79d1-9c57-a24b-64b36e5f227f",
+                        "toProperty": "mySignal"
+                    },
+                    {
+                        "fromId": "43b71833-f6e9-676d-999c-51b3a91106a1",
+                        "fromProperty": "onElementCreated",
+                        "toId": "2482920a-79d1-9c57-a24b-64b36e5f227f",
+                        "toProperty": "DOM"
+                    },
+                    {
+                        "fromId": "c659b934-b76f-24bb-8fde-38c7f6684101",
+                        "fromProperty": "onClick",
+                        "toId": "fe71d165-b59d-a11f-e0e3-5edd56445f2f",
+                        "toProperty": "mySignal"
+                    },
+                    {
+                        "fromId": "e518345f-5f01-8b7a-085e-1ed41c242721",
+                        "fromProperty": "onClick",
+                        "toId": "2482920a-79d1-9c57-a24b-64b36e5f227f",
+                        "toProperty": "mySignal"
+                    }
+                ],
+                "roots": [
+                    {
+                        "id": "fe71d165-b59d-a11f-e0e3-5edd56445f2f",
+                        "type": "Javascript2",
+                        "label": "PixiJS_snow",
+                        "x": 629.846920507947,
+                        "y": 132.50436657547243,
+                        "parameters": {
+                            "code": "define({\r\n    // The input ports of the Javascript node, name of input and type\r\n    inputs: {\r\n        // ExampleInput:'number',\r\n        // Available types are 'number', 'string', 'boolean', 'color' and 'signal',\r\n        mySignal: 'signal',\r\n        DOM: 'domelement',\r\n        scriptLoaded: \"string\",\r\n    },\r\n\r\n    // The output ports of the Javascript node, name of output and type\r\n    outputs: {\r\n        // ExampleOutput:'string',\r\n    },\r\n\r\n    // All signal inputs need their own function with the corresponding name that\r\n    // will be run when a signal is received on the input.\r\n    mySignal: function (inputs, outputs) {\r\n        // ...\r\n        if (!inputs.scriptLoaded) {\r\n            return;\r\n        }\r\n        var canvas = inputs.DOM;\r\n        //var context = canvas.getContext(\"2d\");\r\n        // 表示するcanvasを用意\r\n        let app = new PIXI.Application(800, 600, { backgroundColor: 0xff99bb });\r\n        document.body.appendChild(app.view);\r\n        //let app = new PIXI.Application({ view: canvas});\r\n        //document.body.appendChild(app.view);\r\n\r\n        //表示をする画像の数\r\n        let totalSprites = 100;\r\n\r\n        //パーティクルの設定\r\n        let sprites = new PIXI.particles.ParticleContainer(totalSprites, {\r\n            scale: true,\r\n            position: true\r\n        });\r\n\r\n        //ステージに反映\r\n        app.stage.addChild(sprites);\r\n\r\n        // 複数の画像を設定\r\n        let hayachi = [];\r\n\r\n        //画像分をtotalSprites回数分ループ\r\n        for (let i = 0; i < totalSprites; i++) {\r\n\r\n            // 画像の設定\r\n            let dude = PIXI.Sprite.fromImage('http://hayachi.github.io/images/hayachi-blue.png');\r\n\r\n            // 画像の中心地をきめる\r\n            dude.anchor.set(0.5);\r\n\r\n            // 画像のサイズのランダムにきめる\r\n            dude.scale.set(0.01 + Math.random() * 0.1);\r\n\r\n            // ランダムに散らす\r\n            dude.x = Math.random() * app.screen.width;\r\n            dude.y = Math.random() * app.screen.height;\r\n\r\n            // ランダムな速度を0〜2の間で作ります。\r\n            dude.speed = (200 + Math.random() * 0.5) * 0.5;\r\n\r\n            // 生成された画像の配列をpushして簡単にアクセスできるようにします\r\n            hayachi.push(dude);\r\n\r\n            // ループのデータを反映\r\n            sprites.addChild(dude);\r\n        }\r\n\r\n        //アニメーションの初期値値\r\n        let tick = 0;\r\n        //ステージの高さ\r\n        const HEIGHT = 620;\r\n\r\n        app.ticker.add(function () {\r\n\r\n            // 画像を繰り返し処理して位置を更新する\r\n            for (let i = 0; i < hayachi.length; i++) {\r\n                //配列を代入\r\n                let dude = hayachi[i];\r\n                //横の位置\r\n                dude.x += (Math.random() - 0.5) * 1 * dude.scale.x;\r\n                //縦の位置\r\n                dude.y += dude.scale.y * dude.speed;\r\n\r\n                //画面の一番下に行った時縦の位置をリセット、横の位置をランダムに配置\r\n                if (dude.y > HEIGHT) {\r\n                    dude.y = -10;\r\n                    dude.x += (Math.random() - 0.5) * 1 * dude.scale.x;\r\n                }\r\n            }\r\n\r\n            // ティッカーを増やす\r\n            tick += 0.1;\r\n        });\r\n\r\n        //------テキストの描画-----//\r\n\r\n        // スタイルを指定\r\n        let styleBig = new PIXI.TextStyle({\r\n            fontFamily: 'Comfortaa',\r\n            fontSize: 70,\r\n            fill: '#ffffff',\r\n            lineJoin: 'round',\r\n            stroke: '#1099bb',\r\n            strokeThickness: 30,\r\n            align: 'center',\r\n            wordWrapWidth: 1000,\r\n            wordWrap: true\r\n        });\r\n        let styleSmall = new PIXI.TextStyle({\r\n            fontFamily: 'Comfortaa',\r\n            fontSize: 40,\r\n            fill: '#ffffff',\r\n            lineJoin: 'round',\r\n            stroke: '#1099bb',\r\n            strokeThickness: 30,\r\n            align: 'center',\r\n            wordWrapWidth: 1000,\r\n            wordWrap: true\r\n        });\r\n\r\n        // スタイルを反映\r\n        let textBig = new PIXI.Text('Pixi.js on Noodl', styleBig);\r\n        let textSmall = new PIXI.Text('Particle animation', styleSmall);\r\n\r\n        // テキストの位置を指定\r\n        textBig.x = 100;\r\n        textBig.y = 220;\r\n        textSmall.x = 200;\r\n        textSmall.y = 320;\r\n\r\n        // ステージに表示させる\r\n        app.stage.addChild(textBig);\r\n        app.stage.addChild(textSmall);\r\n    },\r\n\r\n    // This function will be called when any of the inputs have changed\r\n    change: function (inputs, outputs) {\r\n        // ...\r\n    }\r\n})"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "mySignal",
+                                "plug": "input",
+                                "type": {
+                                    "name": "signal"
+                                },
+                                "group": "Inputs",
+                                "index": 2
+                            },
+                            {
+                                "name": "DOM",
+                                "plug": "input",
+                                "type": {
+                                    "name": "domelement"
+                                },
+                                "group": "Inputs",
+                                "index": 3
+                            },
+                            {
+                                "name": "scriptLoaded",
+                                "plug": "input",
+                                "type": {
+                                    "name": "string"
+                                },
+                                "group": "Inputs",
+                                "index": 4
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "8843b734-1bd2-b848-bb95-0593e832e4f1",
+                        "type": "Script Downloader",
+                        "x": 453,
+                        "y": 202.4710528305336,
+                        "parameters": {
+                            "input 0": "https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.0.3/pixi.min.js"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "ad59a93c-7063-b262-eeb7-ee800c50133b",
+                        "type": "Application Events",
+                        "x": 451.3513084310921,
+                        "y": 102,
+                        "parameters": {},
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "828439bf-8d89-0b04-1eb7-32887ea4c238",
+                        "type": "Group",
+                        "label": "Group",
+                        "x": 820.5005650522168,
+                        "y": 143.66244732947416,
+                        "parameters": {},
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": [
+                            {
+                                "id": "388e7548-203f-1b55-b602-68b149951398",
+                                "type": "Canvas",
+                                "x": 20,
+                                "y": 46,
+                                "parameters": {
+                                    "width": {
+                                        "value": 300,
+                                        "unit": "px"
+                                    },
+                                    "height": {
+                                        "value": 300,
+                                        "unit": "px"
+                                    },
+                                    "style": "{\n}"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "01211103-c1a4-d625-74ad-258909f7ccf6",
+                                "type": "Drag",
+                                "x": 820,
+                                "y": 161,
+                                "parameters": {
+                                    "axis": "both",
+                                    "useParentBounds": false
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": [
+                                    {
+                                        "id": "c659b934-b76f-24bb-8fde-38c7f6684101",
+                                        "type": "Image",
+                                        "x": 912.5005650522168,
+                                        "y": 426.66244732947416,
+                                        "parameters": {
+                                            "src": "http://hayachi.github.io/images/hayachi-blue.png",
+                                            "sizeMode": "explicit",
+                                            "width": {
+                                                "value": 100,
+                                                "unit": "px"
+                                            },
+                                            "height": {
+                                                "value": 100,
+                                                "unit": "px"
+                                            }
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "23e524ff-9651-9672-b607-bc4a166362b8",
+                        "type": "Group",
+                        "label": "Group",
+                        "x": 834.030316252961,
+                        "y": 427,
+                        "parameters": {},
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": [
+                            {
+                                "id": "43b71833-f6e9-676d-999c-51b3a91106a1",
+                                "type": "Canvas",
+                                "x": 892.5005650522168,
+                                "y": 298.66244732947416,
+                                "parameters": {
+                                    "width": {
+                                        "value": 300,
+                                        "unit": "px"
+                                    },
+                                    "height": {
+                                        "value": 300,
+                                        "unit": "px"
+                                    },
+                                    "style": "{\n}"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "1c0bf97e-4b1c-1ea5-650f-68ce999921a3",
+                                "type": "Drag",
+                                "x": 892.5005650522168,
+                                "y": 380.66244732947416,
+                                "parameters": {
+                                    "axis": "both",
+                                    "useParentBounds": false
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": [
+                                    {
+                                        "id": "e518345f-5f01-8b7a-085e-1ed41c242721",
+                                        "type": "Image",
+                                        "x": 912.5005650522168,
+                                        "y": 426.66244732947416,
+                                        "parameters": {
+                                            "src": "http://hayachi.github.io/images/hayachi-blue.png",
+                                            "sizeMode": "explicit",
+                                            "width": {
+                                                "value": 100,
+                                                "unit": "px"
+                                            },
+                                            "height": {
+                                                "value": 100,
+                                                "unit": "px"
+                                            }
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2482920a-79d1-9c57-a24b-64b36e5f227f",
+                        "type": "Javascript2",
+                        "label": "PixiJS_Ball",
+                        "x": 638.9701061139638,
+                        "y": 532.550197846759,
+                        "parameters": {
+                            "code": "define({\r\n    // The input ports of the Javascript node, name of input and type\r\n    inputs: {\r\n        // ExampleInput:'number',\r\n        // Available types are 'number', 'string', 'boolean', 'color' and 'signal',\r\n        mySignal: 'signal',\r\n        DOM: 'domelement',\r\n        scriptLoaded: \"string\",\r\n    },\r\n\r\n    // The output ports of the Javascript node, name of output and type\r\n    outputs: {\r\n        // ExampleOutput:'string',\r\n    },\r\n\r\n    // All signal inputs need their own function with the corresponding name that\r\n    // will be run when a signal is received on the input.\r\n    mySignal: function (inputs, outputs) {\r\n        // ...\r\n        if (!inputs.scriptLoaded) {\r\n            return;\r\n        }\r\n        var canvas = inputs.DOM;\r\n        //var context = canvas.getContext(\"2d\");\r\n        // 表示するcanvasを用意\r\n        //------画像のアニメーション-----//\r\n        // 表示するcanvasを用意\r\n        let app = new PIXI.Application(800, 600, { backgroundColor: 0xDAE8F4 });\r\n        //let app = new PIXI.Application(800, 600, { backgroundColor: 0xFFFFFF });\r\n        document.body.appendChild(app.view);\r\n\r\n        // イメージを指定\r\n        let hayachi = PIXI.Sprite.fromImage('http://hayachi.github.io/images/hayachi-blue.png');\r\n\r\n        // 画像のアンカーポイントの指定\r\n        hayachi.anchor.set(0.5);\r\n\r\n        // 画像を画面中央に移動\r\n        hayachi.x = app.screen.width / 2;\r\n        hayachi.y = app.screen.height / 2.5;\r\n\r\n        // ステージに表示させる\r\n        app.stage.addChild(hayachi);\r\n\r\n        // アニメーションの再生、ループ\r\n        app.ticker.add(function (delta) {\r\n            // 画像を回転\r\n            hayachi.rotation += 0.1 * delta;\r\n        });\r\n\r\n        //------テキストの描画-----//\r\n\r\n        // スタイルを指定\r\n        let styleBig = new PIXI.TextStyle({\r\n            fontFamily: 'Comfortaa',\r\n            fontSize: 70,\r\n            align: 'center',\r\n            wordWrapWidth: 1000,\r\n            wordWrap: true\r\n        });\r\n        let styleSmall = new PIXI.TextStyle({\r\n            fontFamily: 'Comfortaa',\r\n            fontSize: 40,\r\n            align: 'center',\r\n            wordWrapWidth: 1000,\r\n            wordWrap: true\r\n        });\r\n\r\n        // スタイルを反映\r\n        let textBig = new PIXI.Text('Pixi.js', styleBig);\r\n        let textSmall = new PIXI.Text('Standard animation', styleSmall);\r\n\r\n        // テキストの位置を指定\r\n        textBig.x = 300;\r\n        textBig.y = 430;\r\n        textSmall.x = 180;\r\n        textSmall.y = 530;\r\n\r\n        // ステージに表示させる\r\n        app.stage.addChild(textBig);\r\n        app.stage.addChild(textSmall);\r\n    },\r\n\r\n    // This function will be called when any of the inputs have changed\r\n    change: function (inputs, outputs) {\r\n        // ...\r\n    }\r\n})"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "mySignal",
+                                "plug": "input",
+                                "type": {
+                                    "name": "signal"
+                                },
+                                "group": "Inputs",
+                                "index": 2
+                            },
+                            {
+                                "name": "DOM",
+                                "plug": "input",
+                                "type": {
+                                    "name": "domelement"
+                                },
+                                "group": "Inputs",
+                                "index": 3
+                            },
+                            {
+                                "name": "scriptLoaded",
+                                "plug": "input",
+                                "type": {
+                                    "name": "string"
+                                },
+                                "group": "Inputs",
+                                "index": 4
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "ce6f02d5-0c9b-f0e7-c2b9-cd9f2f823e92",
+                        "type": "Script Downloader",
+                        "x": 421.60914317858067,
+                        "y": 591.315072384998,
+                        "parameters": {
+                            "input 0": "https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.0.3/pixi.min.js"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "5a499c35-080a-ef80-a1cd-412be508e711",
+                        "type": "Application Events",
+                        "x": 427.5650412908976,
+                        "y": 502.3623397308737,
+                        "parameters": {},
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    }
+                ]
+            }
+        },
+        {
+            "name": "/03_Babylon",
+            "graph": {
+                "connections": [
+                    {
+                        "fromId": "7b5e09a7-7b11-74bb-b250-1108c7e65048",
+                        "fromProperty": "onElementCreated",
+                        "toId": "53bce637-2226-02ed-4353-d78e7e4b15b0",
+                        "toProperty": "domElement"
+                    },
+                    {
+                        "fromId": "69d39588-2af0-5a80-6cdb-7289cda095a3",
+                        "fromProperty": "loaded",
+                        "toId": "53bce637-2226-02ed-4353-d78e7e4b15b0",
+                        "toProperty": "scriptLoaded"
+                    },
+                    {
+                        "fromId": "e029fe80-da0d-8fc1-ae6d-8c475c9a7347",
+                        "fromProperty": "loaded",
+                        "toId": "2e99723d-746f-554e-1254-e702f93abca8",
+                        "toProperty": "scriptLoaded"
+                    },
+                    {
+                        "fromId": "9b84378b-68e7-5f57-e42a-edcf252e38e7",
+                        "fromProperty": "onElementCreated",
+                        "toId": "2e99723d-746f-554e-1254-e702f93abca8",
+                        "toProperty": "domElement"
+                    },
+                    {
+                        "fromId": "a08e7845-ced9-a1a4-3d21-15c063be1bee",
+                        "fromProperty": "applicationLoaded",
+                        "toId": "2e99723d-746f-554e-1254-e702f93abca8",
+                        "toProperty": "mySignal"
+                    },
+                    {
+                        "fromId": "38d613c6-5991-c552-271f-2a932641f043",
+                        "fromProperty": "applicationLoaded",
+                        "toId": "53bce637-2226-02ed-4353-d78e7e4b15b0",
+                        "toProperty": "mySignal"
+                    },
+                    {
+                        "fromId": "58329ef5-ccf3-d83f-aca2-ccdfebfe0805",
+                        "fromProperty": "onClick",
+                        "toId": "2e99723d-746f-554e-1254-e702f93abca8",
+                        "toProperty": "mySignal"
+                    },
+                    {
+                        "fromId": "349e8f11-cf31-80eb-b783-b8fa305c78bb",
+                        "fromProperty": "onClick",
+                        "toId": "53bce637-2226-02ed-4353-d78e7e4b15b0",
+                        "toProperty": "mySignal"
+                    }
+                ],
+                "roots": [
+                    {
+                        "id": "53bce637-2226-02ed-4353-d78e7e4b15b0",
+                        "type": "Javascript2",
+                        "label": "Babylon2",
+                        "x": 743.6050566611352,
+                        "y": 496.6899262294056,
+                        "parameters": {
+                            "code": "define({\n\tinputs:{\n\t    mySignal:'signal',\n\t    domElement:'domelement',\n\t    scriptLoaded: \"string\",\n\t},\n\t\n\toutputs:{\n\t    id:'string',\n\t},\n\tmySignal:function(inputs,outputs) {\n        if (!inputs.scriptLoaded) {\n                return;\n        }\n        var canvas = inputs.domElement;\n        var engine = new BABYLON.Engine(canvas, true); \n        function createScene() {\n            // 新しいシーンオブジェクトを作成する\n            const scene = new BABYLON.Scene(engine);\n            // 自由移動出来るカメラを生成\n            // ドラッグで視点回転、矢印キーで移動\n            const camera = new BABYLON.FreeCamera('camera1', new BABYLON.Vector3(0, 5,-10), scene);\n            // カメラの向きを座標0地点にする\n            camera.setTarget(BABYLON.Vector3.Zero());\n            // canvas 要素をクリックやドラッグなどで操作出来るようにする\n            camera.attachControl(canvas, false);\n            // 照明を追加\n            var light = new BABYLON.HemisphericLight('light1', new BABYLON.Vector3(0,1,0), scene);\n            // 球体メッシュを生成\n            var sphere = BABYLON.Mesh.CreateSphere('sphere1', 16, 2, scene);\n            // 少し上に持ち上げる\n            sphere.position.y = 1;\n            // 地面メッシュを生成\n            var ground = BABYLON.Mesh.CreateGround('ground1', 6, 6, 2, scene);\n            return scene;\n        }\n        const scene = createScene();\n        // 描画ループ関数を定義する\n        engine.runRenderLoop(() => {\n            scene.render();\n        });\n        // リサイズ処理\n        window.addEventListener('resize', () => {\n            engine.resize();\n        });\n\n    }\n})\n\n"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "mySignal",
+                                "plug": "input",
+                                "type": {
+                                    "name": "signal"
+                                },
+                                "group": "Inputs",
+                                "index": 2
+                            },
+                            {
+                                "name": "domElement",
+                                "plug": "input",
+                                "type": {
+                                    "name": "domelement"
+                                },
+                                "group": "Inputs",
+                                "index": 3
+                            },
+                            {
+                                "name": "scriptLoaded",
+                                "plug": "input",
+                                "type": {
+                                    "name": "string"
+                                },
+                                "group": "Inputs",
+                                "index": 4
+                            },
+                            {
+                                "name": "id",
+                                "type": {
+                                    "name": "string"
+                                },
+                                "plug": "output",
+                                "group": "Outputs",
+                                "index": 5
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "69d39588-2af0-5a80-6cdb-7289cda095a3",
+                        "type": "Script Downloader",
+                        "x": 371,
+                        "y": 551.4008996856004,
+                        "parameters": {
+                            "input 0": "https://preview.babylonjs.com/babylon.js",
+                            "input 1": "https://code.jquery.com/pep/0.4.1/pep.js"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "2e99723d-746f-554e-1254-e702f93abca8",
+                        "type": "Javascript2",
+                        "label": "Babylon1",
+                        "x": 736.4867605497407,
+                        "y": 345.5905834652159,
+                        "parameters": {
+                            "code": "define({\n\tinputs:{\n\t    mySignal:'signal',\n\t    domElement:'domelement',\n\t    scriptLoaded: \"string\",\n\t},\n\t\n\toutputs:{\n\t    id:'string',\n\t},\n\tmySignal:function(inputs,outputs) {\n        if (!inputs.scriptLoaded) {\n                return;\n        }\n        var canvas = inputs.domElement;\n        var engine = new BABYLON.Engine(canvas, true); \n        var createScene = function () {\n            var scene = new BABYLON.Scene(engine);\n            var camera = new BABYLON.ArcRotateCamera(\"Camera\", Math.PI / 2, Math.PI / 2, 2, new BABYLON.Vector3(0,0,5), scene);\n            camera.attachControl(canvas, true);\n            var light1 = new BABYLON.HemisphericLight(\"light1\", new BABYLON.Vector3(1, 1, 0), scene);\n            var light2 = new BABYLON.PointLight(\"light2\", new BABYLON.Vector3(0, 1, -1), scene);\n            var sphere = BABYLON.MeshBuilder.CreateSphere(\"sphere\", {diameter:2}, scene);\n            return scene;\n        };\n       var scene = createScene(); //Call the createScene function\n        engine.runRenderLoop(function () { \n                scene.render();\n        });\n        window.addEventListener(\"resize\", function () { \n                engine.resize();\n        });\n    }\n})\n\n",
+                            "useExternalFile": "no"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "mySignal",
+                                "plug": "input",
+                                "type": {
+                                    "name": "signal"
+                                },
+                                "group": "Inputs",
+                                "index": 2
+                            },
+                            {
+                                "name": "domElement",
+                                "plug": "input",
+                                "type": {
+                                    "name": "domelement"
+                                },
+                                "group": "Inputs",
+                                "index": 3
+                            },
+                            {
+                                "name": "scriptLoaded",
+                                "plug": "input",
+                                "type": {
+                                    "name": "string"
+                                },
+                                "group": "Inputs",
+                                "index": 4
+                            },
+                            {
+                                "name": "id",
+                                "type": {
+                                    "name": "string"
+                                },
+                                "plug": "output",
+                                "group": "Outputs",
+                                "index": 5
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "e029fe80-da0d-8fc1-ae6d-8c475c9a7347",
+                        "type": "Script Downloader",
+                        "x": 348.0463472103734,
+                        "y": 397.43770001978703,
+                        "parameters": {
+                            "input 0": "https://preview.babylonjs.com/babylon.js",
+                            "input 1": "https://code.jquery.com/pep/0.4.1/pep.js"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "43cdc744-9065-876d-f5af-2a788be7ad32",
+                        "type": "Group",
+                        "x": 1025.546818370034,
+                        "y": 287.5541788152734,
+                        "parameters": {
+                            "scrollBehavior": "noodl"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": [
+                            {
+                                "id": "58329ef5-ccf3-d83f-aca2-ccdfebfe0805",
+                                "type": "Group",
+                                "x": 20,
+                                "y": 46,
+                                "parameters": {
+                                    "backgroundColor": "#FFFFFF"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": [
+                                    {
+                                        "id": "9b84378b-68e7-5f57-e42a-edcf252e38e7",
+                                        "type": "Canvas",
+                                        "x": 20,
+                                        "y": 82,
+                                        "parameters": {
+                                            "style": "{\n}",
+                                            "pointerEventsMode": "explicit",
+                                            "height": {
+                                                "value": 300,
+                                                "unit": "px"
+                                            },
+                                            "sizeMode": "contentHeight",
+                                            "alignX": "center"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "349e8f11-cf31-80eb-b783-b8fa305c78bb",
+                                "type": "Group",
+                                "x": 20,
+                                "y": 210,
+                                "parameters": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "paddingTop": {
+                                        "value": 0,
+                                        "unit": "px"
+                                    },
+                                    "marginTop": {
+                                        "value": 10,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": [
+                                    {
+                                        "id": "7b5e09a7-7b11-74bb-b250-1108c7e65048",
+                                        "type": "Canvas",
+                                        "x": 20,
+                                        "y": 82,
+                                        "parameters": {
+                                            "height": {
+                                                "value": 300,
+                                                "unit": "px"
+                                            },
+                                            "style": "{\n}",
+                                            "pointerEventsMode": "explicit",
+                                            "sizeMode": "contentHeight"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "a08e7845-ced9-a1a4-3d21-15c063be1bee",
+                        "type": "Application Events",
+                        "x": 517.2674254984361,
+                        "y": 371.37078967860555,
+                        "parameters": {},
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "38d613c6-5991-c552-271f-2a932641f043",
+                        "type": "Application Events",
+                        "x": 542.2030059846675,
+                        "y": 518.8266391988805,
+                        "parameters": {},
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    }
+                ]
+            }
+        },
+        {
+            "name": "/04_Others",
+            "graph": {
+                "connections": [
+                    {
+                        "fromId": "518a3ba4-04cb-f0f0-d443-00c165bef6e9",
+                        "fromProperty": "onElementCreated",
+                        "toId": "e9efdcc7-96d2-ea44-b7e9-6dd440cd0700",
+                        "toProperty": "domElement"
+                    },
+                    {
+                        "fromId": "ae5f6549-1813-aba4-d6c9-5ee961c486d7",
+                        "fromProperty": "applicationLoaded",
+                        "toId": "e9efdcc7-96d2-ea44-b7e9-6dd440cd0700",
+                        "toProperty": "mySignal"
+                    },
+                    {
+                        "fromId": "dc0471ed-9827-a7b7-0d8f-312535a5d9ba",
+                        "fromProperty": "onClick",
+                        "toId": "e9efdcc7-96d2-ea44-b7e9-6dd440cd0700",
+                        "toProperty": "mySignal"
+                    },
+                    {
+                        "fromId": "f2a7ba3d-93d6-9b0a-7482-ae7fa4aa8b2a",
+                        "fromProperty": "onClick",
+                        "toId": "4177ed51-2182-dabd-086e-d18c79cf75ff",
+                        "toProperty": "mySignal"
+                    },
+                    {
+                        "fromId": "f51b47b7-8323-660d-c665-8b3bd536fa86",
+                        "fromProperty": "onElementCreated",
+                        "toId": "e8831b2b-d84f-dc9d-cd4e-384069aadcef",
+                        "toProperty": "DOM"
+                    },
+                    {
+                        "fromId": "b20d45fa-24bf-dbfe-3800-5fe094850f98",
+                        "fromProperty": "loaded",
+                        "toId": "e8831b2b-d84f-dc9d-cd4e-384069aadcef",
+                        "toProperty": "scriptLoaded"
+                    },
+                    {
+                        "fromId": "03fe9a34-ae7d-1e55-61c2-349dc360a3ea",
+                        "fromProperty": "onElementCreated",
+                        "toId": "97cbf508-d3f0-c837-ddf4-dad2118c3f14",
+                        "toProperty": "DOM"
+                    },
+                    {
+                        "fromId": "e94129b8-e444-c237-497a-0f3dafbeea7d",
+                        "fromProperty": "loaded",
+                        "toId": "97cbf508-d3f0-c837-ddf4-dad2118c3f14",
+                        "toProperty": "scriptLoaded"
+                    },
+                    {
+                        "fromId": "937a1351-7bcc-34f8-b4a2-cdb015ba9a18",
+                        "fromProperty": "applicationLoaded",
+                        "toId": "e8831b2b-d84f-dc9d-cd4e-384069aadcef",
+                        "toProperty": "mySignal"
+                    },
+                    {
+                        "fromId": "2c2e1fcd-b5f0-f85c-4a10-c57b8899de38",
+                        "fromProperty": "applicationLoaded",
+                        "toId": "97cbf508-d3f0-c837-ddf4-dad2118c3f14",
+                        "toProperty": "mySignal"
+                    },
+                    {
+                        "fromId": "dfcda713-0743-ccf8-9582-ca94758dd47b",
+                        "fromProperty": "onClick",
+                        "toId": "e8831b2b-d84f-dc9d-cd4e-384069aadcef",
+                        "toProperty": "mySignal"
+                    },
+                    {
+                        "fromId": "4bbae162-5345-f565-17f2-912aba5d8218",
+                        "fromProperty": "onTextChanged",
+                        "toId": "97cbf508-d3f0-c837-ddf4-dad2118c3f14",
+                        "toProperty": "text"
+                    },
+                    {
+                        "fromId": "da56f9c5-c79f-155e-038f-5c6478bbe190",
+                        "fromProperty": "onClick",
+                        "toId": "97cbf508-d3f0-c837-ddf4-dad2118c3f14",
+                        "toProperty": "mySignal"
+                    },
+                    {
+                        "fromId": "8b8c660d-92df-e897-3b89-f676b3834b66",
+                        "fromProperty": "savedValue",
+                        "toId": "81d184f8-96a5-c8b5-016e-fb4946ac9c22",
+                        "toProperty": "text"
+                    },
+                    {
+                        "fromId": "8b8c660d-92df-e897-3b89-f676b3834b66",
+                        "fromProperty": "savedValue",
+                        "toId": "e8831b2b-d84f-dc9d-cd4e-384069aadcef",
+                        "toProperty": "text"
+                    }
+                ],
+                "roots": [
+                    {
+                        "id": "e9efdcc7-96d2-ea44-b7e9-6dd440cd0700",
+                        "type": "Javascript2",
+                        "label": "CanvasTextArc",
+                        "x": 486.85516993749434,
+                        "y": 346.71397628086606,
+                        "parameters": {
+                            "code": "define({\n\t// The input ports of the Javascript node, name of input and type\n\tinputs:{\n\t    // ExampleInput:'number',\n\t    // Available types are 'number', 'string', 'boolean', 'color' and 'signal',\n\t    mySignal:'signal',\n\t    domElement:'domelement',\n\t},\n\t\n\t// The output ports of the Javascript node, name of output and type\n\toutputs:{\n\t    // ExampleOutput:'string',\n\t},\n\t\n\t// All signal inputs need their own function with the corresponding name that\n\t// will be run when a signal is received on the input.\n\tmySignal:function(inputs,outputs) {\n\t\t// ...\n        var canvas = inputs.domElement;\n        //outputs.id=canvas.getAttribute(\"id\")\n        //console.log(canvas.getAttribute(\"id\"));\n        var context = canvas.getContext(\"2d\");\n        \n        context.fillRect(10, 10, 100, 50);\n        context.fillStyle = 'rgb(255,00,00)';\n        context.arc(200,100,50,Math.PI*1,Math.PI*2);\n        context.fill();\n        \n        context.fillStyle = 'rgb(0,200,00)';//TextColor        \n        context.fillText(\"Hello World\", 100, 100);\n        context.strokeStyle = 'rgb(00,00,255)'; //枠線の色は青\n\n\n\t},\n\t\n\t// This function will be called when any of the inputs have changed\n\tchange:function(inputs,outputs) {\n\t\t// ...\n\t}\n})\n\n"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "mySignal",
+                                "plug": "input",
+                                "type": {
+                                    "name": "signal"
+                                },
+                                "group": "Inputs",
+                                "index": 2
+                            },
+                            {
+                                "name": "domElement",
+                                "plug": "input",
+                                "type": {
+                                    "name": "domelement"
+                                },
+                                "group": "Inputs",
+                                "index": 3
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "7d28b8f6-4ee8-8801-6a94-d3c183b8b3b6",
+                        "type": "Group",
+                        "x": 833.3691934087763,
+                        "y": 216.55417881527345,
+                        "parameters": {
+                            "scrollBehavior": "noodl"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": [
+                            {
+                                "id": "f2a7ba3d-93d6-9b0a-7482-ae7fa4aa8b2a",
+                                "type": "Group",
+                                "x": 828.0643404664308,
+                                "y": 116.69397041792217,
+                                "parameters": {
+                                    "height": {
+                                        "value": 100,
+                                        "unit": "px"
+                                    },
+                                    "backgroundColor": "#E8423A"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "dc0471ed-9827-a7b7-0d8f-312535a5d9ba",
+                                "type": "Group",
+                                "x": 828.0643404664308,
+                                "y": 198.69397041792217,
+                                "parameters": {
+                                    "backgroundColor": "#FFFFFF"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": [
+                                    {
+                                        "id": "518a3ba4-04cb-f0f0-d443-00c165bef6e9",
+                                        "type": "Canvas",
+                                        "x": 848.0643404664308,
+                                        "y": 280.6939704179222,
+                                        "parameters": {
+                                            "width": {
+                                                "value": 300,
+                                                "unit": "px"
+                                            },
+                                            "height": {
+                                                "value": 300,
+                                                "unit": "px"
+                                            },
+                                            "style": "{\n}"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "dfcda713-0743-ccf8-9582-ca94758dd47b",
+                                "type": "Group",
+                                "label": "Group",
+                                "x": 857.9109825879614,
+                                "y": 509.51594685325915,
+                                "parameters": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "height": {
+                                        "value": 50,
+                                        "unit": "%"
+                                    }
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": [
+                                    {
+                                        "id": "f51b47b7-8323-660d-c665-8b3bd536fa86",
+                                        "type": "Canvas",
+                                        "x": 1145,
+                                        "y": 417,
+                                        "parameters": {
+                                            "style": "{\n}",
+                                            "sizeMode": "explicit",
+                                            "width": {
+                                                "value": 100,
+                                                "unit": "px"
+                                            },
+                                            "height": {
+                                                "value": 100,
+                                                "unit": "px"
+                                            }
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "81d184f8-96a5-c8b5-016e-fb4946ac9c22",
+                                        "type": "Text",
+                                        "x": 1145,
+                                        "y": 499,
+                                        "parameters": {
+                                            "fontSize": {
+                                                "value": 50,
+                                                "unit": "px"
+                                            },
+                                            "text": ""
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "4fc1c49c-2dbf-6e3e-a1d0-f74662a7fb3e",
+                                "type": "Group",
+                                "label": "Group",
+                                "x": 863.5659922546048,
+                                "y": 745.8953509189543,
+                                "parameters": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "flexDirection": "row",
+                                    "height": {
+                                        "value": 50,
+                                        "unit": "%"
+                                    },
+                                    "marginBottom": {
+                                        "value": 0,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": [
+                                    {
+                                        "id": "03fe9a34-ae7d-1e55-61c2-349dc360a3ea",
+                                        "type": "Canvas",
+                                        "x": 1145,
+                                        "y": 627,
+                                        "parameters": {
+                                            "width": {
+                                                "value": 300,
+                                                "unit": "px"
+                                            },
+                                            "height": {
+                                                "value": 300,
+                                                "unit": "px"
+                                            },
+                                            "style": "{\n}"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "4bbae162-5345-f565-17f2-912aba5d8218",
+                                        "type": "Text Input",
+                                        "x": 1145,
+                                        "y": 709,
+                                        "parameters": {
+                                            "fontSize": {
+                                                "value": 40,
+                                                "unit": "px"
+                                            },
+                                            "borderColor": "#A92952"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "da56f9c5-c79f-155e-038f-5c6478bbe190",
+                                        "type": "Group",
+                                        "x": 1145,
+                                        "y": 791,
+                                        "parameters": {
+                                            "backgroundColor": "#EF8F45",
+                                            "borderRadius": 8,
+                                            "boxShadowEnabled": true,
+                                            "position": "absolute",
+                                            "alignX": "right",
+                                            "width": {
+                                                "value": 20,
+                                                "unit": "%"
+                                            },
+                                            "boxShadowOffsetX": {
+                                                "value": 10,
+                                                "unit": "px"
+                                            },
+                                            "boxShadowOffsetY": {
+                                                "value": 10,
+                                                "unit": "px"
+                                            },
+                                            "paddingTop": {
+                                                "value": 0,
+                                                "unit": "px"
+                                            },
+                                            "marginRight": {
+                                                "value": 5,
+                                                "unit": "px"
+                                            },
+                                            "marginTop": {
+                                                "value": 5,
+                                                "unit": "px"
+                                            },
+                                            "marginBottom": {
+                                                "value": 5,
+                                                "unit": "px"
+                                            }
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": [
+                                            {
+                                                "id": "6424ceff-aaeb-bcc8-8cd2-05f49fc6f958",
+                                                "type": "Text",
+                                                "x": 1165,
+                                                "y": 873,
+                                                "parameters": {
+                                                    "text": "生成",
+                                                    "alignX": "center",
+                                                    "alignY": "center",
+                                                    "position": "absolute",
+                                                    "sizeMode": "contentSize",
+                                                    "fontSize": {
+                                                        "value": 50,
+                                                        "unit": "px"
+                                                    }
+                                                },
+                                                "ports": [],
+                                                "dynamicports": [],
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "ae5f6549-1813-aba4-d6c9-5ee961c486d7",
+                        "type": "Application Events",
+                        "x": 286.99353919808914,
+                        "y": 360.3931571725511,
+                        "parameters": {},
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "4177ed51-2182-dabd-086e-d18c79cf75ff",
+                        "type": "Javascript2",
+                        "x": 484.56221443252787,
+                        "y": 248.24872157408203,
+                        "parameters": {
+                            "code": "define({\n\t// The input ports of the Javascript node, name of input and type\n\tinputs:{\n\t    // ExampleInput:'number',\n\t    // Available types are 'number', 'string', 'boolean', 'color' and 'signal',\n\t    mySignal:'signal',\n\t},\n\t\n\t// The output ports of the Javascript node, name of output and type\n\toutputs:{\n\t    // ExampleOutput:'string',\n\t},\n\t\n\t// All signal inputs need their own function with the corresponding name that\n\t// will be run when a signal is received on the input.\n\tmySignal:function(inputs,outputs) {\n\t\t// ...\n\t\tvar sound=new Audio('warning1.mp3');\n\t\tsound.play();\n\t\t//document.getElementByID('warning1.mp3').play();\n\t},\n\t\n\t// This function will be called when any of the inputs have changed\n\tchange:function(inputs,outputs) {\n\t\t// ...\n\t}\n})\n"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "mySignal",
+                                "plug": "input",
+                                "type": {
+                                    "name": "signal"
+                                },
+                                "group": "Inputs",
+                                "index": 2
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "e8831b2b-d84f-dc9d-cd4e-384069aadcef",
+                        "type": "Javascript2",
+                        "label": "QR_INOUT",
+                        "x": 482.3303838935117,
+                        "y": 572.6860821862671,
+                        "parameters": {
+                            "code": "define({\r\n    // The input ports of the Javascript node, name of input and type\r\n    inputs: {\r\n        // ExampleInput:'number',\r\n        // Available types are 'number', 'string', 'boolean', 'color' and 'signal',\r\n        mySignal: 'signal',\r\n        DOM: 'domelement',\r\n        scriptLoaded: \"string\",\r\n        text:'string',\r\n    },\r\n\r\n    // The output ports of the Javascript node, name of output and type\r\n    outputs: {\r\n        // ExampleOutput:'string',\r\n    },\r\n\r\n    // All signal inputs need their own function with the corresponding name that\r\n    // will be run when a signal is received on the input.\r\n    mySignal: function (inputs, outputs) {\r\n        // ...\r\n        var canvas = inputs.DOM;\r\n        var context = canvas.getContext(\"2d\");\r\n        \r\n        function readQr(video) {\r\n            return navigator.mediaDevices.getUserMedia({\r\n                audio: false,\r\n                video: {\r\n                    facingMode: {\r\n                        exact: \"environment\"\r\n                    }\r\n                }\r\n            })\r\n                .then((stream) => {\r\n                    video.srcObject = stream;\r\n                    const canvas = document.createElement(\"canvas\");\r\n                    canvas.width = 240;\r\n                    canvas.height = 320;\r\n\r\n                    return new Promise((res) => {\r\n                        const loop = setInterval(() => {\r\n                            canvas.getContext(\"2d\").drawImage(video, 0, 0, canvas.width, canvas.height);\r\n                            const img = canvas.getContext(\"2d\").getImageData(0, 0, canvas.width, canvas.height);\r\n                            const result = jsQR(img.data, img.width, img.height);\r\n                            if (result) {\r\n                                clearInterval(loop);\r\n                                video.srcObject.getTracks()[0].stop();\r\n                                video.srcObject = null;\r\n                                res(result);\r\n                            }\r\n                        }, 100);\r\n                    });\r\n                });\r\n        }\r\n\r\n        function writeQr(canvas, data) {\r\n            return new Promise((res, rej) => {\r\n                QRCode.toCanvas(canvas, data, {\r\n                    margin: 2,\r\n                    scale: 2\r\n                }, (err, tg) => !err ? res(tg) : rej(err));\r\n            });\r\n        }\r\n        \r\n         writeQr(canvas, inputs.text)\r\n\r\n        //document.getElementById(\"req\").addEventListener(\"change\", ({ target }) => writeQr(canvas, target.value));\r\n        //readQr(document.getElementById(\"cap\")).then(({ data }) => document.getElementById(\"res\").value = data);\r\n\r\n    },\r\n\r\n    // This function will be called when any of the inputs have changed\r\n    change: function (inputs, outputs) {\r\n        // ...\r\n    }\r\n})"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "mySignal",
+                                "plug": "input",
+                                "type": {
+                                    "name": "signal"
+                                },
+                                "group": "Inputs",
+                                "index": 2
+                            },
+                            {
+                                "name": "DOM",
+                                "plug": "input",
+                                "type": {
+                                    "name": "domelement"
+                                },
+                                "group": "Inputs",
+                                "index": 3
+                            },
+                            {
+                                "name": "scriptLoaded",
+                                "plug": "input",
+                                "type": {
+                                    "name": "string"
+                                },
+                                "group": "Inputs",
+                                "index": 4
+                            },
+                            {
+                                "name": "text",
+                                "plug": "input",
+                                "type": {
+                                    "name": "string"
+                                },
+                                "group": "Inputs",
+                                "index": 5
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "b20d45fa-24bf-dbfe-3800-5fe094850f98",
+                        "type": "Script Downloader",
+                        "x": 92.29982598833794,
+                        "y": 610.1033118414438,
+                        "parameters": {
+                            "input 0": "https://cdn.jsdelivr.net/npm/qrcode@latest/build/qrcode.min.js",
+                            "input 1": "https://cdn.jsdelivr.net/npm/jsqr@latest/dist/jsQR.min.js"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "97cbf508-d3f0-c837-ddf4-dad2118c3f14",
+                        "type": "Javascript2",
+                        "label": "QR_IN",
+                        "x": 497.1836878919272,
+                        "y": 872.3751277530174,
+                        "parameters": {
+                            "code": "define({\r\n    // The input ports of the Javascript node, name of input and type\r\n    inputs: {\r\n        // ExampleInput:'number',\r\n        // Available types are 'number', 'string', 'boolean', 'color' and 'signal',\r\n        mySignal: 'signal',\r\n        DOM: 'domelement',\r\n        scriptLoaded: \"string\",\r\n        text:\"string\",\r\n    },\r\n\r\n    // The output ports of the Javascript node, name of output and type\r\n    outputs: {\r\n        // ExampleOutput:'string',\r\n    },\r\n\r\n    // All signal inputs need their own function with the corresponding name that\r\n    // will be run when a signal is received on the input.\r\n    mySignal: function (inputs, outputs) {\r\n        // ...\r\n        var canvas = inputs.DOM;\r\n        var context = canvas.getContext(\"2d\");\r\n        \r\nfunction writeQr(canvas, data){\r\n    return new Promise((res, rej)=>{\r\n        QRCode.toCanvas(canvas, data, {\r\n            margin: 2,\r\n            scale: 2\r\n        }, (err, tg) => !err ? res(tg) : rej(err));\r\n    });\r\n}\r\n\r\nwriteQr(canvas, inputs.text);\r\n\r\n    },\r\n\r\n    // This function will be called when any of the inputs have changed\r\n    change: function (inputs, outputs) {\r\n        // ...\r\n    }\r\n})"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "mySignal",
+                                "plug": "input",
+                                "type": {
+                                    "name": "signal"
+                                },
+                                "group": "Inputs",
+                                "index": 2
+                            },
+                            {
+                                "name": "DOM",
+                                "plug": "input",
+                                "type": {
+                                    "name": "domelement"
+                                },
+                                "group": "Inputs",
+                                "index": 3
+                            },
+                            {
+                                "name": "scriptLoaded",
+                                "plug": "input",
+                                "type": {
+                                    "name": "string"
+                                },
+                                "group": "Inputs",
+                                "index": 4
+                            },
+                            {
+                                "name": "text",
+                                "plug": "input",
+                                "type": {
+                                    "name": "string"
+                                },
+                                "group": "Inputs",
+                                "index": 5
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "e94129b8-e444-c237-497a-0f3dafbeea7d",
+                        "type": "Script Downloader",
+                        "x": 102.69283544708173,
+                        "y": 920.7923574081943,
+                        "parameters": {
+                            "input 0": "https://cdn.jsdelivr.net/npm/qrcode@latest/build/qrcode.min.js"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "937a1351-7bcc-34f8-b4a2-cdb015ba9a18",
+                        "type": "Application Events",
+                        "x": 294.8340582285832,
+                        "y": 579.7738699558723,
+                        "parameters": {},
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "2c2e1fcd-b5f0-f85c-4a10-c57b8899de38",
+                        "type": "Application Events",
+                        "x": 301.3148398294163,
+                        "y": 882.6657636391175,
+                        "parameters": {},
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "8b8c660d-92df-e897-3b89-f676b3834b66",
+                        "type": "String",
+                        "x": 483.42220818102794,
+                        "y": 735.5117992814543,
+                        "parameters": {
+                            "value": "https://tensorx.co.jp/noodl-jp/"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    }
+                ]
+            }
+        }
+    ],
+    "settings": {},
+    "rootNodeId": "828439bf-8d89-0b04-1eb7-32887ea4c238",
+    "version": "1",
+    "metadata": {
+        "deviceSettings": {
+            "deviceTypes": [
+                {
+                    "name": "Web",
+                    "desc": "This is the default device that can be used to view the app from a browser.",
+                    "rootComponentPath": "/Main",
+                    "type": "Browser"
+                }
+            ]
+        }
+    }
+}

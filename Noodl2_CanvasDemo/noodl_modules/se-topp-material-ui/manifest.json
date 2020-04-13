@@ -1,0 +1,10 @@
+{
+  "main":"index.js",
+  "dependencies":[],
+  "browser": {
+    "head": [
+      "<link rel=\"stylesheet\" type=\"text/css\" href=\"./noodl_modules/se-topp-material-ui/material-iconfont/material-icons.css\">",
+      "<link rel=\"stylesheet\" type=\"text/css\" href=\"./noodl_modules/se-topp-material-ui/roboto/roboto.css\">"
+    ]
+  }
+}

@@ -1,0 +1,1921 @@
+{
+    "name": "N2_CSS",
+    "components": [
+        {
+            "name": "/01_Text",
+            "graph": {
+                "connections": [],
+                "roots": [
+                    {
+                        "id": "eacc74e7-4dce-2baf-354b-8070e2b2b872",
+                        "type": "Group",
+                        "x": 180.36037414199978,
+                        "y": 150.98731540684184,
+                        "parameters": {
+                            "backgroundColor": "#FFFFFF",
+                            "style": "{\n}"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": [
+                            {
+                                "id": "9b1204fe-d212-73ec-6430-6013af2fde5e",
+                                "type": "Group",
+                                "label": "Text_TextInput",
+                                "x": 20,
+                                "y": 46,
+                                "parameters": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "clip": false,
+                                    "scrollBehavior": "noodl",
+                                    "sizeMode": "contentHeight"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": [
+                                    {
+                                        "id": "ef86a1c3-fe09-a9c9-94b8-99626fcc9459",
+                                        "type": "Text",
+                                        "x": 20,
+                                        "y": 153,
+                                        "parameters": {
+                                            "style": "{\n}",
+                                            "fontFamily": "Arial Black",
+                                            "text": "通常のText"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "abbf8cc2-8978-8272-0433-4ab1f6a53b75",
+                                        "type": "Text",
+                                        "x": 20,
+                                        "y": 107,
+                                        "parameters": {
+                                            "style": "{\n    fontSize:\"25px\",\n    textShadow:\"1px 1px gray\"\n    //color:\"#ACB6E5\",\n    //background:\"linear-gradient(0deg, #ACB6E5, #86FDE8)\",\n    //background:\"background-clip: text\",\n    //background:\"text-fill-color: transparent\"\n}",
+                                            "fontFamily": "Arial Black",
+                                            "text": "影をつけたText"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "51c804eb-1184-4a62-a1fa-16505eacfd8a",
+                                        "type": "Text",
+                                        "x": 20,
+                                        "y": 153,
+                                        "parameters": {
+                                            "style": "{\n    fontSize:\"25px\",\n    textShadow:\"1px 1px gray\",\n    //color:\"#ACB6E5\",\n    background:\"linear-gradient(270deg, #BCC6F5, #96FDF8)\",\n    //background:\"background-clip: text\",\n    //background:\"text-fill-color: transparent\"\n}",
+                                            "fontFamily": "Arial Black",
+                                            "text": "背景色変更"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "58579916-078e-3a80-0200-67f2e5efa529",
+                                        "type": "Text",
+                                        "x": 20,
+                                        "y": 199,
+                                        "parameters": {
+                                            "sizeMode": "contentHeight",
+                                            "text": "グラデーション",
+                                            "color": "#171717",
+                                            "fontFamily": "Arial",
+                                            "fontSize": {
+                                                "value": 30,
+                                                "unit": "px"
+                                            },
+                                            "style": "{\n    background:\"linear-gradient(135deg, red 50px, yellow 70px, skyblue 100px)\"\n}"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "9f9f0ce3-d6a2-f640-3c98-b95be7e18f60",
+                                        "type": "Text",
+                                        "x": 20,
+                                        "y": 245,
+                                        "parameters": {
+                                            "fontSize": {
+                                                "value": 30,
+                                                "unit": "px"
+                                            },
+                                            "fontFamily": "Arial Black",
+                                            "style": "{\n  position:\"relative\",\n  width:\"300px\",\n  fontSize:\"40px\",\n  marginLeft:\"5%\",\n  textShadow:\"1px 1px 15px blue, 0 0 5em blue, 0 0 0.2em blue\"\n}",
+                                            "color": "#FFFFFF",
+                                            "text": "縁取り"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "467cd995-6bfa-35b9-41f1-a2bdf1b993da",
+                                        "type": "Text",
+                                        "x": 240.3619893424775,
+                                        "y": 478.96308739967606,
+                                        "parameters": {
+                                            "sizeMode": "contentSize",
+                                            "text": "回転移動",
+                                            "color": "#171717",
+                                            "fontFamily": "Arial",
+                                            "fontSize": {
+                                                "value": 30,
+                                                "unit": "px"
+                                            },
+                                            "style": "{\n    height:\"50px\",\n    backgroundColor:\"#f8dce0\",\n    transform:\"rotate(-5deg)\"\n}"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "43e496ba-44ec-c1ab-3f37-4818513a1f86",
+                                        "type": "Text Input",
+                                        "x": 243.48673455599652,
+                                        "y": 221.25721357284704,
+                                        "parameters": {
+                                            "style": "{\n}",
+                                            "fontSize": {
+                                                "value": 20,
+                                                "unit": "px"
+                                            },
+                                            "placeholder": "通常のTextInput"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "fbefbd4f-d854-5133-71cf-7bc59f07098f",
+                                        "type": "Text Input",
+                                        "x": 224.4414965679992,
+                                        "y": 236.2213291348449,
+                                        "parameters": {
+                                            "style": "{\n    //minWidth:64,\n    //border:\"double 10px #0000ff\"\n    padding:\"0 16px\",\n    //color:\"#A4A\",\n    margin:\"5px 10px\",\n    background:\"#EDA\"\n\n}",
+                                            "fontSize": {
+                                                "value": 20,
+                                                "unit": "px"
+                                            },
+                                            "placeholder": "背景色の設定"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "377a0f2a-05b4-96cb-aa32-21e88ae3be6a",
+                                "type": "Group",
+                                "label": "Border",
+                                "x": 20,
+                                "y": 383,
+                                "parameters": {
+                                    "scrollBehavior": "noodl",
+                                    "clip": true
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": [
+                                    {
+                                        "id": "91b0a692-c72e-462d-3f6f-628f72f38290",
+                                        "type": "Text",
+                                        "x": 20,
+                                        "y": 61,
+                                        "parameters": {
+                                            "sizeMode": "contentSize",
+                                            "text": "枠の指定",
+                                            "color": "#171717",
+                                            "fontFamily": "Arial",
+                                            "fontSize": {
+                                                "value": 30,
+                                                "unit": "px"
+                                            },
+                                            "style": "{\n    margin:\"10px 10px\",\n    padding:\"5px\",\n    border:\"medium solid #ff44ff\",\n    borderRadius:\"5px\"\n}"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "82a78e0e-7898-ddf9-0e27-d48ba6e4d136",
+                                        "type": "Text",
+                                        "x": 20,
+                                        "y": 107,
+                                        "parameters": {
+                                            "sizeMode": "contentSize",
+                                            "text": "2重線の枠",
+                                            "color": "#171717",
+                                            "fontFamily": "Arial",
+                                            "fontSize": {
+                                                "value": 30,
+                                                "unit": "px"
+                                            },
+                                            "style": "{\n    border:\"double 10px #3333ff\",\n    borderRadius:\"5px\"\n}"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "e2979e9a-23d5-8f96-2181-dd4174c2f49c",
+                                        "type": "Text",
+                                        "x": 20,
+                                        "y": 153,
+                                        "parameters": {
+                                            "sizeMode": "contentSize",
+                                            "text": "ボタン風ボーダ",
+                                            "color": "#171717",
+                                            "fontFamily": "Arial",
+                                            "fontSize": {
+                                                "value": 30,
+                                                "unit": "px"
+                                            },
+                                            "style": "{\n    border:\" inset 10px #33ee77\",\n    borderRadius:\"5px\"\n}"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "29222a44-563d-6b54-e96f-29534eb108cd",
+                                "type": "Group",
+                                "x": 20,
+                                "y": 674,
+                                "parameters": {
+                                    "borderRadius": 4,
+                                    "backgroundColor": "#6FFF36",
+                                    "width": {
+                                        "value": 70,
+                                        "unit": "%"
+                                    },
+                                    "height": {
+                                        "value": 40,
+                                        "unit": "px"
+                                    },
+                                    "marginTop": {
+                                        "value": 3,
+                                        "unit": "px"
+                                    },
+                                    "marginLeft": {
+                                        "value": 3,
+                                        "unit": "px"
+                                    },
+                                    "marginBottom": {
+                                        "value": 3,
+                                        "unit": "px"
+                                    },
+                                    "position": "relative",
+                                    "borderStyle": "solid",
+                                    "borderWidth": {
+                                        "value": 1,
+                                        "unit": "px"
+                                    },
+                                    "paddingLeft": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": [
+                                    {
+                                        "id": "72c37fa3-8682-7448-6af3-244385cacef9",
+                                        "type": "Text",
+                                        "x": 20,
+                                        "y": 46,
+                                        "parameters": {
+                                            "fontSize": {
+                                                "value": 30,
+                                                "unit": "px"
+                                            },
+                                            "color": "#FFFFFF",
+                                            "text": "通常のText"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "7c6a2915-2d6b-e5f2-ab1d-5ff35bf257b6",
+                                "type": "Group",
+                                "x": 20,
+                                "y": 766,
+                                "parameters": {
+                                    "borderRadius": 4,
+                                    "backgroundColor": "#6FFF36",
+                                    "width": {
+                                        "value": 70,
+                                        "unit": "%"
+                                    },
+                                    "height": {
+                                        "value": 40,
+                                        "unit": "px"
+                                    },
+                                    "marginTop": {
+                                        "value": 3,
+                                        "unit": "px"
+                                    },
+                                    "marginLeft": {
+                                        "value": 3,
+                                        "unit": "px"
+                                    },
+                                    "marginBottom": {
+                                        "value": 3,
+                                        "unit": "px"
+                                    },
+                                    "position": "relative",
+                                    "borderStyle": "solid",
+                                    "borderWidth": {
+                                        "value": 1,
+                                        "unit": "px"
+                                    },
+                                    "paddingLeft": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": [
+                                    {
+                                        "id": "508416c5-a0e2-df21-3009-f1d99ed811f3",
+                                        "type": "Text",
+                                        "x": 20,
+                                        "y": 46,
+                                        "parameters": {
+                                            "color": "#FFFFFF",
+                                            "style": "{\n    textShadow:\"1px 1px green\"\n}",
+                                            "fontSize": {
+                                                "value": 30,
+                                                "unit": "px"
+                                            },
+                                            "text": "影付きText"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "/03_BackgroundImage",
+            "graph": {
+                "connections": [],
+                "roots": [
+                    {
+                        "id": "a8b31213-0631-c2c0-b48f-8715a1f4dc80",
+                        "type": "Group",
+                        "x": 181.7012356124435,
+                        "y": 111,
+                        "parameters": {
+                            "backgroundColor": "#E7E9ED",
+                            "paddingTop": {
+                                "value": 5,
+                                "unit": "px"
+                            },
+                            "paddingLeft": {
+                                "value": 5,
+                                "unit": "px"
+                            },
+                            "paddingRight": {
+                                "value": 5,
+                                "unit": "px"
+                            },
+                            "paddingBottom": {
+                                "value": 5,
+                                "unit": "px"
+                            },
+                            "boxShadowEnabled": true,
+                            "boxShadowOffsetX": {
+                                "value": 3,
+                                "unit": "px"
+                            },
+                            "boxShadowOffsetY": {
+                                "value": 3,
+                                "unit": "px"
+                            }
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": [
+                            {
+                                "id": "b0365b27-e366-3e66-9127-b09cb957d565",
+                                "type": "Group",
+                                "label": "Background",
+                                "x": 20,
+                                "y": 46,
+                                "parameters": {
+                                    "style": "{\nbackgroundImage:\"repeating-linear-gradient(90deg,#dddddd 0%, #eeeeee 10%),repeating-linear-gradient(180deg,#eeeeee 0%, #dddddd 10%)\",\nbackgroundBlendMode:\"difference\"\n}",
+                                    "marginTop": {
+                                        "value": 2,
+                                        "unit": "px"
+                                    },
+                                    "boxShadowOffsetX": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    },
+                                    "boxShadowOffsetY": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    },
+                                    "marginRight": {
+                                        "value": 2,
+                                        "unit": "px"
+                                    },
+                                    "marginLeft": {
+                                        "value": 2,
+                                        "unit": "px"
+                                    },
+                                    "marginBottom": {
+                                        "value": 2,
+                                        "unit": "px"
+                                    },
+                                    "backgroundColor": "#FFFFFF"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": [
+                                    {
+                                        "id": "e00871cf-7afd-dc80-b948-5204ee996dda",
+                                        "type": "Drag",
+                                        "x": 221.7012356124435,
+                                        "y": 1138,
+                                        "parameters": {
+                                            "axis": "both",
+                                            "style": "{\n}"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": [
+                                            {
+                                                "id": "024a0bbf-fb3b-640f-23fb-2420776e026d",
+                                                "type": "Group",
+                                                "x": 20,
+                                                "y": 46,
+                                                "parameters": {
+                                                    "flexDirection": "row",
+                                                    "sizeMode": "contentHeight",
+                                                    "style": "{\n}",
+                                                    "width": {
+                                                        "value": 30,
+                                                        "unit": "%"
+                                                    },
+                                                    "alignX": "center"
+                                                },
+                                                "ports": [],
+                                                "dynamicports": [],
+                                                "children": [
+                                                    {
+                                                        "id": "4f0f85da-9b95-4fc1-5070-9a3e2bd48370",
+                                                        "type": "Group",
+                                                        "x": 20,
+                                                        "y": 46,
+                                                        "parameters": {
+                                                            "width": {
+                                                                "value": 40,
+                                                                "unit": "%"
+                                                            },
+                                                            "height": {
+                                                                "value": 100,
+                                                                "unit": "px"
+                                                            },
+                                                            "style": "{\n    backgroundImage:\"linear-gradient(45deg,#f4c14e, #d36950)\"\n}",
+                                                            "marginTop": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetX": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetY": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginRight": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginLeft": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginBottom": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowEnabled": true
+                                                        },
+                                                        "ports": [],
+                                                        "dynamicports": [],
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "id": "839704c8-5992-417c-ec0c-d6e060bf5214",
+                                                        "type": "Group",
+                                                        "x": 20,
+                                                        "y": 92,
+                                                        "parameters": {
+                                                            "width": {
+                                                                "value": 40,
+                                                                "unit": "%"
+                                                            },
+                                                            "height": {
+                                                                "value": 100,
+                                                                "unit": "px"
+                                                            },
+                                                            "style": "{\n    backgroundImage:\"linear-gradient(45deg,#f4c14e, #d36950)\"\n}",
+                                                            "marginTop": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetX": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetY": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginRight": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginLeft": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginBottom": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "borderRadius": 50,
+                                                            "alignX": "right",
+                                                            "position": "absolute"
+                                                        },
+                                                        "ports": [],
+                                                        "dynamicports": [],
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "fb917aa9-7f78-8058-77ba-fb1dbd841c58",
+                                        "type": "Drag",
+                                        "x": 221.7012356124435,
+                                        "y": 1322,
+                                        "parameters": {
+                                            "axis": "both",
+                                            "style": "{\n}"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": [
+                                            {
+                                                "id": "7bdd3d40-456d-82b6-fccf-bd37a077f254",
+                                                "type": "Group",
+                                                "x": 241.7012356124435,
+                                                "y": 1368,
+                                                "parameters": {
+                                                    "flexDirection": "row",
+                                                    "sizeMode": "contentHeight",
+                                                    "style": "{\n}",
+                                                    "width": {
+                                                        "value": 30,
+                                                        "unit": "%"
+                                                    },
+                                                    "alignX": "center"
+                                                },
+                                                "ports": [],
+                                                "dynamicports": [],
+                                                "children": [
+                                                    {
+                                                        "id": "2541f00a-648e-88ac-5552-f1e34e23a6d1",
+                                                        "type": "Group",
+                                                        "x": 20,
+                                                        "y": 46,
+                                                        "parameters": {
+                                                            "width": {
+                                                                "value": 40,
+                                                                "unit": "%"
+                                                            },
+                                                            "height": {
+                                                                "value": 100,
+                                                                "unit": "px"
+                                                            },
+                                                            "style": "{\n    backgroundImage:\"linear-gradient(#f4c14e, #d36950)\"\n}",
+                                                            "marginTop": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetX": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetY": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginRight": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginLeft": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginBottom": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            }
+                                                        },
+                                                        "ports": [],
+                                                        "dynamicports": [],
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "id": "92c567ff-090c-7aad-34e3-aeefdddc724e",
+                                                        "type": "Group",
+                                                        "x": 20,
+                                                        "y": 92,
+                                                        "parameters": {
+                                                            "width": {
+                                                                "value": 40,
+                                                                "unit": "%"
+                                                            },
+                                                            "height": {
+                                                                "value": 100,
+                                                                "unit": "px"
+                                                            },
+                                                            "style": "{\n    backgroundImage:\"linear-gradient(#f4c14e, #d36950)\"\n}",
+                                                            "marginTop": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetX": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetY": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginRight": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginLeft": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginBottom": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "borderRadius": 50,
+                                                            "alignX": "right",
+                                                            "position": "absolute"
+                                                        },
+                                                        "ports": [],
+                                                        "dynamicports": [],
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "8c68e98a-e066-ed9e-4a10-ccf0cb6011be",
+                                        "type": "Drag",
+                                        "x": 229.30038774650575,
+                                        "y": 213.3634336659569,
+                                        "parameters": {
+                                            "axis": "both",
+                                            "style": "{\n}"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": [
+                                            {
+                                                "id": "afd588db-b760-6148-d9ae-5aa49b292d78",
+                                                "type": "Group",
+                                                "x": 241.7012356124435,
+                                                "y": 985,
+                                                "parameters": {
+                                                    "flexDirection": "row",
+                                                    "sizeMode": "contentHeight",
+                                                    "style": "{\n}",
+                                                    "width": {
+                                                        "value": 30,
+                                                        "unit": "%"
+                                                    },
+                                                    "alignX": "center"
+                                                },
+                                                "ports": [],
+                                                "dynamicports": [],
+                                                "children": [
+                                                    {
+                                                        "id": "fcdbadb3-13fc-c331-84c0-fbd1083947d8",
+                                                        "type": "Group",
+                                                        "x": 20,
+                                                        "y": 46,
+                                                        "parameters": {
+                                                            "width": {
+                                                                "value": 40,
+                                                                "unit": "%"
+                                                            },
+                                                            "height": {
+                                                                "value": 100,
+                                                                "unit": "px"
+                                                            },
+                                                            "style": "{\n    backgroundImage:\"linear-gradient(#6fb8d9, #f4c14e, #d36950)\"\n}",
+                                                            "marginTop": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetX": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetY": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginRight": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginLeft": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginBottom": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            }
+                                                        },
+                                                        "ports": [],
+                                                        "dynamicports": [],
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "id": "b7442100-2ee1-b79b-4757-1bb0603947c3",
+                                                        "type": "Group",
+                                                        "x": 20,
+                                                        "y": 92,
+                                                        "parameters": {
+                                                            "width": {
+                                                                "value": 40,
+                                                                "unit": "%"
+                                                            },
+                                                            "height": {
+                                                                "value": 100,
+                                                                "unit": "px"
+                                                            },
+                                                            "style": "{\n    backgroundImage:\"linear-gradient(#6fb8d9, #f4c14e, #d36950)\"\n}",
+                                                            "marginTop": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetX": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetY": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginRight": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginLeft": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginBottom": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "borderRadius": 50,
+                                                            "alignX": "right",
+                                                            "position": "absolute"
+                                                        },
+                                                        "ports": [],
+                                                        "dynamicports": [],
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "c45685fd-f3dd-f37f-3daf-b03759bab44b",
+                                        "type": "Drag",
+                                        "x": 238.7012356124435,
+                                        "y": 212,
+                                        "parameters": {
+                                            "axis": "both",
+                                            "style": "{\n}"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": [
+                                            {
+                                                "id": "8e0abb62-5d5a-1b03-227e-4059c88d7b34",
+                                                "type": "Group",
+                                                "x": 20,
+                                                "y": 46,
+                                                "parameters": {
+                                                    "flexDirection": "row",
+                                                    "sizeMode": "contentHeight",
+                                                    "style": "{\n}",
+                                                    "width": {
+                                                        "value": 30,
+                                                        "unit": "%"
+                                                    },
+                                                    "alignX": "center"
+                                                },
+                                                "ports": [],
+                                                "dynamicports": [],
+                                                "children": [
+                                                    {
+                                                        "id": "d743a3dc-3cd8-1948-e6f2-2906903779fe",
+                                                        "type": "Group",
+                                                        "x": 20,
+                                                        "y": 46,
+                                                        "parameters": {
+                                                            "width": {
+                                                                "value": 40,
+                                                                "unit": "%"
+                                                            },
+                                                            "height": {
+                                                                "value": 100,
+                                                                "unit": "px"
+                                                            },
+                                                            "style": "{\n    //backgroundImage:\"repeating-linear-gradient(45deg, #f4c14e 0%　10%,　transparent 10% 20%)\"\n    backgroundImage:\"repeating-linear-gradient(#f4c14e 0%, #d36950 30%)\"\n}",
+                                                            "marginTop": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetX": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetY": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginRight": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginLeft": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginBottom": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            }
+                                                        },
+                                                        "ports": [],
+                                                        "dynamicports": [],
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "id": "af5fe775-40a1-b278-c115-ebdb007e9386",
+                                                        "type": "Group",
+                                                        "x": 20,
+                                                        "y": 92,
+                                                        "parameters": {
+                                                            "width": {
+                                                                "value": 40,
+                                                                "unit": "%"
+                                                            },
+                                                            "height": {
+                                                                "value": 100,
+                                                                "unit": "px"
+                                                            },
+                                                            "style": "{\n    backgroundImage:\"repeating-linear-gradient(#f4c14e 0%, #d36950 30%)\"\n}",
+                                                            "marginTop": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetX": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetY": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginRight": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginLeft": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginBottom": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "borderRadius": 50,
+                                                            "alignX": "right",
+                                                            "position": "absolute"
+                                                        },
+                                                        "ports": [],
+                                                        "dynamicports": [],
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "d093e18a-cc34-e6af-d32c-b8d6a7e60f5e",
+                                        "type": "Drag",
+                                        "x": 240.7012356124435,
+                                        "y": 205,
+                                        "parameters": {
+                                            "axis": "both",
+                                            "style": "{\n}"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": [
+                                            {
+                                                "id": "7f12e60f-037e-86ba-6ab4-3520d2aa65c7",
+                                                "type": "Group",
+                                                "x": 20,
+                                                "y": 46,
+                                                "parameters": {
+                                                    "flexDirection": "row",
+                                                    "sizeMode": "contentHeight",
+                                                    "style": "{\n}",
+                                                    "width": {
+                                                        "value": 30,
+                                                        "unit": "%"
+                                                    },
+                                                    "alignX": "center"
+                                                },
+                                                "ports": [],
+                                                "dynamicports": [],
+                                                "children": [
+                                                    {
+                                                        "id": "578964a9-d29c-e6bd-e9e8-412da79ddf61",
+                                                        "type": "Group",
+                                                        "x": 20,
+                                                        "y": 46,
+                                                        "parameters": {
+                                                            "width": {
+                                                                "value": 40,
+                                                                "unit": "%"
+                                                            },
+                                                            "height": {
+                                                                "value": 100,
+                                                                "unit": "px"
+                                                            },
+                                                            "style": "{\n    backgroundImage:\"repeating-radial-gradient(circle closest-side at 100px 200px, #f4c14e, #d36950)\"\n}",
+                                                            "marginTop": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetX": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetY": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginRight": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginLeft": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginBottom": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            }
+                                                        },
+                                                        "ports": [],
+                                                        "dynamicports": [],
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "id": "325c83ef-3f48-4651-437f-4fd700ed183e",
+                                                        "type": "Group",
+                                                        "x": 20,
+                                                        "y": 92,
+                                                        "parameters": {
+                                                            "width": {
+                                                                "value": 40,
+                                                                "unit": "%"
+                                                            },
+                                                            "height": {
+                                                                "value": 100,
+                                                                "unit": "px"
+                                                            },
+                                                            "style": "{\n    backgroundImage:\"repeating-radial-gradient(circle closest-side at 100px 200px, #f4c14e, #d36950)\"\n}",
+                                                            "marginTop": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetX": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetY": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginRight": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginLeft": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginBottom": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "borderRadius": 50,
+                                                            "alignX": "right",
+                                                            "position": "absolute"
+                                                        },
+                                                        "ports": [],
+                                                        "dynamicports": [],
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "/02_Shadow",
+            "graph": {
+                "connections": [],
+                "roots": [
+                    {
+                        "id": "f9f0cc4c-2fb2-5ec4-6d65-360df2ad0af4",
+                        "type": "Group",
+                        "x": 323,
+                        "y": 148,
+                        "parameters": {
+                            "backgroundColor": "#E7E9ED",
+                            "paddingTop": {
+                                "value": 5,
+                                "unit": "px"
+                            },
+                            "paddingLeft": {
+                                "value": 5,
+                                "unit": "px"
+                            },
+                            "paddingRight": {
+                                "value": 5,
+                                "unit": "px"
+                            },
+                            "paddingBottom": {
+                                "value": 5,
+                                "unit": "px"
+                            },
+                            "boxShadowEnabled": true,
+                            "boxShadowOffsetX": {
+                                "value": 3,
+                                "unit": "px"
+                            },
+                            "boxShadowOffsetY": {
+                                "value": 3,
+                                "unit": "px"
+                            }
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": [
+                            {
+                                "id": "d1403393-72a1-3331-825b-1a7ec4d7a56b",
+                                "type": "Group",
+                                "label": "Background",
+                                "x": 20,
+                                "y": 46,
+                                "parameters": {
+                                    "style": "{\n    backgroundImage:\"linear-gradient(45deg,#dddddd, #ffffff)\"\n//backgroundImage:\"repeating-linear-gradient(90deg,#dddddd 0%, #eeeeee 10%),repeating-linear-gradient(180deg,#eeeeee 0%, #dddddd 10%)\",\n//backgroundBlendMode:\"difference\"\n}",
+                                    "marginTop": {
+                                        "value": 2,
+                                        "unit": "px"
+                                    },
+                                    "boxShadowOffsetX": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    },
+                                    "boxShadowOffsetY": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    },
+                                    "marginRight": {
+                                        "value": 2,
+                                        "unit": "px"
+                                    },
+                                    "marginLeft": {
+                                        "value": 2,
+                                        "unit": "px"
+                                    },
+                                    "marginBottom": {
+                                        "value": 2,
+                                        "unit": "px"
+                                    },
+                                    "backgroundColor": "#D2F7D8",
+                                    "clip": false
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": [
+                                    {
+                                        "id": "a2435713-2493-2f40-7dc6-d0115c8447c5",
+                                        "type": "Drag",
+                                        "x": 221.7012356124435,
+                                        "y": 218,
+                                        "parameters": {
+                                            "axis": "both"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": [
+                                            {
+                                                "id": "85ba27be-566c-8507-2c6a-8607dea254e5",
+                                                "type": "Group",
+                                                "x": 241.7012356124435,
+                                                "y": 264,
+                                                "parameters": {
+                                                    "flexDirection": "row",
+                                                    "sizeMode": "contentHeight",
+                                                    "width": {
+                                                        "value": 30,
+                                                        "unit": "%"
+                                                    }
+                                                },
+                                                "ports": [],
+                                                "dynamicports": [],
+                                                "children": [
+                                                    {
+                                                        "id": "eb952d88-75b4-6db1-79a7-8927fda4ea54",
+                                                        "type": "Group",
+                                                        "x": 20,
+                                                        "y": 46,
+                                                        "parameters": {
+                                                            "width": {
+                                                                "value": 50,
+                                                                "unit": "px"
+                                                            },
+                                                            "height": {
+                                                                "value": 50,
+                                                                "unit": "px"
+                                                            },
+                                                            "style": "{\n    boxShadow:\"0 10px 25px 0 rgba(0, 0, 0, .5)\"\n}",
+                                                            "marginTop": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetX": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetY": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginRight": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginLeft": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginBottom": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "backgroundColor": "#FFFFFF"
+                                                        },
+                                                        "ports": [],
+                                                        "dynamicports": [],
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "id": "9ebde1b3-2a97-427d-5e4a-fac7b61cf66b",
+                                                        "type": "Group",
+                                                        "x": 20,
+                                                        "y": 92,
+                                                        "parameters": {
+                                                            "width": {
+                                                                "value": 50,
+                                                                "unit": "px"
+                                                            },
+                                                            "height": {
+                                                                "value": 50,
+                                                                "unit": "px"
+                                                            },
+                                                            "style": "{\n    boxShadow:\"0 10px 25px 0 rgba(0, 0, 0, .5)\"\n}",
+                                                            "marginTop": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetX": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetY": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginRight": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginLeft": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginBottom": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "borderRadius": 25,
+                                                            "backgroundColor": "#FFFFFF",
+                                                            "position": "absolute",
+                                                            "alignX": "right"
+                                                        },
+                                                        "ports": [],
+                                                        "dynamicports": [],
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "a11d57a4-42df-7f38-b81b-1676d0baec0c",
+                                        "type": "Drag",
+                                        "x": 221.7012356124435,
+                                        "y": 402,
+                                        "parameters": {
+                                            "axis": "both",
+                                            "style": "{\n}"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": [
+                                            {
+                                                "id": "0a5def54-f3f4-c11c-a9b3-bc999496c53c",
+                                                "type": "Group",
+                                                "x": 241.7012356124435,
+                                                "y": 448,
+                                                "parameters": {
+                                                    "flexDirection": "row",
+                                                    "sizeMode": "contentHeight",
+                                                    "width": {
+                                                        "value": 30,
+                                                        "unit": "%"
+                                                    },
+                                                    "alignX": "center"
+                                                },
+                                                "ports": [],
+                                                "dynamicports": [],
+                                                "children": [
+                                                    {
+                                                        "id": "f2cccce7-7937-677b-6997-9f3b677a3c84",
+                                                        "type": "Group",
+                                                        "x": 20,
+                                                        "y": 46,
+                                                        "parameters": {
+                                                            "backgroundColor": "#FFFFFF",
+                                                            "width": {
+                                                                "value": 50,
+                                                                "unit": "px"
+                                                            },
+                                                            "height": {
+                                                                "value": 50,
+                                                                "unit": "px"
+                                                            },
+                                                            "style": "{\n    boxShadow:\"inset 0 10px 25px 0 rgba(0, 0, 0, .5)\"\n}",
+                                                            "marginTop": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetX": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetY": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginRight": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginLeft": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginBottom": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            }
+                                                        },
+                                                        "ports": [],
+                                                        "dynamicports": [],
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "id": "fc8311f6-5873-5a34-b8d6-d1b9cfd424c1",
+                                                        "type": "Group",
+                                                        "x": 20,
+                                                        "y": 92,
+                                                        "parameters": {
+                                                            "backgroundColor": "#FFFFFF",
+                                                            "width": {
+                                                                "value": 50,
+                                                                "unit": "px"
+                                                            },
+                                                            "height": {
+                                                                "value": 50,
+                                                                "unit": "px"
+                                                            },
+                                                            "style": "{\n    boxShadow:\"inset 0 10px 25px 0 rgba(0, 0, 0, .5)\"\n}",
+                                                            "marginTop": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetX": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetY": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginRight": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginLeft": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginBottom": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "borderRadius": 25,
+                                                            "position": "absolute",
+                                                            "alignX": "right"
+                                                        },
+                                                        "ports": [],
+                                                        "dynamicports": [],
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "d5edcf11-519f-23b5-05c5-dee82ba70f62",
+                                        "type": "Drag",
+                                        "x": 221.7012356124435,
+                                        "y": 586,
+                                        "parameters": {
+                                            "axis": "both",
+                                            "style": "{\n}"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": [
+                                            {
+                                                "id": "2279d777-b4bf-2679-28bc-c3f78f50e5a3",
+                                                "type": "Group",
+                                                "x": 241.7012356124435,
+                                                "y": 632,
+                                                "parameters": {
+                                                    "flexDirection": "row",
+                                                    "sizeMode": "contentHeight",
+                                                    "style": "{\n}",
+                                                    "width": {
+                                                        "value": 30,
+                                                        "unit": "%"
+                                                    }
+                                                },
+                                                "ports": [],
+                                                "dynamicports": [],
+                                                "children": [
+                                                    {
+                                                        "id": "4a522af7-56e5-a835-de9d-77d9b315c72c",
+                                                        "type": "Group",
+                                                        "x": 20,
+                                                        "y": 46,
+                                                        "parameters": {
+                                                            "width": {
+                                                                "value": 50,
+                                                                "unit": "px"
+                                                            },
+                                                            "height": {
+                                                                "value": 50,
+                                                                "unit": "px"
+                                                            },
+                                                            "style": "{\n    transition:\"box-shadow 0.5s\",\n    boxShadow:\"10px 10px 30px rgba(18, 47, 61, 0.5),-10px -10px 30px rgba(248, 253, 255, 0.9),inset 10px 10px 30px transparent,inset -10px -10px 30px transparent\"\n}",
+                                                            "marginTop": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetX": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetY": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginRight": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginLeft": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginBottom": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            }
+                                                        },
+                                                        "ports": [],
+                                                        "dynamicports": [],
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "id": "10f3dab7-cc4a-7eab-5832-ebc763122ec4",
+                                                        "type": "Group",
+                                                        "x": 20,
+                                                        "y": 92,
+                                                        "parameters": {
+                                                            "width": {
+                                                                "value": 50,
+                                                                "unit": "px"
+                                                            },
+                                                            "height": {
+                                                                "value": 50,
+                                                                "unit": "px"
+                                                            },
+                                                            "style": "{\n    transition:\"box-shadow 0.5s\",\n    boxShadow:\"10px 10px 30px rgba(18, 47, 61, 0.5),-10px -10px 30px rgba(248, 253, 255, 0.9),inset 10px 10px 30px transparent,inset -10px -10px 30px transparent\"\n}",
+                                                            "marginTop": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetX": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetY": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginRight": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginLeft": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginBottom": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "borderRadius": 25,
+                                                            "alignX": "right",
+                                                            "position": "absolute"
+                                                        },
+                                                        "ports": [],
+                                                        "dynamicports": [],
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "a560801d-ede3-c3f6-cb61-466951597938",
+                                        "type": "Drag",
+                                        "x": 221.7012356124435,
+                                        "y": 770,
+                                        "parameters": {
+                                            "axis": "both",
+                                            "style": "{\n}"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": [
+                                            {
+                                                "id": "62cf2c7a-ed44-9db7-52c6-4381e7f2f250",
+                                                "type": "Group",
+                                                "x": 241.7012356124435,
+                                                "y": 816,
+                                                "parameters": {
+                                                    "flexDirection": "row",
+                                                    "sizeMode": "contentHeight",
+                                                    "alignX": "center",
+                                                    "width": {
+                                                        "value": 30,
+                                                        "unit": "%"
+                                                    }
+                                                },
+                                                "ports": [],
+                                                "dynamicports": [],
+                                                "children": [
+                                                    {
+                                                        "id": "16bbae18-91bb-9212-c715-758fe5ab8086",
+                                                        "type": "Group",
+                                                        "x": 20,
+                                                        "y": 46,
+                                                        "parameters": {
+                                                            "width": {
+                                                                "value": 50,
+                                                                "unit": "px"
+                                                            },
+                                                            "height": {
+                                                                "value": 50,
+                                                                "unit": "px"
+                                                            },
+                                                            "style": "{\n    boxShadow:\"0 20px 0 -10px rgb(198, 224, 231),0 40px 0 -20px rgb(105, 171, 209),0 60px 0 -30px rgb(27, 115, 165)\"\n}",
+                                                            "marginTop": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetX": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetY": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginRight": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginLeft": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginBottom": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "backgroundColor": "#FFFFFF"
+                                                        },
+                                                        "ports": [],
+                                                        "dynamicports": [],
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "id": "56a98be2-db22-daa7-5782-24fd467b3296",
+                                                        "type": "Group",
+                                                        "x": 20,
+                                                        "y": 92,
+                                                        "parameters": {
+                                                            "width": {
+                                                                "value": 50,
+                                                                "unit": "px"
+                                                            },
+                                                            "height": {
+                                                                "value": 50,
+                                                                "unit": "px"
+                                                            },
+                                                            "style": "{\n    boxShadow:\"0 20px 0 -10px rgb(198, 224, 231),0 40px 0 -20px rgb(105, 171, 209),0 60px 0 -30px rgb(27, 115, 165)\"\n}",
+                                                            "marginTop": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetX": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetY": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginRight": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginLeft": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginBottom": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "backgroundColor": "#FFFFFF",
+                                                            "borderRadius": 25,
+                                                            "position": "absolute",
+                                                            "alignX": "right"
+                                                        },
+                                                        "ports": [],
+                                                        "dynamicports": [],
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "4ee2af83-d9da-82b0-77af-fe58ec3329d3",
+                                        "type": "Drag",
+                                        "x": 221.7012356124435,
+                                        "y": 954,
+                                        "parameters": {
+                                            "axis": "both",
+                                            "style": "{\n}"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": [
+                                            {
+                                                "id": "db3462cb-d8c0-1a48-498d-dc087df3c4ad",
+                                                "type": "Group",
+                                                "x": 241.7012356124435,
+                                                "y": 1000,
+                                                "parameters": {
+                                                    "flexDirection": "row",
+                                                    "sizeMode": "contentHeight",
+                                                    "width": {
+                                                        "value": 30,
+                                                        "unit": "%"
+                                                    }
+                                                },
+                                                "ports": [],
+                                                "dynamicports": [],
+                                                "children": [
+                                                    {
+                                                        "id": "1b290f4a-6d24-a623-2a4a-17aa6f071b4e",
+                                                        "type": "Group",
+                                                        "x": 20,
+                                                        "y": 46,
+                                                        "parameters": {
+                                                            "width": {
+                                                                "value": 50,
+                                                                "unit": "px"
+                                                            },
+                                                            "height": {
+                                                                "value": 50,
+                                                                "unit": "px"
+                                                            },
+                                                            "style": "{\n    boxShadow:\"-10px 10px 25px rgba(230, 180, 15, 0.9),10px -10px 25px rgba(8, 131, 161, 0.9)\"    \n}",
+                                                            "marginTop": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetX": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetY": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginRight": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginLeft": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginBottom": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "backgroundColor": "#FFFFFF"
+                                                        },
+                                                        "ports": [],
+                                                        "dynamicports": [],
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "id": "f987c873-f458-a2d0-1cdd-fc82d4a400b4",
+                                                        "type": "Group",
+                                                        "x": 261.7012356124435,
+                                                        "y": 1092,
+                                                        "parameters": {
+                                                            "width": {
+                                                                "value": 50,
+                                                                "unit": "px"
+                                                            },
+                                                            "height": {
+                                                                "value": 50,
+                                                                "unit": "px"
+                                                            },
+                                                            "style": "{\n    boxShadow:\"-10px 10px 25px rgba(230, 180, 15, 0.9),10px -10px 25px rgba(8, 131, 161, 0.9)\"    \n}",
+                                                            "marginTop": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetX": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "boxShadowOffsetY": {
+                                                                "value": 5,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginRight": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginLeft": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "marginBottom": {
+                                                                "value": 2,
+                                                                "unit": "px"
+                                                            },
+                                                            "backgroundColor": "#FFFFFF",
+                                                            "borderRadius": 25,
+                                                            "position": "absolute",
+                                                            "alignX": "right"
+                                                        },
+                                                        "ports": [],
+                                                        "dynamicports": [],
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "3b2c0697-d72a-3eaf-7583-94c3bf4b3f53",
+                                        "type": "Drag",
+                                        "x": 20,
+                                        "y": 981,
+                                        "parameters": {
+                                            "axis": "both",
+                                            "style": "{\n}"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": [
+                                            {
+                                                "id": "0c551283-15fb-91fb-168e-baa340413a80",
+                                                "type": "Group",
+                                                "x": 20,
+                                                "y": 46,
+                                                "parameters": {
+                                                    "flexDirection": "row",
+                                                    "sizeMode": "contentHeight"
+                                                },
+                                                "ports": [],
+                                                "dynamicports": [],
+                                                "children": [
+                                                    {
+                                                        "id": "f5f4011a-67fe-7284-d5bd-50434c422e4b",
+                                                        "type": "Image",
+                                                        "x": 20,
+                                                        "y": 46,
+                                                        "parameters": {
+                                                            "src": "清水さん.png",
+                                                            "sizeMode": "contentHeight",
+                                                            "height": {
+                                                                "value": 30,
+                                                                "unit": "%"
+                                                            },
+                                                            "width": {
+                                                                "value": 30,
+                                                                "unit": "%"
+                                                            },
+                                                            "style": "{\n}"
+                                                        },
+                                                        "ports": [],
+                                                        "dynamicports": [],
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "id": "054d4cc0-656f-b38c-b4c5-709da9c6672f",
+                                                        "type": "Image",
+                                                        "x": 20,
+                                                        "y": 92,
+                                                        "parameters": {
+                                                            "src": "清水さん.png",
+                                                            "sizeMode": "contentHeight",
+                                                            "height": {
+                                                                "value": 30,
+                                                                "unit": "%"
+                                                            },
+                                                            "width": {
+                                                                "value": 30,
+                                                                "unit": "%"
+                                                            },
+                                                            "style": "{\n    boxShadow:\"0 10px 25px 0 rgba(0, 0, 0, .5)\"\n}"
+                                                        },
+                                                        "ports": [],
+                                                        "dynamicports": [],
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "id": "eec93db0-5aea-50a0-3040-028e7aca1b53",
+                                                        "type": "Image",
+                                                        "label": "Image",
+                                                        "x": 20,
+                                                        "y": 138,
+                                                        "parameters": {
+                                                            "src": "清水さん.png",
+                                                            "sizeMode": "contentHeight",
+                                                            "height": {
+                                                                "value": 30,
+                                                                "unit": "%"
+                                                            },
+                                                            "width": {
+                                                                "value": 30,
+                                                                "unit": "%"
+                                                            },
+                                                            "style": "{\n      filter:\"drop-shadow(0px 5px 10px rgb(0, 0, 0))\"\n}"
+                                                        },
+                                                        "ports": [],
+                                                        "dynamicports": [],
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "settings": {},
+    "rootNodeId": "eacc74e7-4dce-2baf-354b-8070e2b2b872",
+    "version": "1",
+    "metadata": {
+        "deviceSettings": {
+            "deviceTypes": [
+                {
+                    "name": "01_Text",
+                    "desc": "CSS Sample",
+                    "rootComponentPath": "/01_Text",
+                    "type": "Browser"
+                },
+                {
+                    "name": "02_Shadow",
+                    "desc": "CSS Sample",
+                    "rootComponentPath": "/02_Shadow",
+                    "type": "Browser"
+                },
+                {
+                    "name": "03_BackgroundImage",
+                    "desc": "CSS Sample",
+                    "rootComponentPath": "/03_BackgroundImage",
+                    "type": "Browser"
+                }
+            ]
+        }
+    }
+}
