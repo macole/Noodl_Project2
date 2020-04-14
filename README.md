@@ -1,13 +1,15 @@
-# Noodl 2 Library Demo
+# Noodl 2 Demo
 
-NoodlのVer2.0β版を使って作成した機能デモとなります
+NoodlのVer2を使って作成した機能デモとなります
 
-現在はUI/UXデザイン、ノンコーディングの機能のみ用いて実装しています
+- Noodl2 Lib Demo:UI/UXデザイン、ノンコーディングの機能
+- Noodl2 CSS Demo:CSS Styleを使った影、塗りつぶしのサンプル
+- Noodl2 Canvas:Canvasを使ったサンプル
 
 ## 使用方法
-1. /Noodl2_libDemo以下を対象PCにCloneしてください
-1. Noodl2を起動しProjects>Import exsisting projectからNoodl2_libDemoを選択してください
-1. LibraryからMaterial UI KitをAddしてください
+1. /Noodlを対象PCにCloneしてください
+1. Noodl2を起動しProjects>Import exsisting projectから対象のプロジェクトNoodl2_libDemo/Noodl2_CSSDemo/Noodl2_CanvasDemoを選択してください
+1. Material UI Kitを使ったデモではLibraryからMaterial UI KitをAddしてください
 
 ## 使用素材
 1. image表示のサンプルとしてユメヒコさんが生み出し、フリー素材化された清水さんを使用しています
@@ -32,4 +34,5 @@ NoodlとはIoT、API、ビジュアルデザインを同一プラットフォー
 1. IoT（マイコン接続）も可能
 1. ウェブアプリケーションまたはハイブリッドアプリとしてデプロイ可能
 
-
+## 解説
+各デモの解説を[Qiita](https://qiita.com/macole)に公開しています。
