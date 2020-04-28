@@ -1385,7 +1385,7 @@
                         "parameters": {
                             "code": "define({\n\t// The input ports of the Javascript node, name of input and type\n\tinputs:{\n\t    // ExampleInput:'number',\n\t    // Available types are 'number', 'string', 'boolean', 'color' and 'signal',\n\t    mySignal:'signal',\n\t    DOM:'domelement',\n\t    scriptLoaded:'string',\n\t},\n\t\n\t// The output ports of the Javascript node, name of output and type\n\toutputs:{\n\t    // ExampleOutput:'string',\n\t},\n\t\n\t// All signal inputs need their own function with the corresponding name that\n\t// will be run when a signal is received on the input.\n\tmySignal:function(inputs,outputs) {\n\t\t// ...\n\t\t//if (!inputs.scriptLoaded) {\n        //        return;\n        //}\n\n        // サイズを指定\n        const width = inputs.DOM.width;\n        const height = inputs.DOM.height;\n        let rot = 0;\n\n        // レンダラーを作成\n        const renderer = new THREE.WebGLRenderer({\n          //canvas: document.querySelector('#myCanvas')\n          canvas: inputs.DOM\n        });\n        renderer.setSize(width, height);\n        \n      console.log(\"Test2\");\n        // シーンを作成\n        const scene = new THREE.Scene();\n\n        // カメラを作成\n        const camera = new THREE.PerspectiveCamera(45, width / height);\n\n        // 直方体を作成\n        const material = new THREE.MeshNormalMaterial({ wireframe: true });\n        const geometry = new THREE.SphereGeometry(300, 30, 30);\n        const mesh = new THREE.Mesh(geometry, material);\n        scene.add(mesh);\n\n        tick();\n\n        // 毎フレーム時に実行されるループイベントです\n        function tick() {\n          rot += 0.5; // 毎フレーム角度を0.5度ずつ足していく\n          // ラジアンに変換する\n          const radian = (rot * Math.PI) / 180;\n          // 角度に応じてカメラの位置を設定\n          camera.position.x = 1000 * Math.sin(radian);\n          camera.position.z = 1000 * Math.cos(radian);\n          // 原点方向を見つめる\n          camera.lookAt(new THREE.Vector3(0, 0, 0));\n\n          // レンダリング\n          renderer.render(scene, camera);\n\n        requestAnimationFrame(tick);\n       }\n     // }\n\n\t},\n\t\n\t// This function will be called when any of the inputs have changed\n\tchange:function(inputs,outputs) {\n\t\t// ...\n\t\t      console.log(\"Test3\");\n\t}\n})\n",
                             "useExternalFile": "yes",
-                            "externalFile": "Three02.js"
+                            "externalFile": "Three03.js"
                         },
                         "ports": [],
                         "dynamicports": [
@@ -1436,7 +1436,6 @@
         }
     ],
     "settings": {},
-    "rootNodeId": "c8f7cb19-0ac2-a38d-46aa-dd5954bc6e70",
     "version": "1",
     "metadata": {
         "deviceSettings": {
