@@ -4,7 +4,8 @@ NoodlのVer2を使って作成した機能デモとなります
 
 - Noodl2 Lib Demo:UI/UXデザイン、ノンコーディングの機能
 - Noodl2 CSS Demo:CSS Styleを使った影、塗りつぶしのサンプル
-- Noodl2 Canvas:Canvasを使ったサンプル
+- Noodl2 CanvasDemo:Canvasを使ったサンプル
+- Noodl2 MicrobitThreeDemo:Microbitを使ったCanvasの操作
 
 ## 使用方法
 1. /Noodlを対象PCにCloneしてください
