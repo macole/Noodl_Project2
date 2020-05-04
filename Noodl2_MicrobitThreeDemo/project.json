@@ -181,8 +181,8 @@
                                     {
                                         "id": "bbc2195b-3677-678a-5a3d-99d4b042f672",
                                         "type": "Group",
-                                        "x": 543.4168098525615,
-                                        "y": 513.5532614898714,
+                                        "x": 20,
+                                        "y": 46,
                                         "parameters": {
                                             "backgroundColor": "#E8423A",
                                             "width": {
@@ -235,8 +235,8 @@
                                     {
                                         "id": "0c274605-69b9-e377-c701-09660d934d64",
                                         "type": "Group",
-                                        "x": 543.4168098525615,
-                                        "y": 641.5532614898714,
+                                        "x": 20,
+                                        "y": 174,
                                         "parameters": {
                                             "backgroundColor": "#A92952",
                                             "width": {
@@ -271,11 +271,11 @@
                                             {
                                                 "id": "db1620b9-aaae-9795-a7cd-e5e7e88ba617",
                                                 "type": "Text",
-                                                "x": 563.4168098525615,
-                                                "y": 723.5532614898714,
+                                                "x": 20,
+                                                "y": 82,
                                                 "parameters": {
                                                     "sizeMode": "contentSize",
-                                                    "text": "Disconect",
+                                                    "text": "Disconnect",
                                                     "position": "absolute",
                                                     "alignX": "center",
                                                     "alignY": "center"
