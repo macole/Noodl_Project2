@@ -1,0 +1,1135 @@
+{
+    "name": "Noodl2_WebRTCDemo",
+    "components": [
+        {
+            "name": "/Main",
+            "graph": {
+                "connections": [
+                    {
+                        "fromId": "048a8262-bbf0-3e2a-75c0-e2a5281a9aa5",
+                        "fromProperty": "loaded",
+                        "toId": "82278a09-3945-1834-b717-915fcc2c493c",
+                        "toProperty": "mySignal"
+                    },
+                    {
+                        "fromId": "151e42f0-217f-9484-8b91-60246e1bca49",
+                        "fromProperty": "onVideoElementCreated",
+                        "toId": "82278a09-3945-1834-b717-915fcc2c493c",
+                        "toProperty": "localVideo"
+                    },
+                    {
+                        "fromId": "d4fe1c35-d54d-2fdc-3f1a-5ec41e1e639a",
+                        "fromProperty": "onVideoElementCreated",
+                        "toId": "82278a09-3945-1834-b717-915fcc2c493c",
+                        "toProperty": "remoteVideo"
+                    },
+                    {
+                        "fromId": "055fa9f0-9836-658f-7fad-e86ceb37d8a4",
+                        "fromProperty": "click",
+                        "toId": "82278a09-3945-1834-b717-915fcc2c493c",
+                        "toProperty": "callTrigger"
+                    },
+                    {
+                        "fromId": "24ae7e88-7c2f-f8fb-fb5f-2f3abfc6d106",
+                        "fromProperty": "click",
+                        "toId": "82278a09-3945-1834-b717-915fcc2c493c",
+                        "toProperty": "closeTrigger"
+                    },
+                    {
+                        "fromId": "be96aef7-05a6-df49-ea5c-a34a5f2d452b",
+                        "fromProperty": "onTextChanged",
+                        "toId": "82278a09-3945-1834-b717-915fcc2c493c",
+                        "toProperty": "remoteId"
+                    },
+                    {
+                        "fromId": "17d1033a-16cb-dd2a-4a32-d1a463290ba9",
+                        "fromProperty": "msg",
+                        "toId": "1f5e3b2d-5044-da32-0e99-2967c4ebe44b",
+                        "toProperty": "startValue"
+                    },
+                    {
+                        "fromId": "ef466a7a-de4c-e071-2cfc-9bc43893a960",
+                        "fromProperty": "onTextChanged",
+                        "toId": "6937876e-8ce4-86ca-3147-603755378805",
+                        "toProperty": "msg"
+                    },
+                    {
+                        "fromId": "82278a09-3945-1834-b717-915fcc2c493c",
+                        "fromProperty": "localId",
+                        "toId": "025e1340-2501-a3c0-bcdd-fbfb216a9e4b",
+                        "toProperty": "startValue"
+                    }
+                ],
+                "roots": [
+                    {
+                        "id": "db1e9764-cb8f-148d-387f-7e3adaa4ab2f",
+                        "type": "Group",
+                        "x": 435.5975606345517,
+                        "y": 154,
+                        "parameters": {
+                            "backgroundColor": "#FFFFFF"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": [
+                            {
+                                "id": "fa35acd6-ea57-2a55-512a-8b107f9e55e5",
+                                "type": "Text",
+                                "x": 20,
+                                "y": 46,
+                                "parameters": {
+                                    "sizeMode": "contentHeight",
+                                    "text": "P2P Media example on Noodl",
+                                    "color": "#171717",
+                                    "fontFamily": "Arial",
+                                    "fontSize": {
+                                        "value": 30,
+                                        "unit": "px"
+                                    },
+                                    "transformRotation": {
+                                        "value": 0,
+                                        "unit": "deg"
+                                    },
+                                    "marginLeft": {
+                                        "value": 10,
+                                        "unit": "px"
+                                    },
+                                    "marginRight": {
+                                        "value": 10,
+                                        "unit": "px"
+                                    },
+                                    "textAlign": "center",
+                                    "marginTop": {
+                                        "value": 0,
+                                        "unit": "px"
+                                    },
+                                    "marginBottom": {
+                                        "value": 0,
+                                        "unit": "px"
+                                    },
+                                    "lineHeight": 2
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "eec48b31-4c88-acf5-1439-10d4e11f5b1c",
+                                "type": "Text",
+                                "x": 20,
+                                "y": 92,
+                                "parameters": {
+                                    "sizeMode": "contentHeight",
+                                    "text": "通話時は相手のPeerIDを入力してください",
+                                    "transformRotation": {
+                                        "value": 0,
+                                        "unit": "deg"
+                                    },
+                                    "marginLeft": {
+                                        "value": 10,
+                                        "unit": "px"
+                                    },
+                                    "marginRight": {
+                                        "value": 10,
+                                        "unit": "px"
+                                    },
+                                    "textAlign": "center",
+                                    "lineHeight": 2
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "6213d9f3-5bb5-c741-cb5a-e6438fe0c407",
+                                "type": "Group",
+                                "x": 20,
+                                "y": 138,
+                                "parameters": {
+                                    "sizeMode": "contentHeight",
+                                    "height": {
+                                        "value": 200,
+                                        "unit": "px"
+                                    },
+                                    "width": {
+                                        "value": 60,
+                                        "unit": "%"
+                                    },
+                                    "alignX": "center",
+                                    "boxShadowEnabled": true,
+                                    "marginTop": {
+                                        "value": 3,
+                                        "unit": "px"
+                                    },
+                                    "marginBottom": {
+                                        "value": 3,
+                                        "unit": "px"
+                                    },
+                                    "marginRight": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    },
+                                    "marginLeft": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    },
+                                    "borderRadius": 5,
+                                    "alignY": "center",
+                                    "flexDirection": "column"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": [
+                                    {
+                                        "id": "d4fe1c35-d54d-2fdc-3f1a-5ec41e1e639a",
+                                        "type": "Video",
+                                        "label": "RemoteVideo",
+                                        "x": 20,
+                                        "y": 46,
+                                        "parameters": {
+                                            "sizeMode": "contentHeight",
+                                            "height": {
+                                                "value": 100,
+                                                "unit": "%"
+                                            },
+                                            "poster": "shimizusan_sit.png",
+                                            "width": {
+                                                "value": 60,
+                                                "unit": "%"
+                                            },
+                                            "alignX": "center",
+                                            "marginTop": {
+                                                "value": 10,
+                                                "unit": "px"
+                                            },
+                                            "style": "{\r\n    boxShadow:\"0 10px 25px 0 rgba(0, 0, 0, .5)\"\r\n}"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "151e42f0-217f-9484-8b91-60246e1bca49",
+                                        "type": "Video",
+                                        "label": "LocalVideo",
+                                        "x": 20,
+                                        "y": 143,
+                                        "parameters": {
+                                            "sizeMode": "contentHeight",
+                                            "height": {
+                                                "value": 100,
+                                                "unit": "%"
+                                            },
+                                            "poster": "shimizusan_sit.png",
+                                            "width": {
+                                                "value": 40,
+                                                "unit": "%"
+                                            },
+                                            "position": "relative",
+                                            "alignX": "center",
+                                            "marginTop": {
+                                                "value": 10,
+                                                "unit": "px"
+                                            },
+                                            "marginBottom": {
+                                                "value": 10,
+                                                "unit": "px"
+                                            },
+                                            "style": "{\r\n    boxShadow:\"0 10px 25px 0 rgba(0, 0, 0, .5)\"\r\n}"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "2321f088-b0ea-7b87-4975-5e4dd8163f51",
+                                        "type": "Drag",
+                                        "x": 20,
+                                        "y": 240,
+                                        "parameters": {
+                                            "axis": "both",
+                                            "useParentBounds": false
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": [
+                                            {
+                                                "id": "0b78ba85-206f-6ecf-1e23-39a2da3ae012",
+                                                "type": "Image",
+                                                "x": 20,
+                                                "y": 46,
+                                                "parameters": {
+                                                    "src": "shimizu.png",
+                                                    "sizeMode": "contentHeight",
+                                                    "width": {
+                                                        "value": 30,
+                                                        "unit": "%"
+                                                    },
+                                                    "position": "absolute",
+                                                    "alignX": "right",
+                                                    "alignY": "center"
+                                                },
+                                                "ports": [],
+                                                "dynamicports": [],
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "2a53c9d6-3de0-6748-2da2-d97a8894712e",
+                                "type": "Group",
+                                "x": 20,
+                                "y": 352,
+                                "parameters": {
+                                    "scrollDirection": "x",
+                                    "sizeMode": "contentHeight",
+                                    "clip": false,
+                                    "marginTop": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    },
+                                    "marginBottom": 0
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": [
+                                    {
+                                        "id": "4db0cfef-4601-a7ee-3a60-777bbcbac150",
+                                        "type": "Group",
+                                        "x": 20,
+                                        "y": 46,
+                                        "parameters": {
+                                            "flexDirection": "row",
+                                            "scrollDirection": "x",
+                                            "sizeMode": "contentSize",
+                                            "clip": false,
+                                            "marginTop": {
+                                                "value": 5,
+                                                "unit": "px"
+                                            },
+                                            "marginBottom": 0,
+                                            "alignX": "center"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": [
+                                            {
+                                                "id": "07b84a69-1ecd-0ff5-2182-9e0b0c6d46e8",
+                                                "type": "Text",
+                                                "x": 515.5308525767348,
+                                                "y": 589.2251008909286,
+                                                "parameters": {
+                                                    "sizeMode": "contentSize",
+                                                    "text": "あなたのID：",
+                                                    "transformRotation": {
+                                                        "value": 0,
+                                                        "unit": "deg"
+                                                    },
+                                                    "textAlign": "initial",
+                                                    "marginLeft": {
+                                                        "value": 10,
+                                                        "unit": "px"
+                                                    },
+                                                    "marginRight": {
+                                                        "value": 10,
+                                                        "unit": "px"
+                                                    }
+                                                },
+                                                "ports": [],
+                                                "dynamicports": [],
+                                                "children": []
+                                            },
+                                            {
+                                                "id": "025e1340-2501-a3c0-bcdd-fbfb216a9e4b",
+                                                "type": "Text Input",
+                                                "x": 20,
+                                                "y": 92,
+                                                "parameters": {
+                                                    "paddingTop": {
+                                                        "value": 4,
+                                                        "unit": "px"
+                                                    },
+                                                    "paddingBottom": {
+                                                        "value": 4,
+                                                        "unit": "px"
+                                                    },
+                                                    "paddingLeft": {
+                                                        "value": 5,
+                                                        "unit": "px"
+                                                    },
+                                                    "paddingRight": {
+                                                        "value": 5,
+                                                        "unit": "px"
+                                                    },
+                                                    "fontSize": {
+                                                        "value": 20,
+                                                        "unit": "px"
+                                                    },
+                                                    "placeholder": "接続後にIDが表示されます",
+                                                    "sizeMode": "contentHeight"
+                                                },
+                                                "ports": [],
+                                                "dynamicports": [],
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "4f0c7699-521d-6fa8-a9a1-89fd76ac0eca",
+                                        "type": "Group",
+                                        "x": 20,
+                                        "y": 220,
+                                        "parameters": {
+                                            "flexDirection": "row",
+                                            "scrollDirection": "x",
+                                            "sizeMode": "contentSize",
+                                            "clip": false,
+                                            "marginTop": {
+                                                "value": 5,
+                                                "unit": "px"
+                                            },
+                                            "marginBottom": 0,
+                                            "style": "{\n}",
+                                            "alignX": "center"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": [
+                                            {
+                                                "id": "be96aef7-05a6-df49-ea5c-a34a5f2d452b",
+                                                "type": "Text Input",
+                                                "x": 20,
+                                                "y": 46,
+                                                "parameters": {
+                                                    "borderWidth": {
+                                                        "value": 1,
+                                                        "unit": "px"
+                                                    },
+                                                    "paddingTop": {
+                                                        "value": 4,
+                                                        "unit": "px"
+                                                    },
+                                                    "paddingBottom": {
+                                                        "value": 4,
+                                                        "unit": "px"
+                                                    },
+                                                    "paddingLeft": {
+                                                        "value": 5,
+                                                        "unit": "px"
+                                                    },
+                                                    "paddingRight": {
+                                                        "value": 5,
+                                                        "unit": "px"
+                                                    },
+                                                    "fontSize": {
+                                                        "value": 20,
+                                                        "unit": "px"
+                                                    },
+                                                    "sizeMode": "contentSize",
+                                                    "placeholder": "通信相手のID..."
+                                                },
+                                                "ports": [],
+                                                "dynamicports": [],
+                                                "children": []
+                                            },
+                                            {
+                                                "id": "055fa9f0-9836-658f-7fad-e86ceb37d8a4",
+                                                "type": "/Button",
+                                                "x": 20,
+                                                "y": 128,
+                                                "parameters": {
+                                                    "text": "Call"
+                                                },
+                                                "ports": [],
+                                                "dynamicports": [],
+                                                "children": []
+                                            },
+                                            {
+                                                "id": "24ae7e88-7c2f-f8fb-fb5f-2f3abfc6d106",
+                                                "type": "/Button",
+                                                "x": 20,
+                                                "y": 174,
+                                                "parameters": {
+                                                    "text": "Close"
+                                                },
+                                                "ports": [],
+                                                "dynamicports": [],
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "4d29d8bb-030d-e137-da2b-a5ac9b7f7323",
+                                "type": "Group",
+                                "x": 20,
+                                "y": 890,
+                                "parameters": {
+                                    "flexDirection": "row",
+                                    "scrollDirection": "x",
+                                    "sizeMode": "contentSize",
+                                    "clip": false,
+                                    "marginTop": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    },
+                                    "marginBottom": 0,
+                                    "style": "{\n}",
+                                    "alignX": "center"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": [
+                                    {
+                                        "id": "20a8055a-0154-5521-9e86-7cd7e8422199",
+                                        "type": "Text",
+                                        "x": 471.8328445613407,
+                                        "y": 1087.5746918621098,
+                                        "parameters": {
+                                            "text": "MQTTメッセージ"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "ef466a7a-de4c-e071-2cfc-9bc43893a960",
+                                        "type": "Text Input",
+                                        "x": 20,
+                                        "y": 46,
+                                        "parameters": {
+                                            "borderWidth": {
+                                                "value": 1,
+                                                "unit": "px"
+                                            },
+                                            "paddingTop": {
+                                                "value": 4,
+                                                "unit": "px"
+                                            },
+                                            "paddingBottom": {
+                                                "value": 4,
+                                                "unit": "px"
+                                            },
+                                            "paddingLeft": {
+                                                "value": 5,
+                                                "unit": "px"
+                                            },
+                                            "paddingRight": {
+                                                "value": 5,
+                                                "unit": "px"
+                                            },
+                                            "fontSize": {
+                                                "value": 20,
+                                                "unit": "px"
+                                            },
+                                            "marginLeft": {
+                                                "value": 10,
+                                                "unit": "px"
+                                            },
+                                            "marginRight": {
+                                                "value": 10,
+                                                "unit": "px"
+                                            },
+                                            "placeholder": "送信フィールド"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "1f5e3b2d-5044-da32-0e99-2967c4ebe44b",
+                                        "type": "Text Input",
+                                        "x": 20,
+                                        "y": 128,
+                                        "parameters": {
+                                            "borderWidth": {
+                                                "value": 1,
+                                                "unit": "px"
+                                            },
+                                            "paddingTop": {
+                                                "value": 4,
+                                                "unit": "px"
+                                            },
+                                            "paddingBottom": {
+                                                "value": 4,
+                                                "unit": "px"
+                                            },
+                                            "paddingLeft": {
+                                                "value": 5,
+                                                "unit": "px"
+                                            },
+                                            "paddingRight": {
+                                                "value": 5,
+                                                "unit": "px"
+                                            },
+                                            "fontSize": {
+                                                "value": 20,
+                                                "unit": "px"
+                                            },
+                                            "marginLeft": {
+                                                "value": 10,
+                                                "unit": "px"
+                                            },
+                                            "marginRight": {
+                                                "value": 10,
+                                                "unit": "px"
+                                            },
+                                            "placeholder": "受信フィールド"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "048a8262-bbf0-3e2a-75c0-e2a5281a9aa5",
+                        "type": "Script Downloader",
+                        "x": -86.53364780185501,
+                        "y": 654.7529279679545,
+                        "parameters": {
+                            "input 0": "//cdn.webrtc.ecl.ntt.com/skyway-latest.js",
+                            "input 1": "key.js"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "82278a09-3945-1834-b717-915fcc2c493c",
+                        "type": "Javascript2",
+                        "x": 135.87044276120812,
+                        "y": 617.4566420544753,
+                        "parameters": {
+                            "code": "define({\r\n  inputs: {\r\n    mySignal: 'signal',\r\n    SKYWAY_KEY: 'string',\r\n    callTrigger: 'signal',\r\n    closeTrigger: 'signal',\r\n    localVideo: 'domelement',\r\n    remoteVideo: 'domelement',\r\n    remoteId: 'string',\r\n  },\r\n\r\n  outputs: {\r\n    localId: 'string',\r\n  },\r\n\r\n  //const mediaConnection;\r\n  closeTrigger: function (inputs, outputs) {\r\n    mediaCon.close(true);\r\n  },\r\n\r\n  callTrigger: function (inputs, outputs) {\r\n    console.log(\"call\");\r\n    if (!peer.open) {\r\n      return;\r\n    }\r\n\r\n    const mediaConnection = peer.call(inputs.remoteId, localStr);\r\n    mediaCon = mediaConnection;\r\n\r\n    mediaConnection.on('stream', async stream => {\r\n      // Render remote stream for caller\r\n      inputs.remoteVideo.srcObjec = stream;\r\n      inputs.remoteVideo.playsInline = true;\r\n      await inputs.remoteVideo.play().catch(console.error);\r\n      console.log(\"--StartPlay\");\r\n    });\r\n\r\n    mediaConnection.once('close', () => {\r\n\r\n      inputs.remoteVideo.srcObject.getTracks().forEach(track => track.stop());\r\n      inputs.remoteVideo.srcObject = null;\r\n    });\r\n  },\r\n\r\n  // All signal inputs need their own function with the corresponding name that\r\n  // will be run when a signal is received on the input.\r\n  mySignal: function (inputs, outputs) {\r\n    let Peer = window.Peer;\r\n    let self = this;\r\n\r\n    (async function main() {\r\n      const localStream = await navigator.mediaDevices\r\n        .getUserMedia({\r\n          audio: true,\r\n          video: true,\r\n        })\r\n        .catch(console.error);\r\n        localStr=localStream;\r\n\r\n      // Render local stream\r\n      inputs.localVideo.muted = true;\r\n      inputs.localVideo.srcObject = localStream;\r\n      inputs.localVideo.playsInline = true;\r\n      await inputs.localVideo.play().catch(console.error);\r\n      const peer = (window.peer = new Peer({\r\n        key: inputs.SKYWAY_KEY,\r\n        debug: 3,\r\n      }));\r\n      pee=peer;\r\n\r\n      // Register callee handler\r\n      peer.once('open', id => {\r\n        outputs.localId = id;\r\n        self.flagOutputDirty(\"localId\");\r\n        //self.runNextFrame();\r\n      });\r\n\r\n      // Register caller handler\r\n      peer.on('call', mediaConnection => {\r\n        mediaCon = mediaConnection;\r\n        mediaConnection.answer(localStream);\r\n\r\n        mediaConnection.on('stream', async stream => {\r\n          // Render remote stream for callee\r\n          inputs.remoteVideo.srcObject = stream;\r\n          inputs.remoteVideo.playsInline = true;\r\n          inputs.remoteVideo.playsInline = true;\r\n          await inputs.remoteVideo.play().catch(console.error);\r\n        });\r\n\r\n        mediaConnection.once('close', () => {\r\n          inputs.remoteVideo.srcObject.getTracks().forEach(track => track.stop());\r\n          inputs.remoteVideo.srcObject = null;\r\n        });\r\n      });\r\n\r\n      peer.on('error', console.error);\r\n\r\n    })();\r\n  },\r\n\r\n  // This function will be called when any of the inputs have changed\r\n  change: function (inputs, outputs) {\r\n    // ...\r\n  }\r\n})\r\n\r\nlet mediaCon;\r\nlet localStr;\r\n\r\n\r\n",
+                            "SKYWAY_KEY": "b902084a-8bdc-472b-b554-ab6e293217ef",
+                            "useExternalFile": "no"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "mySignal",
+                                "plug": "input",
+                                "type": {
+                                    "name": "signal"
+                                },
+                                "group": "Inputs",
+                                "index": 2
+                            },
+                            {
+                                "name": "SKYWAY_KEY",
+                                "plug": "input",
+                                "type": {
+                                    "name": "string"
+                                },
+                                "group": "Inputs",
+                                "index": 3
+                            },
+                            {
+                                "name": "callTrigger",
+                                "plug": "input",
+                                "type": {
+                                    "name": "signal"
+                                },
+                                "group": "Inputs",
+                                "index": 4
+                            },
+                            {
+                                "name": "closeTrigger",
+                                "plug": "input",
+                                "type": {
+                                    "name": "signal"
+                                },
+                                "group": "Inputs",
+                                "index": 5
+                            },
+                            {
+                                "name": "localVideo",
+                                "plug": "input",
+                                "type": {
+                                    "name": "domelement"
+                                },
+                                "group": "Inputs",
+                                "index": 6
+                            },
+                            {
+                                "name": "remoteVideo",
+                                "plug": "input",
+                                "type": {
+                                    "name": "domelement"
+                                },
+                                "group": "Inputs",
+                                "index": 7
+                            },
+                            {
+                                "name": "remoteId",
+                                "plug": "input",
+                                "type": {
+                                    "name": "string"
+                                },
+                                "group": "Inputs",
+                                "index": 8
+                            },
+                            {
+                                "name": "localId",
+                                "type": {
+                                    "name": "string"
+                                },
+                                "plug": "output",
+                                "group": "Outputs",
+                                "index": 9
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "6937876e-8ce4-86ca-3147-603755378805",
+                        "type": "Send Message",
+                        "x": 120.06886986602547,
+                        "y": 1077.8886505196842,
+                        "parameters": {
+                            "topic": "p2pMedia",
+                            "publishOnInputsChanged": true
+                        },
+                        "ports": [
+                            {
+                                "name": "msg",
+                                "plug": "input",
+                                "type": {
+                                    "name": "*",
+                                    "allowConnectionOnly": true
+                                },
+                                "group": "Payload",
+                                "index": 1
+                            }
+                        ],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "17d1033a-16cb-dd2a-4a32-d1a463290ba9",
+                        "type": "Receive Message",
+                        "x": 121.87934432417757,
+                        "y": 1173.25182832361,
+                        "parameters": {
+                            "topic": "p2pMedia"
+                        },
+                        "ports": [
+                            {
+                                "name": "msg",
+                                "plug": "outputs",
+                                "type": {
+                                    "name": "*",
+                                    "allowConnectionOnly": true
+                                },
+                                "group": "Payload",
+                                "index": 1
+                            }
+                        ],
+                        "dynamicports": [],
+                        "children": []
+                    }
+                ]
+            }
+        },
+        {
+            "name": "/Button",
+            "graph": {
+                "connections": [
+                    {
+                        "fromId": "03dc49df-55bc-489f-3345-3ca081e9d6cc",
+                        "fromProperty": "text",
+                        "toId": "ef83832f-c0a4-dc5a-f99b-242c6eae7a39",
+                        "toProperty": "text"
+                    },
+                    {
+                        "fromId": "ef83832f-c0a4-dc5a-f99b-242c6eae7a39",
+                        "fromProperty": "onClick",
+                        "toId": "1bc27790-a405-3e1c-6afb-dedfc145eac7",
+                        "toProperty": "click"
+                    },
+                    {
+                        "fromId": "c3d39040-3ce3-bd2c-7c37-3715c9bd49e3",
+                        "fromProperty": "result",
+                        "toId": "232a80af-ec78-0203-720c-4542dc0b7e17",
+                        "toProperty": "backgroundColor"
+                    },
+                    {
+                        "fromId": "49ac8727-ae36-a07b-c493-ff1bb84e5475",
+                        "fromProperty": "color",
+                        "toId": "c3d39040-3ce3-bd2c-7c37-3715c9bd49e3",
+                        "toProperty": "blendValue"
+                    },
+                    {
+                        "fromId": "ef83832f-c0a4-dc5a-f99b-242c6eae7a39",
+                        "fromProperty": "onClick",
+                        "toId": "49ac8727-ae36-a07b-c493-ff1bb84e5475",
+                        "toProperty": "to-on"
+                    },
+                    {
+                        "fromId": "b8a4c742-b69a-f9c1-33eb-949b5db40362",
+                        "fromProperty": "timerFinished",
+                        "toId": "49ac8727-ae36-a07b-c493-ff1bb84e5475",
+                        "toProperty": "to-off"
+                    },
+                    {
+                        "fromId": "49ac8727-ae36-a07b-c493-ff1bb84e5475",
+                        "fromProperty": "at-on",
+                        "toId": "b8a4c742-b69a-f9c1-33eb-949b5db40362",
+                        "toProperty": "start"
+                    }
+                ],
+                "roots": [
+                    {
+                        "id": "232a80af-ec78-0203-720c-4542dc0b7e17",
+                        "type": "Group",
+                        "x": 718,
+                        "y": -11,
+                        "parameters": {
+                            "borderRadius": 15,
+                            "backgroundColor": "#F0D53E",
+                            "borderStyle": "solid",
+                            "sizeMode": "contentHeight",
+                            "borderWidth": {
+                                "value": 1,
+                                "unit": "px"
+                            },
+                            "paddingTop": {
+                                "value": 2,
+                                "unit": "px"
+                            },
+                            "paddingLeft": {
+                                "value": 5,
+                                "unit": "px"
+                            },
+                            "marginRight": {
+                                "value": 5,
+                                "unit": "px"
+                            },
+                            "paddingRight": {
+                                "value": 5,
+                                "unit": "px"
+                            },
+                            "paddingBottom": {
+                                "value": 2,
+                                "unit": "px"
+                            },
+                            "marginTop": {
+                                "value": 0,
+                                "unit": "px"
+                            },
+                            "marginLeft": {
+                                "value": 5,
+                                "unit": "px"
+                            },
+                            "width": {
+                                "value": 80,
+                                "unit": "px"
+                            }
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": [
+                            {
+                                "id": "ef83832f-c0a4-dc5a-f99b-242c6eae7a39",
+                                "type": "Text",
+                                "x": 20,
+                                "y": 82,
+                                "parameters": {
+                                    "sizeMode": "contentSize",
+                                    "alignX": "center"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "03dc49df-55bc-489f-3345-3ca081e9d6cc",
+                        "type": "Component Inputs",
+                        "x": 447.88333850722717,
+                        "y": 301.5624417936949,
+                        "parameters": {},
+                        "ports": [
+                            {
+                                "name": "text",
+                                "plug": "output",
+                                "type": {
+                                    "name": "*"
+                                },
+                                "index": 1
+                            }
+                        ],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "1bc27790-a405-3e1c-6afb-dedfc145eac7",
+                        "type": "Component Outputs",
+                        "x": 445.7296775886773,
+                        "y": 218.82485254402735,
+                        "parameters": {},
+                        "ports": [
+                            {
+                                "name": "click",
+                                "plug": "input",
+                                "type": {
+                                    "name": "*"
+                                },
+                                "index": 1
+                            }
+                        ],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "49ac8727-ae36-a07b-c493-ff1bb84e5475",
+                        "type": "States",
+                        "x": 445.6666666666667,
+                        "y": 95.83333333333331,
+                        "parameters": {
+                            "states": "on,off",
+                            "values": "color",
+                            "value-on-color": 1,
+                            "value-off-color": 0,
+                            "transition-on": "linear",
+                            "duration-on": 30
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "type": {
+                                    "name": "number",
+                                    "allowConnectionsOnly": true
+                                },
+                                "plug": "output",
+                                "group": "Values",
+                                "name": "color",
+                                "index": 6
+                            },
+                            {
+                                "plug": "input",
+                                "type": "number",
+                                "group": "on Values",
+                                "name": "value-on-color",
+                                "displayName": "color",
+                                "editorName": "on|color",
+                                "index": 7
+                            },
+                            {
+                                "plug": "input",
+                                "type": {
+                                    "name": "enum",
+                                    "enums": [
+                                        {
+                                            "value": "easeOut",
+                                            "label": "Ease Out"
+                                        },
+                                        {
+                                            "value": "easeIn",
+                                            "label": "Ease In"
+                                        },
+                                        {
+                                            "value": "linear",
+                                            "label": "Linear"
+                                        },
+                                        {
+                                            "value": "easeInOut",
+                                            "label": "Ease In Out"
+                                        },
+                                        {
+                                            "value": "cubicBezier",
+                                            "label": "Cubic Bezier"
+                                        }
+                                    ]
+                                },
+                                "default": "easeOut",
+                                "displayName": "Easing Curve",
+                                "group": "on Transition",
+                                "name": "transition-on",
+                                "index": 8
+                            },
+                            {
+                                "plug": "input",
+                                "type": "number",
+                                "default": 300,
+                                "displayName": "Duration",
+                                "group": "on Transition",
+                                "name": "duration-on",
+                                "index": 9
+                            },
+                            {
+                                "plug": "input",
+                                "type": {
+                                    "name": "boolean",
+                                    "allowConnectionsOnly": true
+                                },
+                                "displayName": "To on",
+                                "name": "to-on",
+                                "group": "Go to state",
+                                "index": 10
+                            },
+                            {
+                                "plug": "output",
+                                "type": "boolean",
+                                "displayName": "At on",
+                                "name": "at-on",
+                                "group": "Current state",
+                                "index": 11
+                            },
+                            {
+                                "plug": "output",
+                                "type": "signal",
+                                "displayName": "Has Reached on",
+                                "name": "reached-on",
+                                "group": "Current state",
+                                "index": 12
+                            },
+                            {
+                                "plug": "input",
+                                "type": "number",
+                                "group": "off Values",
+                                "name": "value-off-color",
+                                "displayName": "color",
+                                "editorName": "off|color",
+                                "index": 13
+                            },
+                            {
+                                "plug": "input",
+                                "type": {
+                                    "name": "enum",
+                                    "enums": [
+                                        {
+                                            "value": "easeOut",
+                                            "label": "Ease Out"
+                                        },
+                                        {
+                                            "value": "easeIn",
+                                            "label": "Ease In"
+                                        },
+                                        {
+                                            "value": "linear",
+                                            "label": "Linear"
+                                        },
+                                        {
+                                            "value": "easeInOut",
+                                            "label": "Ease In Out"
+                                        },
+                                        {
+                                            "value": "cubicBezier",
+                                            "label": "Cubic Bezier"
+                                        }
+                                    ]
+                                },
+                                "default": "easeOut",
+                                "displayName": "Easing Curve",
+                                "group": "off Transition",
+                                "name": "transition-off",
+                                "index": 14
+                            },
+                            {
+                                "plug": "input",
+                                "type": "number",
+                                "default": 300,
+                                "displayName": "Duration",
+                                "group": "off Transition",
+                                "name": "duration-off",
+                                "index": 15
+                            },
+                            {
+                                "plug": "input",
+                                "type": {
+                                    "name": "boolean",
+                                    "allowConnectionsOnly": true
+                                },
+                                "displayName": "To off",
+                                "name": "to-off",
+                                "group": "Go to state",
+                                "index": 16
+                            },
+                            {
+                                "plug": "output",
+                                "type": "boolean",
+                                "displayName": "At off",
+                                "name": "at-off",
+                                "group": "Current state",
+                                "index": 17
+                            },
+                            {
+                                "plug": "output",
+                                "type": "signal",
+                                "displayName": "Has Reached off",
+                                "name": "reached-off",
+                                "group": "Current state",
+                                "index": 18
+                            },
+                            {
+                                "plug": "input",
+                                "type": {
+                                    "name": "enum",
+                                    "enums": [
+                                        "on",
+                                        "off"
+                                    ]
+                                },
+                                "group": "States",
+                                "displayName": "Start at",
+                                "name": "startState",
+                                "default": "on",
+                                "index": 19
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "c3d39040-3ce3-bd2c-7c37-3715c9bd49e3",
+                        "type": "Color Blend",
+                        "x": 445.6666666666667,
+                        "y": -10.166666666666686,
+                        "parameters": {
+                            "color 0": "#E7E9ED",
+                            "color 1": "#FFF01C"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "b8a4c742-b69a-f9c1-33eb-949b5db40362",
+                        "type": "Timer",
+                        "x": 218.77915502540571,
+                        "y": 111.79583721375366,
+                        "parameters": {
+                            "duration": 500
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    }
+                ]
+            }
+        }
+    ],
+    "settings": {},
+    "rootNodeId": "db1e9764-cb8f-148d-387f-7e3adaa4ab2f",
+    "version": "1",
+    "metadata": {
+        "deviceSettings": {
+            "deviceTypes": [
+                {
+                    "name": "Main",
+                    "desc": "Video",
+                    "rootComponentPath": "/Main",
+                    "type": "Browser"
+                }
+            ]
+        },
+        "deviceInstances": []
+    }
+}
