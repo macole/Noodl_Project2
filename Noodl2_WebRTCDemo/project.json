@@ -603,11 +603,11 @@
                     {
                         "id": "82278a09-3945-1834-b717-915fcc2c493c",
                         "type": "Javascript2",
-                        "x": 135.87044276120812,
+                        "x": 136.87044276120812,
                         "y": 617.4566420544753,
                         "parameters": {
                             "code": "define({\r\n  inputs: {\r\n    mySignal: 'signal',\r\n    SKYWAY_KEY: 'string',\r\n    callTrigger: 'signal',\r\n    closeTrigger: 'signal',\r\n    localVideo: 'domelement',\r\n    remoteVideo: 'domelement',\r\n    remoteId: 'string',\r\n  },\r\n\r\n  outputs: {\r\n    localId: 'string',\r\n  },\r\n\r\n  //const mediaConnection;\r\n  closeTrigger: function (inputs, outputs) {\r\n    mediaCon.close(true);\r\n  },\r\n\r\n  callTrigger: function (inputs, outputs) {\r\n    console.log(\"call\");\r\n    if (!peer.open) {\r\n      return;\r\n    }\r\n\r\n    const mediaConnection = peer.call(inputs.remoteId, localStr);\r\n    mediaCon = mediaConnection;\r\n\r\n    mediaConnection.on('stream', async stream => {\r\n      // Render remote stream for caller\r\n      inputs.remoteVideo.srcObjec = stream;\r\n      inputs.remoteVideo.playsInline = true;\r\n      await inputs.remoteVideo.play().catch(console.error);\r\n      console.log(\"--StartPlay\");\r\n    });\r\n\r\n    mediaConnection.once('close', () => {\r\n\r\n      inputs.remoteVideo.srcObject.getTracks().forEach(track => track.stop());\r\n      inputs.remoteVideo.srcObject = null;\r\n    });\r\n  },\r\n\r\n  // All signal inputs need their own function with the corresponding name that\r\n  // will be run when a signal is received on the input.\r\n  mySignal: function (inputs, outputs) {\r\n    let Peer = window.Peer;\r\n    let self = this;\r\n\r\n    (async function main() {\r\n      const localStream = await navigator.mediaDevices\r\n        .getUserMedia({\r\n          audio: true,\r\n          video: true,\r\n        })\r\n        .catch(console.error);\r\n        localStr=localStream;\r\n\r\n      // Render local stream\r\n      inputs.localVideo.muted = true;\r\n      inputs.localVideo.srcObject = localStream;\r\n      inputs.localVideo.playsInline = true;\r\n      await inputs.localVideo.play().catch(console.error);\r\n      const peer = (window.peer = new Peer({\r\n        key: inputs.SKYWAY_KEY,\r\n        debug: 3,\r\n      }));\r\n      pee=peer;\r\n\r\n      // Register callee handler\r\n      peer.once('open', id => {\r\n        outputs.localId = id;\r\n        self.flagOutputDirty(\"localId\");\r\n        //self.runNextFrame();\r\n      });\r\n\r\n      // Register caller handler\r\n      peer.on('call', mediaConnection => {\r\n        mediaCon = mediaConnection;\r\n        mediaConnection.answer(localStream);\r\n\r\n        mediaConnection.on('stream', async stream => {\r\n          // Render remote stream for callee\r\n          inputs.remoteVideo.srcObject = stream;\r\n          inputs.remoteVideo.playsInline = true;\r\n          inputs.remoteVideo.playsInline = true;\r\n          await inputs.remoteVideo.play().catch(console.error);\r\n        });\r\n\r\n        mediaConnection.once('close', () => {\r\n          inputs.remoteVideo.srcObject.getTracks().forEach(track => track.stop());\r\n          inputs.remoteVideo.srcObject = null;\r\n        });\r\n      });\r\n\r\n      peer.on('error', console.error);\r\n\r\n    })();\r\n  },\r\n\r\n  // This function will be called when any of the inputs have changed\r\n  change: function (inputs, outputs) {\r\n    // ...\r\n  }\r\n})\r\n\r\nlet mediaCon;\r\nlet localStr;\r\n\r\n\r\n",
-                            "SKYWAY_KEY": "b902084a-8bdc-472b-b554-ab6e293217ef",
+                            "SKYWAY_KEY": "",
                             "useExternalFile": "no"
                         },
                         "ports": [],
@@ -898,8 +898,8 @@
                             "values": "color",
                             "value-on-color": 1,
                             "value-off-color": 0,
-                            "transition-on": "linear",
-                            "duration-on": 30
+                            "duration-on": 30,
+                            "duration-off": 30
                         },
                         "ports": [],
                         "dynamicports": [
