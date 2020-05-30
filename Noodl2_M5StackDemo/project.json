@@ -1,0 +1,516 @@
+{
+    "name": "Noodl2_M5StackDemo",
+    "components": [
+        {
+            "name": "/MQTT",
+            "graph": {
+                "connections": [
+                    {
+                        "fromId": "2564bad3-8975-3d8d-a363-f30e568abd74",
+                        "fromProperty": "currentState",
+                        "toId": "97fbc458-1041-625e-4ca0-7069a6da3019",
+                        "toProperty": "msg"
+                    },
+                    {
+                        "fromId": "2564bad3-8975-3d8d-a363-f30e568abd74",
+                        "fromProperty": "Opacity",
+                        "toId": "0c35328c-a971-4758-11e8-e714d6d0a238",
+                        "toProperty": "opacity"
+                    },
+                    {
+                        "fromId": "2564bad3-8975-3d8d-a363-f30e568abd74",
+                        "fromProperty": "size",
+                        "toId": "0c35328c-a971-4758-11e8-e714d6d0a238",
+                        "toProperty": "transformScale"
+                    },
+                    {
+                        "fromId": "2564bad3-8975-3d8d-a363-f30e568abd74",
+                        "fromProperty": "rot",
+                        "toId": "0c35328c-a971-4758-11e8-e714d6d0a238",
+                        "toProperty": "transformRotation"
+                    },
+                    {
+                        "fromId": "784ec66a-7688-0238-ba25-f25606e11f46",
+                        "fromProperty": "msg",
+                        "toId": "c1bb85ab-9218-15c0-55fc-a34a50a40aee",
+                        "toProperty": "text"
+                    },
+                    {
+                        "fromId": "2564bad3-8975-3d8d-a363-f30e568abd74",
+                        "fromProperty": "currentState",
+                        "toId": "94b9e4dd-408d-ac48-9385-d95cd93ce279",
+                        "toProperty": "text"
+                    },
+                    {
+                        "fromId": "0c35328c-a971-4758-11e8-e714d6d0a238",
+                        "fromProperty": "onClick",
+                        "toId": "2564bad3-8975-3d8d-a363-f30e568abd74",
+                        "toProperty": "toggle"
+                    },
+                    {
+                        "fromId": "784ec66a-7688-0238-ba25-f25606e11f46",
+                        "fromProperty": "msg",
+                        "toId": "be6a6227-a1a7-b5bc-9d8d-f8ea66274d07",
+                        "toProperty": "inputString"
+                    },
+                    {
+                        "fromId": "be6a6227-a1a7-b5bc-9d8d-f8ea66274d07",
+                        "fromProperty": "mappedString",
+                        "toId": "121303e8-abb1-eedc-e789-5d53e5c715db",
+                        "toProperty": "src"
+                    }
+                ],
+                "roots": [
+                    {
+                        "id": "c76dabd7-6ff2-1472-eb7b-5693c2f2e916",
+                        "type": "Group",
+                        "x": 840.4056404282202,
+                        "y": 175,
+                        "parameters": {
+                            "backgroundColor": "#F5D03B",
+                            "flexDirection": "column",
+                            "scrollBehavior": "noodl"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": [
+                            {
+                                "id": "0c35328c-a971-4758-11e8-e714d6d0a238",
+                                "type": "Group",
+                                "x": 20,
+                                "y": 46,
+                                "parameters": {
+                                    "backgroundColor": "#EB1520",
+                                    "sizeMode": "explicit",
+                                    "width": {
+                                        "value": 70,
+                                        "unit": "vw"
+                                    },
+                                    "height": {
+                                        "value": 40,
+                                        "unit": "vh"
+                                    },
+                                    "borderRadius": 100,
+                                    "alignX": "center",
+                                    "boxShadowEnabled": true,
+                                    "marginTop": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": [
+                                    {
+                                        "id": "94b9e4dd-408d-ac48-9385-d95cd93ce279",
+                                        "type": "Text",
+                                        "x": 20,
+                                        "y": 142,
+                                        "parameters": {
+                                            "sizeMode": "contentSize",
+                                            "alignX": "center",
+                                            "alignY": "center",
+                                            "text": "Hello",
+                                            "color": "#FFFFFF",
+                                            "position": "absolute",
+                                            "fontSize": {
+                                                "value": 50,
+                                                "unit": "px"
+                                            },
+                                            "fontFamily": "Arial"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "121303e8-abb1-eedc-e789-5d53e5c715db",
+                                "type": "Image",
+                                "x": 20,
+                                "y": 270,
+                                "parameters": {
+                                    "src": "stamp_english1.png",
+                                    "sizeMode": "contentHeight",
+                                    "width": {
+                                        "value": 70,
+                                        "unit": "vw"
+                                    },
+                                    "alignX": "center",
+                                    "marginTop": {
+                                        "value": 0,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "c1bb85ab-9218-15c0-55fc-a34a50a40aee",
+                                "type": "Text",
+                                "x": 20,
+                                "y": 352,
+                                "parameters": {
+                                    "fontSize": {
+                                        "value": 30,
+                                        "unit": "px"
+                                    },
+                                    "textAlign": "center",
+                                    "fontFamily": "Arial"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "97fbc458-1041-625e-4ca0-7069a6da3019",
+                        "type": "Send Message",
+                        "x": 412.62059119597615,
+                        "y": 229.5946071663651,
+                        "parameters": {
+                            "topic": "topicA",
+                            "publishOnInputsChanged": true,
+                            "format": "csv",
+                            "rateLimit": false
+                        },
+                        "ports": [
+                            {
+                                "name": "msg",
+                                "plug": "input",
+                                "type": {
+                                    "name": "*",
+                                    "allowConnectionOnly": true
+                                },
+                                "group": "Payload",
+                                "index": 1
+                            }
+                        ],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "2564bad3-8975-3d8d-a363-f30e568abd74",
+                        "type": "States",
+                        "x": 616.4066621275144,
+                        "y": 226.60061331674734,
+                        "parameters": {
+                            "states": "ON,OFF",
+                            "values": "size,Opacity,rot",
+                            "value-ON-size": 0.9,
+                            "value-ON-Opacity": 1,
+                            "value-OFF-size": 1,
+                            "value-OFF-Opacity": 0.4,
+                            "value-ON-rot": 0,
+                            "value-OFF-rot": 360,
+                            "startState": "OFF"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "type": {
+                                    "name": "number",
+                                    "allowConnectionsOnly": true
+                                },
+                                "plug": "output",
+                                "group": "Values",
+                                "name": "size",
+                                "index": 6
+                            },
+                            {
+                                "type": {
+                                    "name": "number",
+                                    "allowConnectionsOnly": true
+                                },
+                                "plug": "output",
+                                "group": "Values",
+                                "name": "Opacity",
+                                "index": 7
+                            },
+                            {
+                                "type": {
+                                    "name": "number",
+                                    "allowConnectionsOnly": true
+                                },
+                                "plug": "output",
+                                "group": "Values",
+                                "name": "rot",
+                                "index": 8
+                            },
+                            {
+                                "plug": "input",
+                                "type": "number",
+                                "group": "ON Values",
+                                "name": "value-ON-size",
+                                "displayName": "size",
+                                "editorName": "ON|size",
+                                "index": 9
+                            },
+                            {
+                                "plug": "input",
+                                "type": "number",
+                                "group": "ON Values",
+                                "name": "value-ON-Opacity",
+                                "displayName": "Opacity",
+                                "editorName": "ON|Opacity",
+                                "index": 10
+                            },
+                            {
+                                "plug": "input",
+                                "type": "number",
+                                "group": "ON Values",
+                                "name": "value-ON-rot",
+                                "displayName": "rot",
+                                "editorName": "ON|rot",
+                                "index": 11
+                            },
+                            {
+                                "plug": "input",
+                                "type": {
+                                    "name": "enum",
+                                    "enums": [
+                                        {
+                                            "value": "easeOut",
+                                            "label": "Ease Out"
+                                        },
+                                        {
+                                            "value": "easeIn",
+                                            "label": "Ease In"
+                                        },
+                                        {
+                                            "value": "linear",
+                                            "label": "Linear"
+                                        },
+                                        {
+                                            "value": "easeInOut",
+                                            "label": "Ease In Out"
+                                        },
+                                        {
+                                            "value": "cubicBezier",
+                                            "label": "Cubic Bezier"
+                                        }
+                                    ]
+                                },
+                                "default": "easeOut",
+                                "displayName": "Easing Curve",
+                                "group": "ON Transition",
+                                "name": "transition-ON",
+                                "index": 12
+                            },
+                            {
+                                "plug": "input",
+                                "type": "number",
+                                "default": 300,
+                                "displayName": "Duration",
+                                "group": "ON Transition",
+                                "name": "duration-ON",
+                                "index": 13
+                            },
+                            {
+                                "plug": "input",
+                                "type": {
+                                    "name": "boolean",
+                                    "allowConnectionsOnly": true
+                                },
+                                "displayName": "To ON",
+                                "name": "to-ON",
+                                "group": "Go to state",
+                                "index": 14
+                            },
+                            {
+                                "plug": "output",
+                                "type": "boolean",
+                                "displayName": "At ON",
+                                "name": "at-ON",
+                                "group": "Current state",
+                                "index": 15
+                            },
+                            {
+                                "plug": "output",
+                                "type": "signal",
+                                "displayName": "Has Reached ON",
+                                "name": "reached-ON",
+                                "group": "Current state",
+                                "index": 16
+                            },
+                            {
+                                "plug": "input",
+                                "type": "number",
+                                "group": "OFF Values",
+                                "name": "value-OFF-size",
+                                "displayName": "size",
+                                "editorName": "OFF|size",
+                                "index": 17
+                            },
+                            {
+                                "plug": "input",
+                                "type": "number",
+                                "group": "OFF Values",
+                                "name": "value-OFF-Opacity",
+                                "displayName": "Opacity",
+                                "editorName": "OFF|Opacity",
+                                "index": 18
+                            },
+                            {
+                                "plug": "input",
+                                "type": "number",
+                                "group": "OFF Values",
+                                "name": "value-OFF-rot",
+                                "displayName": "rot",
+                                "editorName": "OFF|rot",
+                                "index": 19
+                            },
+                            {
+                                "plug": "input",
+                                "type": {
+                                    "name": "enum",
+                                    "enums": [
+                                        {
+                                            "value": "easeOut",
+                                            "label": "Ease Out"
+                                        },
+                                        {
+                                            "value": "easeIn",
+                                            "label": "Ease In"
+                                        },
+                                        {
+                                            "value": "linear",
+                                            "label": "Linear"
+                                        },
+                                        {
+                                            "value": "easeInOut",
+                                            "label": "Ease In Out"
+                                        },
+                                        {
+                                            "value": "cubicBezier",
+                                            "label": "Cubic Bezier"
+                                        }
+                                    ]
+                                },
+                                "default": "easeOut",
+                                "displayName": "Easing Curve",
+                                "group": "OFF Transition",
+                                "name": "transition-OFF",
+                                "index": 20
+                            },
+                            {
+                                "plug": "input",
+                                "type": "number",
+                                "default": 300,
+                                "displayName": "Duration",
+                                "group": "OFF Transition",
+                                "name": "duration-OFF",
+                                "index": 21
+                            },
+                            {
+                                "plug": "input",
+                                "type": {
+                                    "name": "boolean",
+                                    "allowConnectionsOnly": true
+                                },
+                                "displayName": "To OFF",
+                                "name": "to-OFF",
+                                "group": "Go to state",
+                                "index": 22
+                            },
+                            {
+                                "plug": "output",
+                                "type": "boolean",
+                                "displayName": "At OFF",
+                                "name": "at-OFF",
+                                "group": "Current state",
+                                "index": 23
+                            },
+                            {
+                                "plug": "output",
+                                "type": "signal",
+                                "displayName": "Has Reached OFF",
+                                "name": "reached-OFF",
+                                "group": "Current state",
+                                "index": 24
+                            },
+                            {
+                                "plug": "input",
+                                "type": {
+                                    "name": "enum",
+                                    "enums": [
+                                        "ON",
+                                        "OFF"
+                                    ]
+                                },
+                                "group": "States",
+                                "displayName": "Start at",
+                                "name": "startState",
+                                "default": "ON",
+                                "index": 25
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "784ec66a-7688-0238-ba25-f25606e11f46",
+                        "type": "Receive Message",
+                        "x": 617.1313005268488,
+                        "y": 512.0191516411048,
+                        "parameters": {
+                            "topic": "topicB"
+                        },
+                        "ports": [
+                            {
+                                "name": "msg",
+                                "plug": "outputs",
+                                "type": {
+                                    "name": "*",
+                                    "allowConnectionOnly": true
+                                },
+                                "group": "Payload",
+                                "index": 1
+                            }
+                        ],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "be6a6227-a1a7-b5bc-9d8d-f8ea66274d07",
+                        "type": "String Mapper",
+                        "x": 615.8734149114636,
+                        "y": 408.1325365753553,
+                        "parameters": {
+                            "input 0": "PressA",
+                            "input 1": "PressB",
+                            "input 2": "PressC",
+                            "output 0": "stamp_english1.png",
+                            "output 1": "stamp_english3.png",
+                            "output 2": "stamp_english5.png",
+                            "defaultMapping": "stamp_english4.png"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    }
+                ]
+            }
+        }
+    ],
+    "settings": {},
+    "rootNodeId": "c76dabd7-6ff2-1472-eb7b-5693c2f2e916",
+    "version": "1",
+    "metadata": {
+        "deviceSettings": {
+            "deviceTypes": [
+                {
+                    "name": "Web",
+                    "desc": "This is the default device that can be used to view the app from a browser.",
+                    "rootComponentPath": "/MQTT",
+                    "type": "Browser"
+                }
+            ]
+        },
+        "mqtt": {
+            "brokerUrl": "mqtt://3fd7280a:82414ebdfe0f6747@broker.shiftr.io"
+        }
+    }
+}
