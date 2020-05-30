@@ -509,8 +509,6 @@
                 }
             ]
         },
-        "mqtt": {
-            "brokerUrl": "mqtt://3fd7280a:82414ebdfe0f6747@broker.shiftr.io"
-        }
+        "mqtt": {}
     }
 }
