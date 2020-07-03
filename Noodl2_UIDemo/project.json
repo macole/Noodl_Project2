@@ -5411,7 +5411,7 @@
                 {
                     "name": "Web",
                     "desc": "This is the default device that can be used to view the app from a browser.",
-                    "rootComponentPath": "/MQTT",
+                    "rootComponentPath": "/Main",
                     "type": "Browser"
                 }
             ]
