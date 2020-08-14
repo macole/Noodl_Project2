@@ -1,0 +1,970 @@
+{
+    "name": "Noodl2_CSS2",
+    "components": [
+        {
+            "name": "/Main",
+            "graph": {
+                "connections": [],
+                "roots": [
+                    {
+                        "id": "eacc74e7-4dce-2baf-354b-8070e2b2b872",
+                        "type": "Group",
+                        "x": 102.90170023598881,
+                        "y": -193.0959176319815,
+                        "parameters": {
+                            "scrollSnapEnabled": true,
+                            "backgroundColor": "#F7F7F7",
+                            "scrollEnabled": true
+                        },
+                        "ports": [],
+                        "children": [
+                            {
+                                "id": "3ccf4df9-8ac1-d224-b0ae-7a28191edd4d",
+                                "type": "Group",
+                                "x": 20,
+                                "y": 92,
+                                "parameters": {
+                                    "position": "absolute",
+                                    "scrollEnabled": true
+                                },
+                                "ports": [],
+                                "children": [
+                                    {
+                                        "id": "8658fe4f-d55d-03e1-8875-69234dc8cc8c",
+                                        "type": "/Box",
+                                        "x": 20,
+                                        "y": 46,
+                                        "parameters": {},
+                                        "ports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "bcfc5f02-ab87-e47a-4012-ba40a5203120",
+                                        "type": "/Circle",
+                                        "x": 20,
+                                        "y": 92,
+                                        "parameters": {},
+                                        "ports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "1c563297-844b-03c3-9bab-53013c984f60",
+                                        "type": "/Triangle",
+                                        "x": 20,
+                                        "y": 138,
+                                        "parameters": {},
+                                        "ports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "1c96285a-2d6e-bb87-0694-08ad11e78d86",
+                                        "type": "/Arrow",
+                                        "label": "Arrow",
+                                        "x": 20,
+                                        "y": 184,
+                                        "parameters": {},
+                                        "ports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "621b5590-1ca1-e307-5716-2881affc80ad",
+                                        "type": "/Message",
+                                        "x": 20,
+                                        "y": 230,
+                                        "parameters": {},
+                                        "ports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "82d93186-2d7e-d8c1-792b-913f6d3bc5b2",
+                                        "type": "Drag",
+                                        "x": 139.9017002359888,
+                                        "y": 167.9040823680185,
+                                        "parameters": {
+                                            "axis": "both"
+                                        },
+                                        "ports": [],
+                                        "children": [
+                                            {
+                                                "id": "f5a9a2af-4f97-83a5-544e-e41439dec706",
+                                                "type": "/Flower",
+                                                "x": 20,
+                                                "y": 46,
+                                                "parameters": {},
+                                                "ports": [],
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "/Flower",
+            "graph": {
+                "connections": [],
+                "roots": [
+                    {
+                        "id": "c7875d6c-c179-291e-6289-993bb5d3f05b",
+                        "type": "Group",
+                        "x": 275,
+                        "y": 209,
+                        "parameters": {
+                            "width": {
+                                "value": 500,
+                                "unit": "px"
+                            },
+                            "height": {
+                                "value": 500,
+                                "unit": "px"
+                            },
+                            "flexWrap": "wrap",
+                            "flexDirection": "row",
+                            "marginTop": {
+                                "value": 5,
+                                "unit": "px"
+                            },
+                            "marginBottom": {
+                                "value": 5,
+                                "unit": "px"
+                            },
+                            "style": "{\n        mixBlendMode:\"multiply\"\n}"
+                        },
+                        "ports": [],
+                        "children": [
+                            {
+                                "id": "b9f4be2e-5f6f-8af3-c452-cca25615b818",
+                                "type": "Group",
+                                "x": 20,
+                                "y": 46,
+                                "parameters": {
+                                    "width": {
+                                        "value": 45,
+                                        "unit": "%"
+                                    },
+                                    "height": {
+                                        "value": 45,
+                                        "unit": "%"
+                                    },
+                                    "backgroundColor": "#5E4275",
+                                    "clip": true,
+                                    "style": "{\n    borderRadius:\"50% 50% 0% 50%\"\n}",
+                                    "marginRight": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    },
+                                    "marginBottom": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    },
+                                    "marginTop": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    },
+                                    "marginLeft": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "children": [
+                                    {
+                                        "id": "97c4e57e-d14e-892d-3e9c-71113a6717f6",
+                                        "type": "Image",
+                                        "x": 315,
+                                        "y": 301,
+                                        "parameters": {
+                                            "sizeMode": "explicit",
+                                            "src": "shimizu-san.png"
+                                        },
+                                        "ports": [],
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "20e33866-40fa-f104-99f4-fc4adeb4f974",
+                                "type": "Group",
+                                "x": 20,
+                                "y": 138,
+                                "parameters": {
+                                    "width": {
+                                        "value": 45,
+                                        "unit": "%"
+                                    },
+                                    "height": {
+                                        "value": 45,
+                                        "unit": "%"
+                                    },
+                                    "backgroundColor": "#5E4275",
+                                    "clip": true,
+                                    "style": "{\n    borderRadius:\"50% 50% 50% 0%\"\n}",
+                                    "marginTop": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    },
+                                    "marginLeft": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    },
+                                    "marginRight": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    },
+                                    "marginBottom": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "children": [
+                                    {
+                                        "id": "a5ff90c4-903f-e7e1-f121-21fee71f062a",
+                                        "type": "Image",
+                                        "x": 315,
+                                        "y": 393,
+                                        "parameters": {
+                                            "sizeMode": "explicit",
+                                            "src": "shimizu-san.png"
+                                        },
+                                        "ports": [],
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "2c43a17e-628c-3699-058b-e097bca08aaa",
+                                "type": "Group",
+                                "x": 20,
+                                "y": 230,
+                                "parameters": {
+                                    "width": {
+                                        "value": 45,
+                                        "unit": "%"
+                                    },
+                                    "height": {
+                                        "value": 45,
+                                        "unit": "%"
+                                    },
+                                    "backgroundColor": "#5E4275",
+                                    "clip": true,
+                                    "style": "{\n    borderRadius:\"50% 0% 50% 50%\"\n}",
+                                    "marginTop": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    },
+                                    "marginLeft": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    },
+                                    "marginRight": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    },
+                                    "marginBottom": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "children": [
+                                    {
+                                        "id": "ae9700cf-b2c6-42a9-580b-27cab73e9589",
+                                        "type": "Image",
+                                        "x": 315,
+                                        "y": 485,
+                                        "parameters": {
+                                            "sizeMode": "explicit",
+                                            "src": "shimizu-san.png"
+                                        },
+                                        "ports": [],
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "1a2f48e7-2e29-ceb9-70d3-57a77e4d7e91",
+                                "type": "Group",
+                                "x": 20,
+                                "y": 322,
+                                "parameters": {
+                                    "width": {
+                                        "value": 45,
+                                        "unit": "%"
+                                    },
+                                    "height": {
+                                        "value": 45,
+                                        "unit": "%"
+                                    },
+                                    "backgroundColor": "#5E4275",
+                                    "clip": true,
+                                    "style": "{\n    borderRadius:\"0% 50% 50% 50%\"\n}",
+                                    "marginTop": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    },
+                                    "marginRight": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    },
+                                    "marginBottom": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    },
+                                    "marginLeft": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "children": [
+                                    {
+                                        "id": "19760737-0978-e30e-cd59-dc7336dce8c7",
+                                        "type": "Image",
+                                        "x": 315,
+                                        "y": 485,
+                                        "parameters": {
+                                            "sizeMode": "explicit",
+                                            "src": "shimizu-san.png"
+                                        },
+                                        "ports": [],
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "/Box",
+            "graph": {
+                "connections": [],
+                "roots": [
+                    {
+                        "id": "f9af6bd9-834b-043f-077d-4e30492c5c8f",
+                        "type": "Group",
+                        "x": 182,
+                        "y": 182,
+                        "parameters": {
+                            "flexDirection": "row",
+                            "marginTop": {
+                                "value": 5,
+                                "unit": "px"
+                            },
+                            "marginBottom": {
+                                "value": 5,
+                                "unit": "px"
+                            }
+                        },
+                        "ports": [],
+                        "children": [
+                            {
+                                "id": "fd21765d-2d29-3092-d9bc-247762e155ea",
+                                "type": "Group",
+                                "label": "Box",
+                                "x": 20,
+                                "y": 46,
+                                "parameters": {
+                                    "style": "{\r\n    borderRadius:\"30% 0% 0% 0%\",\r\n}\r\n\r\n\r\n",
+                                    "width": {
+                                        "value": 30,
+                                        "unit": "%"
+                                    },
+                                    "height": {
+                                        "value": 30,
+                                        "unit": "%"
+                                    },
+                                    "clip": true,
+                                    "backgroundColor": "#F0BF56",
+                                    "boxShadowEnabled": true
+                                },
+                                "ports": [],
+                                "children": [
+                                    {
+                                        "id": "403426aa-645a-8544-5a18-3b7e5c52c4e6",
+                                        "type": "Image",
+                                        "x": 209,
+                                        "y": 219,
+                                        "parameters": {
+                                            "src": "shimizu-san.png",
+                                            "sizeMode": "explicit"
+                                        },
+                                        "ports": [],
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "e1b07ca2-ee82-149a-3eb3-b2597896e83b",
+                                "type": "Group",
+                                "label": "Box2",
+                                "x": 20,
+                                "y": 153,
+                                "parameters": {
+                                    "style": "{\r\n    borderRadius:\"30% 0%\",\r\n}\r\n",
+                                    "width": {
+                                        "value": 30,
+                                        "unit": "%"
+                                    },
+                                    "height": {
+                                        "value": 30,
+                                        "unit": "%"
+                                    },
+                                    "clip": true,
+                                    "backgroundColor": "#F0BF56",
+                                    "boxShadowEnabled": true
+                                },
+                                "ports": [],
+                                "children": [
+                                    {
+                                        "id": "482835f5-014a-b110-bb51-2187c3b22eda",
+                                        "type": "Image",
+                                        "x": 209,
+                                        "y": 326,
+                                        "parameters": {
+                                            "src": "shimizu-san.png",
+                                            "sizeMode": "explicit",
+                                            "style": "{\n}"
+                                        },
+                                        "ports": [],
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "56533cf7-f55d-6080-cb2d-97d10d4fc6ff",
+                                "type": "Group",
+                                "label": "Box3",
+                                "x": 20,
+                                "y": 260,
+                                "parameters": {
+                                    "style": "{\r\n    borderRadius:\"200px 50px 50px 100px / 100px 50px 100px 50px\",\r\n}\r\n",
+                                    "width": {
+                                        "value": 30,
+                                        "unit": "%"
+                                    },
+                                    "height": {
+                                        "value": 30,
+                                        "unit": "%"
+                                    },
+                                    "clip": true,
+                                    "backgroundColor": "#F0BF56",
+                                    "boxShadowEnabled": true
+                                },
+                                "ports": [],
+                                "children": [
+                                    {
+                                        "id": "c5d68563-9501-83e9-2e76-41bce5107f07",
+                                        "type": "Image",
+                                        "x": 209,
+                                        "y": 433,
+                                        "parameters": {
+                                            "src": "shimizu-san.png",
+                                            "sizeMode": "explicit",
+                                            "style": "{\n}"
+                                        },
+                                        "ports": [],
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "/Circle",
+            "graph": {
+                "connections": [],
+                "roots": [
+                    {
+                        "id": "70482984-3277-9b6b-224c-8980e06327d9",
+                        "type": "Group",
+                        "x": 305,
+                        "y": 286,
+                        "parameters": {
+                            "flexDirection": "row",
+                            "marginTop": {
+                                "value": 5,
+                                "unit": "px"
+                            },
+                            "marginBottom": {
+                                "value": 5,
+                                "unit": "px"
+                            }
+                        },
+                        "ports": [],
+                        "children": [
+                            {
+                                "id": "e7d68be3-b605-f056-30a3-f9eb90acc66c",
+                                "type": "Group",
+                                "label": "Circle",
+                                "x": 20,
+                                "y": 46,
+                                "parameters": {
+                                    "style": "{\r\n  borderRadius: \"50%\"\r\n}\r\n\r\n\r\n",
+                                    "width": {
+                                        "value": 30,
+                                        "unit": "%"
+                                    },
+                                    "height": {
+                                        "value": 30,
+                                        "unit": "%"
+                                    },
+                                    "clip": true,
+                                    "backgroundColor": "#F0BF56",
+                                    "boxShadowEnabled": true
+                                },
+                                "ports": [],
+                                "children": [
+                                    {
+                                        "id": "e5192b61-d4ce-72a8-e3c1-460dd5470663",
+                                        "type": "Image",
+                                        "x": 345,
+                                        "y": 393,
+                                        "parameters": {
+                                            "src": "shimizu-san.png",
+                                            "sizeMode": "explicit"
+                                        },
+                                        "ports": [],
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "79a694fa-bfa7-cc6a-28f9-41d2797c13c4",
+                                "type": "Group",
+                                "label": "Circle2",
+                                "x": 20,
+                                "y": 153,
+                                "parameters": {
+                                    "style": "{\r\n  borderRadius:\"100% 100% 0 0\"\r\n}\r\n\r\n\r\n",
+                                    "width": {
+                                        "value": 30,
+                                        "unit": "%"
+                                    },
+                                    "height": {
+                                        "value": 30,
+                                        "unit": "%"
+                                    },
+                                    "clip": true,
+                                    "backgroundColor": "#F0BF56",
+                                    "boxShadowEnabled": true
+                                },
+                                "ports": [],
+                                "children": [
+                                    {
+                                        "id": "278fb2ff-2e48-4954-df45-c5c06215edae",
+                                        "type": "Image",
+                                        "x": 203,
+                                        "y": 358,
+                                        "parameters": {
+                                            "src": "shimizu-san.png",
+                                            "sizeMode": "explicit"
+                                        },
+                                        "ports": [],
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "7fe35b05-8e88-014a-df70-dfbf9bc2e889",
+                                "type": "Group",
+                                "label": "Circle3",
+                                "x": 20,
+                                "y": 260,
+                                "parameters": {
+                                    "style": "{\r\n  borderRadius:\"100% 0 0 0\"\r\n}\r\n\r\n\r\n",
+                                    "width": {
+                                        "value": 30,
+                                        "unit": "%"
+                                    },
+                                    "height": {
+                                        "value": 30,
+                                        "unit": "%"
+                                    },
+                                    "clip": true,
+                                    "backgroundColor": "#F0BF56",
+                                    "boxShadowEnabled": true
+                                },
+                                "ports": [],
+                                "children": [
+                                    {
+                                        "id": "1ddf18a6-a185-b20d-e0cd-680166b8e1ce",
+                                        "type": "Image",
+                                        "x": 203,
+                                        "y": 465,
+                                        "parameters": {
+                                            "src": "shimizu-san.png",
+                                            "sizeMode": "explicit"
+                                        },
+                                        "ports": [],
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "/Triangle",
+            "graph": {
+                "connections": [],
+                "roots": [
+                    {
+                        "id": "d7af5ec3-7820-266b-2518-b23f6f81f546",
+                        "type": "Group",
+                        "x": 161,
+                        "y": 157,
+                        "parameters": {
+                            "flexDirection": "row",
+                            "marginTop": {
+                                "value": 5,
+                                "unit": "px"
+                            },
+                            "marginBottom": {
+                                "value": 5,
+                                "unit": "px"
+                            }
+                        },
+                        "ports": [],
+                        "children": [
+                            {
+                                "id": "2e5a975f-a1f9-0dc0-df04-0e45905d6883",
+                                "type": "Group",
+                                "label": "Polygon",
+                                "x": 20,
+                                "y": 46,
+                                "parameters": {
+                                    "style": "{\r\nclipPath:\"polygon(45% 0, 0 70%, 100% 100%)\"\r\n}\r\n\r\n\r\n",
+                                    "width": {
+                                        "value": 30,
+                                        "unit": "%"
+                                    },
+                                    "height": {
+                                        "value": 30,
+                                        "unit": "%"
+                                    },
+                                    "clip": true,
+                                    "backgroundColor": "#F0BF56",
+                                    "boxShadowEnabled": true
+                                },
+                                "ports": [],
+                                "children": [
+                                    {
+                                        "id": "5b383568-a205-fb9a-d67d-efb9858dcdd6",
+                                        "type": "Image",
+                                        "x": 20,
+                                        "y": 61,
+                                        "parameters": {
+                                            "src": "shimizu-san.png",
+                                            "sizeMode": "explicit"
+                                        },
+                                        "ports": [],
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "fc6763ee-365c-5dfd-e323-dd2cceaad37b",
+                                "type": "Group",
+                                "label": "Polygon",
+                                "x": 20,
+                                "y": 153,
+                                "parameters": {
+                                    "style": "{\r\nclipPath:\"polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%)\"\r\n}\r\n\r\n\r\n",
+                                    "width": {
+                                        "value": 30,
+                                        "unit": "%"
+                                    },
+                                    "height": {
+                                        "value": 30,
+                                        "unit": "%"
+                                    },
+                                    "clip": true,
+                                    "backgroundColor": "#F0BF56",
+                                    "boxShadowEnabled": true
+                                },
+                                "ports": [],
+                                "children": [
+                                    {
+                                        "id": "5301b740-727c-e293-4e17-870543158215",
+                                        "type": "Image",
+                                        "x": 201,
+                                        "y": 371,
+                                        "parameters": {
+                                            "src": "shimizu-san.png",
+                                            "sizeMode": "explicit"
+                                        },
+                                        "ports": [],
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "f6eef4db-61ba-66a1-c4ba-4e027182eccf",
+                                "type": "Group",
+                                "label": "Polygon",
+                                "x": 20,
+                                "y": 260,
+                                "parameters": {
+                                    "style": "{\r\nclipPath:\"polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%)\"\r\n}\r\n\r\n\r\n",
+                                    "width": {
+                                        "value": 30,
+                                        "unit": "%"
+                                    },
+                                    "height": {
+                                        "value": 30,
+                                        "unit": "%"
+                                    },
+                                    "clip": true,
+                                    "backgroundColor": "#F0BF56",
+                                    "boxShadowEnabled": true
+                                },
+                                "ports": [],
+                                "children": [
+                                    {
+                                        "id": "774cbc9e-8825-4c51-e015-5f8c208e799c",
+                                        "type": "Image",
+                                        "x": 201,
+                                        "y": 478,
+                                        "parameters": {
+                                            "src": "shimizu-san.png",
+                                            "sizeMode": "explicit"
+                                        },
+                                        "ports": [],
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "/Arrow",
+            "graph": {
+                "connections": [],
+                "roots": [
+                    {
+                        "id": "45a15174-ac10-acdd-e7a2-572741036aa0",
+                        "type": "Group",
+                        "x": 219,
+                        "y": 139,
+                        "parameters": {
+                            "flexDirection": "row",
+                            "marginTop": {
+                                "value": 5,
+                                "unit": "px"
+                            },
+                            "marginBottom": {
+                                "value": 5,
+                                "unit": "px"
+                            }
+                        },
+                        "ports": [],
+                        "children": [
+                            {
+                                "id": "e1c5fd67-2ac0-7ee1-6463-d744a5587a24",
+                                "type": "Group",
+                                "label": "Arrow",
+                                "x": 20,
+                                "y": 46,
+                                "parameters": {
+                                    "style": "{\r\n    clipPath:\"polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%)\"\r\n}\r\n\r\n\r\n",
+                                    "width": {
+                                        "value": 30,
+                                        "unit": "%"
+                                    },
+                                    "height": {
+                                        "value": 30,
+                                        "unit": "%"
+                                    },
+                                    "clip": true,
+                                    "backgroundColor": "#F0BF56",
+                                    "boxShadowEnabled": true
+                                },
+                                "ports": [],
+                                "children": [
+                                    {
+                                        "id": "4ea9c1e5-18bd-9b05-bad6-56de85e7f752",
+                                        "type": "Image",
+                                        "x": 201,
+                                        "y": 264,
+                                        "parameters": {
+                                            "src": "shimizu-san.png",
+                                            "sizeMode": "explicit"
+                                        },
+                                        "ports": [],
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "cdf09572-13f6-4801-7a80-11a282e89520",
+                                "type": "Group",
+                                "label": "Arrow2",
+                                "x": 20,
+                                "y": 153,
+                                "parameters": {
+                                    "style": "{\r\n    clipPath:\"polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%)\"\r\n}\r\n\r\n\r\n",
+                                    "width": {
+                                        "value": 30,
+                                        "unit": "%"
+                                    },
+                                    "height": {
+                                        "value": 30,
+                                        "unit": "%"
+                                    },
+                                    "clip": true,
+                                    "backgroundColor": "#F0BF56",
+                                    "boxShadowEnabled": true
+                                },
+                                "ports": [],
+                                "children": [
+                                    {
+                                        "id": "a17f4d03-5136-4dcd-be86-8d64fbc8d6b5",
+                                        "type": "Image",
+                                        "x": 201,
+                                        "y": 371,
+                                        "parameters": {
+                                            "src": "shimizu-san.png",
+                                            "sizeMode": "explicit"
+                                        },
+                                        "ports": [],
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "de9e4e1b-21d9-9427-780d-f49337290345",
+                                "type": "Group",
+                                "label": "Arrow3",
+                                "x": 20,
+                                "y": 260,
+                                "parameters": {
+                                    "style": "{\r\n    clipPath:\"polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%)\"\r\n}\r\n\r\n\r\n",
+                                    "width": {
+                                        "value": 30,
+                                        "unit": "%"
+                                    },
+                                    "height": {
+                                        "value": 30,
+                                        "unit": "%"
+                                    },
+                                    "clip": true,
+                                    "backgroundColor": "#F0BF56",
+                                    "boxShadowEnabled": true
+                                },
+                                "ports": [],
+                                "children": [
+                                    {
+                                        "id": "fdf2117e-bc91-db1b-4221-3994857f67cb",
+                                        "type": "Image",
+                                        "x": 256,
+                                        "y": 439,
+                                        "parameters": {
+                                            "src": "shimizu-san.png",
+                                            "sizeMode": "explicit"
+                                        },
+                                        "ports": [],
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "/Message",
+            "graph": {
+                "connections": [],
+                "roots": [
+                    {
+                        "id": "be343f2e-88a7-3678-352e-8fd61f169ae4",
+                        "type": "Group",
+                        "x": 235,
+                        "y": 159,
+                        "parameters": {
+                            "flexDirection": "row",
+                            "marginTop": {
+                                "value": 5,
+                                "unit": "px"
+                            },
+                            "marginBottom": {
+                                "value": 5,
+                                "unit": "px"
+                            }
+                        },
+                        "ports": [],
+                        "children": [
+                            {
+                                "id": "b0cc05a7-6f79-2cca-5c7e-8671b9b30d77",
+                                "type": "Group",
+                                "label": "Message",
+                                "x": 20,
+                                "y": 46,
+                                "parameters": {
+                                    "style": "{\r\nclipPath:\"polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%)\"\r\n}\r\n\r\n\r\n",
+                                    "width": {
+                                        "value": 30,
+                                        "unit": "%"
+                                    },
+                                    "height": {
+                                        "value": 30,
+                                        "unit": "%"
+                                    },
+                                    "clip": true,
+                                    "backgroundColor": "#F0BF56",
+                                    "boxShadowEnabled": true
+                                },
+                                "ports": [],
+                                "children": [
+                                    {
+                                        "id": "80d85bad-ca11-d818-f974-da42e38f676c",
+                                        "type": "Image",
+                                        "x": 20,
+                                        "y": 61,
+                                        "parameters": {
+                                            "src": "shimizu-san.png",
+                                            "sizeMode": "explicit"
+                                        },
+                                        "ports": [],
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "settings": {},
+    "rootNodeId": "d7af5ec3-7820-266b-2518-b23f6f81f546",
+    "version": "1",
+    "metadata": {
+        "deviceSettings": {
+            "deviceTypes": [
+                {
+                    "name": "Web",
+                    "desc": "This is the default device that can be used to view the app from a browser.",
+                    "rootComponentPath": "/Main",
+                    "type": "Browser"
+                }
+            ]
+        }
+    }
+}
